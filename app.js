@@ -68,6 +68,41 @@ function initMap() {
       '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 18,
   }).addTo(map);
+
+  addLegend();
+}
+
+// ---------------------
+// 凡例の追加
+// ---------------------
+function addLegend() {
+  const legend = L.control({ position: "bottomright" });
+
+  legend.onAdd = function () {
+    const div = L.DomUtil.create("div", "legend");
+    const grades = [
+      { label: "50万人以上", color: "#d32f2f", radius: 16 },
+      { label: "20万人以上", color: "#e65100", radius: 12 },
+      { label: "10万人以上", color: "#f9a825", radius: 9 },
+      { label: "5万人以上", color: "#1976d2", radius: 7 },
+      { label: "3万人以上", color: "#388e3c", radius: 5 },
+      { label: "3万人未満", color: "#78909c", radius: 4 },
+    ];
+
+    let html = "<div class='legend-title'>乗降客数 (人/日)</div>";
+    grades.forEach((g) => {
+      const size = g.radius * 2;
+      html += `<div class="legend-item">
+        <span class="legend-circle" style="width:${size}px;height:${size}px;background:${g.color}"></span>
+        <span class="legend-label">${g.label}</span>
+      </div>`;
+    });
+
+    div.innerHTML = html;
+    return div;
+  };
+
+  legend.addTo(map);
 }
 
 // ---------------------

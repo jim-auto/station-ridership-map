@@ -142,6 +142,46 @@ body {
   color: #1a73e8;
 }
 
+/* ===== Legend ===== */
+.legend {
+  background: #fff;
+  padding: 10px 14px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+  font-size: 12px;
+  line-height: 1;
+}
+
+.legend-title {
+  font-weight: 600;
+  font-size: 12px;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.legend-item:last-child {
+  margin-bottom: 0;
+}
+
+.legend-circle {
+  display: inline-block;
+  border-radius: 50%;
+  opacity: 0.7;
+  flex-shrink: 0;
+}
+
+.legend-label {
+  color: #555;
+  white-space: nowrap;
+}
+
 /* ===== Table Panel ===== */
 #table-panel {
   border-top: 1px solid #ddd;
