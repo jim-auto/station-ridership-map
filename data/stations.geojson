@@ -1,245 +1,189 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7671, 35.6812] },
-      "properties": {
-        "station_name": "東京",
-        "line_name": "東海道本線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 462000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7006, 35.6896] },
-      "properties": {
-        "station_name": "新宿",
-        "line_name": "中央本線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 750000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7016, 35.6585] },
-      "properties": {
-        "station_name": "渋谷",
-        "line_name": "山手線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 366000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7745, 35.6819] },
-      "properties": {
-        "station_name": "有楽町",
-        "line_name": "山手線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 95000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7309, 35.7281] },
-      "properties": {
-        "station_name": "池袋",
-        "line_name": "山手線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 558000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [135.4959, 34.7024] },
-      "properties": {
-        "station_name": "大阪",
-        "line_name": "東海道本線",
-        "operator_name": "JR西日本",
-        "prefecture": "大阪府",
-        "ridership": 430000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [136.8827, 35.1709] },
-      "properties": {
-        "station_name": "名古屋",
-        "line_name": "東海道本線",
-        "operator_name": "JR東海",
-        "prefecture": "愛知県",
-        "ridership": 210000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.6237, 35.4657] },
-      "properties": {
-        "station_name": "横浜",
-        "line_name": "東海道本線",
-        "operator_name": "JR東日本",
-        "prefecture": "神奈川県",
-        "ridership": 420000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [130.4188, 33.5902] },
-      "properties": {
-        "station_name": "博多",
-        "line_name": "鹿児島本線",
-        "operator_name": "JR九州",
-        "prefecture": "福岡県",
-        "ridership": 130000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [141.3544, 43.0687] },
-      "properties": {
-        "station_name": "札幌",
-        "line_name": "函館本線",
-        "operator_name": "JR北海道",
-        "prefecture": "北海道",
-        "ridership": 95000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [140.8824, 38.2604] },
-      "properties": {
-        "station_name": "仙台",
-        "line_name": "東北本線",
-        "operator_name": "JR東日本",
-        "prefecture": "宮城県",
-        "ridership": 88000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [132.4596, 34.3963] },
-      "properties": {
-        "station_name": "広島",
-        "line_name": "山陽本線",
-        "operator_name": "JR西日本",
-        "prefecture": "広島県",
-        "ridership": 72000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [135.7585, 35.0116] },
-      "properties": {
-        "station_name": "京都",
-        "line_name": "東海道本線",
-        "operator_name": "JR西日本",
-        "prefecture": "京都府",
-        "ridership": 195000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [135.1955, 34.6851] },
-      "properties": {
-        "station_name": "三宮",
-        "line_name": "東海道本線",
-        "operator_name": "JR西日本",
-        "prefecture": "兵庫県",
-        "ridership": 125000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7454, 35.6284] },
-      "properties": {
-        "station_name": "品川",
-        "line_name": "東海道本線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 370000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7744, 35.6684] },
-      "properties": {
-        "station_name": "新橋",
-        "line_name": "山手線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 275000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7747, 35.7090] },
-      "properties": {
-        "station_name": "上野",
-        "line_name": "東北本線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 188000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.7582, 35.7301] },
-      "properties": {
-        "station_name": "北千住",
-        "line_name": "常磐線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 42000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.6522, 35.7334] },
-      "properties": {
-        "station_name": "吉祥寺",
-        "line_name": "中央本線",
-        "operator_name": "JR東日本",
-        "prefecture": "東京都",
-        "ridership": 72000,
-        "year": 2022
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": { "type": "Point", "coordinates": [139.5440, 35.7861] },
-      "properties": {
-        "station_name": "所沢",
-        "line_name": "西武池袋線",
-        "operator_name": "西武鉄道",
-        "prefecture": "埼玉県",
-        "ridership": 28000,
-        "year": 2022
-      }
-    }
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7671,35.6812]},"properties":{"station_name":"東京","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"東京都","ridership":462000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7006,35.6896]},"properties":{"station_name":"新宿","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":750000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7016,35.6585]},"properties":{"station_name":"渋谷","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":366000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7309,35.7281]},"properties":{"station_name":"池袋","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":558000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7454,35.6284]},"properties":{"station_name":"品川","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"東京都","ridership":370000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7744,35.6684]},"properties":{"station_name":"新橋","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":275000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7747,35.7090]},"properties":{"station_name":"上野","line_name":"東北本線","operator_name":"JR東日本","prefecture":"東京都","ridership":188000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7745,35.6819]},"properties":{"station_name":"有楽町","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":95000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7582,35.7301]},"properties":{"station_name":"北千住","line_name":"常磐線","operator_name":"JR東日本","prefecture":"東京都","ridership":42000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6522,35.7334]},"properties":{"station_name":"吉祥寺","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":72000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7101,35.7101]},"properties":{"station_name":"高田馬場","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":208000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7715,35.7335]},"properties":{"station_name":"日暮里","line_name":"常磐線","operator_name":"JR東日本","prefecture":"東京都","ridership":52000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7384,35.6282]},"properties":{"station_name":"大崎","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":130000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7286,35.6466]},"properties":{"station_name":"目黒","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":115000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7195,35.6646]},"properties":{"station_name":"恵比寿","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":135000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6993,35.6702]},"properties":{"station_name":"代々木","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":36000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6853,35.6813]},"properties":{"station_name":"中野","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":147000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6441,35.7028]},"properties":{"station_name":"荻窪","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":87000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7488,35.6981]},"properties":{"station_name":"飯田橋","line_name":"中央・総武線","operator_name":"JR東日本","prefecture":"東京都","ridership":82000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7563,35.6917]},"properties":{"station_name":"秋葉原","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":250000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7714,35.6946]},"properties":{"station_name":"神田","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":105000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7810,35.6719]},"properties":{"station_name":"浜松町","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":158000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7387,35.7282]},"properties":{"station_name":"大塚","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":52000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7469,35.7327]},"properties":{"station_name":"巣鴨","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":55000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7468,35.7386]},"properties":{"station_name":"駒込","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":48000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7234,35.7131]},"properties":{"station_name":"目白","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":37000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7600,35.7421]},"properties":{"station_name":"田端","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":46000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7562,35.7564]},"properties":{"station_name":"赤羽","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"東京都","ridership":91000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8107,35.6983]},"properties":{"station_name":"錦糸町","line_name":"総武本線","operator_name":"JR東日本","prefecture":"東京都","ridership":107000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7364,35.6553]},"properties":{"station_name":"五反田","line_name":"山手線","operator_name":"JR東日本","prefecture":"東京都","ridership":73000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6237,35.4657]},"properties":{"station_name":"横浜","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":420000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6176,35.4660]},"properties":{"station_name":"横浜","line_name":"相鉄本線","operator_name":"相模鉄道","prefecture":"神奈川県","ridership":115000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6222,35.4535]},"properties":{"station_name":"戸塚","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":110000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6171,35.3329]},"properties":{"station_name":"藤沢","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":95000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6221,35.4741]},"properties":{"station_name":"東神奈川","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":35000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6955,35.5308]},"properties":{"station_name":"川崎","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":215000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6552,35.5007]},"properties":{"station_name":"武蔵小杉","line_name":"南武線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":145000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4440,35.3388]},"properties":{"station_name":"小田原","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":38000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.3467,35.3324]},"properties":{"station_name":"熱海","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":15000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5475,35.3941]},"properties":{"station_name":"大船","line_name":"東海道本線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":95000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6455,35.8617]},"properties":{"station_name":"大宮","line_name":"東北本線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":260000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5440,35.7861]},"properties":{"station_name":"所沢","line_name":"西武池袋線","operator_name":"西武鉄道","prefecture":"埼玉県","ridership":28000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7236,35.8068]},"properties":{"station_name":"川口","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":88000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6571,35.9076]},"properties":{"station_name":"上尾","line_name":"高崎線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":34000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4857,35.9076]},"properties":{"station_name":"川越","line_name":"川越線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":38000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6061,35.8665]},"properties":{"station_name":"与野","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":22000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6236,35.8563]},"properties":{"station_name":"さいたま新都心","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":35000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7175,35.7774]},"properties":{"station_name":"西川口","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":45000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7155,35.7956]},"properties":{"station_name":"蕨","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":38000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.7858,35.8497]},"properties":{"station_name":"南越谷","line_name":"武蔵野線","operator_name":"JR東日本","prefecture":"埼玉県","ridership":67000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.1134,35.6313]},"properties":{"station_name":"千葉","line_name":"総武本線","operator_name":"JR東日本","prefecture":"千葉県","ridership":110000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.9031,35.7564]},"properties":{"station_name":"松戸","line_name":"常磐線","operator_name":"JR東日本","prefecture":"千葉県","ridership":87000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8545,35.7198]},"properties":{"station_name":"市川","line_name":"総武本線","operator_name":"JR東日本","prefecture":"千葉県","ridership":58000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8902,35.7055]},"properties":{"station_name":"船橋","line_name":"総武本線","operator_name":"JR東日本","prefecture":"千葉県","ridership":142000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.9776,35.7285]},"properties":{"station_name":"柏","line_name":"常磐線","operator_name":"JR東日本","prefecture":"千葉県","ridership":120000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8680,35.6815]},"properties":{"station_name":"西船橋","line_name":"総武本線","operator_name":"JR東日本","prefecture":"千葉県","ridership":138000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.0227,35.6686]},"properties":{"station_name":"津田沼","line_name":"総武本線","operator_name":"JR東日本","prefecture":"千葉県","ridership":104000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.9338,35.6638]},"properties":{"station_name":"本八幡","line_name":"総武本線","operator_name":"JR東日本","prefecture":"千葉県","ridership":56000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.8827,35.1709]},"properties":{"station_name":"名古屋","line_name":"東海道本線","operator_name":"JR東海","prefecture":"愛知県","ridership":210000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.9066,35.1702]},"properties":{"station_name":"栄","line_name":"東山線","operator_name":"名古屋市交通局","prefecture":"愛知県","ridership":115000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.9714,35.1749]},"properties":{"station_name":"千種","line_name":"中央本線","operator_name":"JR東海","prefecture":"愛知県","ridership":32000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.9149,35.1232]},"properties":{"station_name":"金山","line_name":"東海道本線","operator_name":"JR東海","prefecture":"愛知県","ridership":78000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.7553,35.2558]},"properties":{"station_name":"一宮","line_name":"東海道本線","operator_name":"JR東海","prefecture":"愛知県","ridership":22000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[137.1712,34.9544]},"properties":{"station_name":"豊橋","line_name":"東海道本線","operator_name":"JR東海","prefecture":"愛知県","ridership":32000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[137.0471,35.0815]},"properties":{"station_name":"刈谷","line_name":"東海道本線","operator_name":"JR東海","prefecture":"愛知県","ridership":28000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[137.1606,35.0827]},"properties":{"station_name":"岡崎","line_name":"東海道本線","operator_name":"JR東海","prefecture":"愛知県","ridership":18000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.4959,34.7024]},"properties":{"station_name":"大阪・梅田","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"大阪府","ridership":430000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5013,34.6685]},"properties":{"station_name":"天王寺","line_name":"大阪環状線","operator_name":"JR西日本","prefecture":"大阪府","ridership":145000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5022,34.6937]},"properties":{"station_name":"難波","line_name":"御堂筋線","operator_name":"大阪メトロ","prefecture":"大阪府","ridership":210000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5195,34.6873]},"properties":{"station_name":"本町","line_name":"御堂筋線","operator_name":"大阪メトロ","prefecture":"大阪府","ridership":145000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5190,34.6977]},"properties":{"station_name":"淀屋橋","line_name":"御堂筋線","operator_name":"大阪メトロ","prefecture":"大阪府","ridership":125000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5206,34.7047]},"properties":{"station_name":"北浜","line_name":"堺筋線","operator_name":"大阪メトロ","prefecture":"大阪府","ridership":55000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5946,34.7356]},"properties":{"station_name":"京橋","line_name":"大阪環状線","operator_name":"JR西日本","prefecture":"大阪府","ridership":120000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.4306,34.7510]},"properties":{"station_name":"新大阪","line_name":"東海道新幹線","operator_name":"JR西日本","prefecture":"大阪府","ridership":130000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5550,34.6288]},"properties":{"station_name":"堺","line_name":"南海本線","operator_name":"南海電鉄","prefecture":"大阪府","ridership":35000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.6009,34.7506]},"properties":{"station_name":"枚方市","line_name":"京阪本線","operator_name":"京阪電鉄","prefecture":"大阪府","ridership":62000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.7585,35.0116]},"properties":{"station_name":"京都","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"京都府","ridership":195000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.7603,35.0033]},"properties":{"station_name":"四条","line_name":"烏丸線","operator_name":"京都市交通局","prefecture":"京都府","ridership":68000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.7720,34.9803]},"properties":{"station_name":"東福寺","line_name":"奈良線","operator_name":"JR西日本","prefecture":"京都府","ridership":15000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.1955,34.6851]},"properties":{"station_name":"三ノ宮","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"兵庫県","ridership":125000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.3413,34.7328]},"properties":{"station_name":"明石","line_name":"山陽本線","operator_name":"JR西日本","prefecture":"兵庫県","ridership":42000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[134.6903,34.8297]},"properties":{"station_name":"姫路","line_name":"山陽本線","operator_name":"JR西日本","prefecture":"兵庫県","ridership":46000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.2364,34.7143]},"properties":{"station_name":"元町","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"兵庫県","ridership":35000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.4170,34.7351]},"properties":{"station_name":"西宮北口","line_name":"今津線","operator_name":"阪急電鉄","prefecture":"兵庫県","ridership":85000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.4132,34.7261]},"properties":{"station_name":"尼崎","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"兵庫県","ridership":58000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[141.3544,43.0687]},"properties":{"station_name":"札幌","line_name":"函館本線","operator_name":"JR北海道","prefecture":"北海道","ridership":95000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[141.3507,43.0578]},"properties":{"station_name":"大通","line_name":"南北線","operator_name":"札幌市交通局","prefecture":"北海道","ridership":75000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[141.3189,43.0527]},"properties":{"station_name":"円山公園","line_name":"東西線","operator_name":"札幌市交通局","prefecture":"北海道","ridership":22000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[141.3462,43.0689]},"properties":{"station_name":"さっぽろ","line_name":"南北線","operator_name":"札幌市交通局","prefecture":"北海道","ridership":58000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.7265,41.7740]},"properties":{"station_name":"函館","line_name":"函館本線","operator_name":"JR北海道","prefecture":"北海道","ridership":8500,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[143.3468,43.7707]},"properties":{"station_name":"旭川","line_name":"函館本線","operator_name":"JR北海道","prefecture":"北海道","ridership":7800,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[141.6147,42.9227]},"properties":{"station_name":"新千歳空港","line_name":"千歳線","operator_name":"JR北海道","prefecture":"北海道","ridership":18000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.8824,38.2604]},"properties":{"station_name":"仙台","line_name":"東北本線","operator_name":"JR東日本","prefecture":"宮城県","ridership":88000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.8752,38.2545]},"properties":{"station_name":"仙台","line_name":"南北線","operator_name":"仙台市交通局","prefecture":"宮城県","ridership":32000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.3015,39.7187]},"properties":{"station_name":"秋田","line_name":"奥羽本線","operator_name":"JR東日本","prefecture":"秋田県","ridership":12000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.3281,38.2483]},"properties":{"station_name":"山形","line_name":"奥羽本線","operator_name":"JR東日本","prefecture":"山形県","ridership":12500,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.7400,40.8246]},"properties":{"station_name":"青森","line_name":"奥羽本線","operator_name":"JR東日本","prefecture":"青森県","ridership":8000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[141.1368,39.7015]},"properties":{"station_name":"盛岡","line_name":"東北本線","operator_name":"JR東日本","prefecture":"岩手県","ridership":18000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.4597,37.7502]},"properties":{"station_name":"福島","line_name":"東北本線","operator_name":"JR東日本","prefecture":"福島県","ridership":17000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.0036,37.3989]},"properties":{"station_name":"郡山","line_name":"東北本線","operator_name":"JR東日本","prefecture":"福島県","ridership":15000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[132.4596,34.3963]},"properties":{"station_name":"広島","line_name":"山陽本線","operator_name":"JR西日本","prefecture":"広島県","ridership":72000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[133.9316,34.6618]},"properties":{"station_name":"岡山","line_name":"山陽本線","operator_name":"JR西日本","prefecture":"岡山県","ridership":62000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[133.9333,34.6658]},"properties":{"station_name":"岡山","line_name":"岡山電気軌道","operator_name":"岡山電気軌道","prefecture":"岡山県","ridership":8000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[133.0518,34.0690]},"properties":{"station_name":"福山","line_name":"山陽本線","operator_name":"JR西日本","prefecture":"広島県","ridership":22000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[130.4188,33.5902]},"properties":{"station_name":"博多","line_name":"鹿児島本線","operator_name":"JR九州","prefecture":"福岡県","ridership":130000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[130.4017,33.5897]},"properties":{"station_name":"天神","line_name":"空港線","operator_name":"福岡市交通局","prefecture":"福岡県","ridership":92000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[130.7095,33.8839]},"properties":{"station_name":"小倉","line_name":"鹿児島本線","operator_name":"JR九州","prefecture":"福岡県","ridership":38000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[130.3556,33.5623]},"properties":{"station_name":"西新","line_name":"空港線","operator_name":"福岡市交通局","prefecture":"福岡県","ridership":28000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[130.7416,32.7900]},"properties":{"station_name":"熊本","line_name":"鹿児島本線","operator_name":"JR九州","prefecture":"熊本県","ridership":18000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[131.6127,33.2332]},"properties":{"station_name":"大分","line_name":"日豊本線","operator_name":"JR九州","prefecture":"大分県","ridership":14000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[130.5581,31.5842]},"properties":{"station_name":"鹿児島中央","line_name":"鹿児島本線","operator_name":"JR九州","prefecture":"鹿児島県","ridership":22000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[131.4239,31.9115]},"properties":{"station_name":"宮崎","line_name":"日豊本線","operator_name":"JR九州","prefecture":"宮崎県","ridership":8000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[129.8737,32.7503]},"properties":{"station_name":"長崎","line_name":"長崎本線","operator_name":"JR九州","prefecture":"長崎県","ridership":12000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[127.6792,26.2340]},"properties":{"station_name":"那覇（おもろまち）","line_name":"ゆいレール","operator_name":"沖縄都市モノレール","prefecture":"沖縄県","ridership":8500,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.0232,37.9122]},"properties":{"station_name":"新潟","line_name":"上越新幹線","operator_name":"JR東日本","prefecture":"新潟県","ridership":36000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.6256,36.5781]},"properties":{"station_name":"金沢","line_name":"北陸本線","operator_name":"JR西日本","prefecture":"石川県","ridership":28000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[138.1811,36.2304]},"properties":{"station_name":"長野","line_name":"北陸新幹線","operator_name":"JR東日本","prefecture":"長野県","ridership":28000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[138.6066,36.3916]},"properties":{"station_name":"上田","line_name":"北陸新幹線","operator_name":"JR東日本","prefecture":"長野県","ridership":8000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[138.2596,36.6316]},"properties":{"station_name":"松本","line_name":"篠ノ井線","operator_name":"JR東日本","prefecture":"長野県","ridership":14000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[138.3893,34.9756]},"properties":{"station_name":"静岡","line_name":"東海道本線","operator_name":"JR東海","prefecture":"静岡県","ridership":58000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[137.7348,34.7037]},"properties":{"station_name":"浜松","line_name":"東海道本線","operator_name":"JR東海","prefecture":"静岡県","ridership":34000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[138.9267,35.0466]},"properties":{"station_name":"沼津","line_name":"東海道本線","operator_name":"JR東海","prefecture":"静岡県","ridership":18000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.7606,35.3912]},"properties":{"station_name":"岐阜","line_name":"東海道本線","operator_name":"JR東海","prefecture":"岐阜県","ridership":30000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.5082,36.0612]},"properties":{"station_name":"大垣","line_name":"東海道本線","operator_name":"JR東海","prefecture":"岐阜県","ridership":16000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[137.2113,36.6953]},"properties":{"station_name":"富山","line_name":"北陸本線","operator_name":"あいの風とやま鉄道","prefecture":"富山県","ridership":18000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.2194,36.0623]},"properties":{"station_name":"福井","line_name":"北陸本線","operator_name":"JR西日本","prefecture":"福井県","ridership":12000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[138.5684,35.6639]},"properties":{"station_name":"甲府","line_name":"中央本線","operator_name":"JR東日本","prefecture":"山梨県","ridership":15000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.5096,34.7302]},"properties":{"station_name":"津","line_name":"紀勢本線","operator_name":"JR東海","prefecture":"三重県","ridership":12000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[136.7256,34.9669]},"properties":{"station_name":"四日市","line_name":"関西本線","operator_name":"JR東海","prefecture":"三重県","ridership":8000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.8510,34.9858]},"properties":{"station_name":"大津","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"滋賀県","ridership":18000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.8917,35.2764]},"properties":{"station_name":"草津","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"滋賀県","ridership":26000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.8323,34.6854]},"properties":{"station_name":"奈良","line_name":"大和路線","operator_name":"JR西日本","prefecture":"奈良県","ridership":28000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.1907,34.2326]},"properties":{"station_name":"和歌山","line_name":"阪和線","operator_name":"JR西日本","prefecture":"和歌山県","ridership":22000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[134.0435,34.3401]},"properties":{"station_name":"高松","line_name":"予讃線","operator_name":"JR四国","prefecture":"香川県","ridership":18000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[132.7653,33.8416]},"properties":{"station_name":"松山","line_name":"予讃線","operator_name":"JR四国","prefecture":"愛媛県","ridership":10000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[133.5437,33.5668]},"properties":{"station_name":"高知","line_name":"土讃線","operator_name":"JR四国","prefecture":"高知県","ridership":7000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[134.5518,34.0739]},"properties":{"station_name":"徳島","line_name":"高徳線","operator_name":"JR四国","prefecture":"徳島県","ridership":8000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[131.4713,34.1770]},"properties":{"station_name":"新山口","line_name":"山陽本線","operator_name":"JR西日本","prefecture":"山口県","ridership":10000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[130.9413,33.9509]},"properties":{"station_name":"下関","line_name":"山陽本線","operator_name":"JR西日本","prefecture":"山口県","ridership":10000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[133.3322,35.4413]},"properties":{"station_name":"松江","line_name":"山陰本線","operator_name":"JR西日本","prefecture":"島根県","ridership":6000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[134.2285,35.4946]},"properties":{"station_name":"鳥取","line_name":"山陰本線","operator_name":"JR西日本","prefecture":"鳥取県","ridership":5500,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4810,36.3914]},"properties":{"station_name":"前橋","line_name":"両毛線","operator_name":"JR東日本","prefecture":"群馬県","ridership":8000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.3583,36.3267]},"properties":{"station_name":"高崎","line_name":"高崎線","operator_name":"JR東日本","prefecture":"群馬県","ridership":28000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.8838,36.5586]},"properties":{"station_name":"宇都宮","line_name":"東北本線","operator_name":"JR東日本","prefecture":"栃木県","ridership":38000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[140.1065,36.3812]},"properties":{"station_name":"水戸","line_name":"常磐線","operator_name":"JR東日本","prefecture":"茨城県","ridership":30000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.9984,36.1167]},"properties":{"station_name":"つくば","line_name":"つくばエクスプレス","operator_name":"首都圏新都市鉄道","prefecture":"茨城県","ridership":18000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6206,35.6107]},"properties":{"station_name":"溝の口","line_name":"南武線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":68000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4399,35.3380]},"properties":{"station_name":"鎌倉","line_name":"横須賀線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":42000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6266,35.5325]},"properties":{"station_name":"鶴見","line_name":"京浜東北線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":65000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5950,35.4690]},"properties":{"station_name":"関内","line_name":"根岸線","operator_name":"JR東日本","prefecture":"神奈川県","ridership":48000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.6184,35.4476]},"properties":{"station_name":"上大岡","line_name":"京急本線","operator_name":"京急電鉄","prefecture":"神奈川県","ridership":58000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4655,35.4915]},"properties":{"station_name":"海老名","line_name":"相鉄本線","operator_name":"相模鉄道","prefecture":"神奈川県","ridership":42000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4381,35.5484]},"properties":{"station_name":"町田","line_name":"横浜線","operator_name":"JR東日本","prefecture":"東京都","ridership":110000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4816,35.6942]},"properties":{"station_name":"立川","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":165000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.4435,35.6597]},"properties":{"station_name":"八王子","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":85000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5231,35.7131]},"properties":{"station_name":"国分寺","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":115000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5431,35.7015]},"properties":{"station_name":"国立","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":52000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5633,35.7108]},"properties":{"station_name":"武蔵境","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":62000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[139.5815,35.7038]},"properties":{"station_name":"三鷹","line_name":"中央本線","operator_name":"JR東日本","prefecture":"東京都","ridership":95000,"year":2022}},
+
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5257,34.7338]},"properties":{"station_name":"東淀川","line_name":"東海道本線","operator_name":"JR西日本","prefecture":"大阪府","ridership":15000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5615,34.6340]},"properties":{"station_name":"堺東","line_name":"南海高野線","operator_name":"南海電鉄","prefecture":"大阪府","ridership":42000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.5171,34.6476]},"properties":{"station_name":"住吉","line_name":"南海本線","operator_name":"南海電鉄","prefecture":"大阪府","ridership":18000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.4738,34.7529]},"properties":{"station_name":"十三","line_name":"阪急神戸線","operator_name":"阪急電鉄","prefecture":"大阪府","ridership":72000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.4413,34.7617]},"properties":{"station_name":"江坂","line_name":"御堂筋線","operator_name":"大阪メトロ","prefecture":"大阪府","ridership":55000,"year":2022}},
+    {"type":"Feature","geometry":{"type":"Point","coordinates":[135.4966,34.6483]},"properties":{"station_name":"長居","line_name":"御堂筋線","operator_name":"大阪メトロ","prefecture":"大阪府","ridership":32000,"year":2022}}
   ]
 }
