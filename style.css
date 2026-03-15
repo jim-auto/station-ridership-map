@@ -1,0 +1,178 @@
+/* ===== Reset & Base ===== */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  background: #fff;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* ===== Control Bar ===== */
+#control-bar {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  z-index: 1000;
+}
+
+#control-bar h1 {
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  position: relative;
+}
+
+.control-group label {
+  font-size: 13px;
+  color: #666;
+  white-space: nowrap;
+}
+
+#threshold-select {
+  padding: 4px 8px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
+#search-input {
+  padding: 4px 8px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+/* ===== Search Results Dropdown ===== */
+#search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  list-style: none;
+  max-height: 240px;
+  overflow-y: auto;
+  display: none;
+  z-index: 2000;
+  min-width: 260px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#search-results.active {
+  display: block;
+}
+
+#search-results li {
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+#search-results li:last-child {
+  border-bottom: none;
+}
+
+#search-results li:hover {
+  background: #f0f4ff;
+}
+
+#search-results li .line-name {
+  color: #888;
+  font-size: 11px;
+  margin-left: 6px;
+}
+
+/* ===== Map ===== */
+#map {
+  flex: 1;
+}
+
+/* ===== Popup ===== */
+.station-popup table {
+  font-size: 13px;
+  border-collapse: collapse;
+}
+
+.station-popup th {
+  text-align: left;
+  padding: 2px 8px 2px 0;
+  color: #666;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.station-popup td {
+  padding: 2px 0;
+}
+
+.station-popup .ridership-value {
+  font-weight: 600;
+  color: #1a73e8;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  #control-bar {
+    padding: 6px 10px;
+    gap: 10px;
+  }
+
+  #control-bar h1 {
+    font-size: 14px;
+    width: 100%;
+  }
+
+  .controls {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .control-group {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .control-group label {
+    display: none;
+  }
+
+  #search-input {
+    width: 100%;
+  }
+
+  #threshold-select {
+    width: 100%;
+  }
+}
