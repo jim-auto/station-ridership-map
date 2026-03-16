@@ -349,6 +349,16 @@ function initTablePanel() {
       document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
     });
   });
+
+  // 全画面切り替え
+  const expandBtn = document.getElementById("table-expand");
+  expandBtn.addEventListener("click", () => {
+    const isFullscreen = document.body.classList.toggle("table-fullscreen");
+    expandBtn.textContent = isFullscreen ? "地図に戻る" : "全画面表示";
+    if (!isFullscreen) {
+      map.invalidateSize();
+    }
+  });
 }
 
 // ---------------------

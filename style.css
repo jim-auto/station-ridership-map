@@ -256,6 +256,22 @@ body {
   border-bottom-color: #1a73e8;
 }
 
+.tab-btn-expand {
+  margin-left: auto;
+  padding: 6px 12px;
+  font-size: 12px;
+  color: #1a73e8;
+  background: none;
+  border: 1px solid #1a73e8;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tab-btn-expand:hover {
+  background: #e8f0fe;
+}
+
 #table-content {
   display: none;
   max-height: 40vh;
@@ -265,6 +281,31 @@ body {
 
 #table-content.active {
   display: block;
+}
+
+/* Full screen mode */
+body.table-fullscreen #map,
+body.table-fullscreen #data-source,
+body.table-fullscreen .legend {
+  display: none;
+}
+
+body.table-fullscreen #table-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+body.table-fullscreen #table-content {
+  max-height: none;
+  flex: 1;
+  min-height: 0;
+}
+
+body.table-fullscreen #table-content.active {
+  display: block;
+  overflow-y: auto;
 }
 
 .tab-pane {
