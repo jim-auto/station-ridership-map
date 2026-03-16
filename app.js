@@ -484,7 +484,7 @@ function renderCapitalRanking() {
   html += "<h3>都道府県代表駅ランキング（少ない順）</h3>";
   html += '<div class="region-summary">県庁所在地 or 県内人口最大都市の代表駅（事業者別の最大値）</div>';
   html += '<table class="region-table">';
-  html += "<thead><tr><th></th><th>都道府県</th><th>駅名</th><th>事業者</th><th>乗降客数</th><th class='capital-bar-cell'></th></tr></thead>";
+  html += "<thead><tr><th></th><th>都道府県</th><th>駅名</th><th class='hide-sp'>事業者</th><th>乗降客数</th><th class='capital-bar-cell hide-sp'></th></tr></thead>";
   html += "<tbody>";
 
   results.forEach((r, idx) => {
@@ -494,9 +494,9 @@ function renderCapitalRanking() {
     html += `<td class="capital-rank">${idx + 1}</td>`;
     html += `<td>${escapeHtml(r.pref)}</td>`;
     html += `<td>${escapeHtml(r.station_name)}</td>`;
-    html += `<td>${escapeHtml(r.operator_name)}</td>`;
+    html += `<td class="hide-sp">${escapeHtml(r.operator_name)}</td>`;
     html += `<td class="ridership-cell">${r.ridership.toLocaleString()}</td>`;
-    html += `<td class="capital-bar-cell"><div class="capital-bar" style="width:${barWidth}%;background:${getColor(r.ridership)}"></div></td>`;
+    html += `<td class="capital-bar-cell hide-sp"><div class="capital-bar" style="width:${barWidth}%;background:${getColor(r.ridership)}"></div></td>`;
     html += "</tr>";
   });
 

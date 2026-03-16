@@ -428,8 +428,41 @@ body.table-fullscreen #table-content.active {
     width: 100%;
   }
 
+  /* 地域別一覧: 事業者列を非表示 */
   .region-table th:nth-child(3),
   .region-table td:nth-child(3) {
     display: none;
+  }
+
+  /* ランキング等: hide-sp クラスで非表示 */
+  .hide-sp {
+    display: none;
+  }
+
+  .region-table {
+    font-size: 12px;
+  }
+
+  .region-table th,
+  .region-table td {
+    padding: 3px 4px;
+  }
+
+  .region-table .ridership-cell {
+    white-space: nowrap;
+  }
+
+  #table-tabs {
+    padding: 0 8px;
+  }
+
+  .tab-btn {
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+
+  .tab-btn-expand {
+    padding: 4px 8px;
+    font-size: 11px;
   }
 }
