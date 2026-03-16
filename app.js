@@ -39,21 +39,30 @@ const REGION_ORDER = [
   "北海道", "東北", "関東", "中部", "近畿", "中国", "四国", "九州・沖縄",
 ];
 
-// 県庁所在地の代表駅名
+// 県庁所在地 or 県内人口最大都市の代表駅名（候補を配列で指定、最大乗降客数を採用）
 const CAPITAL_STATIONS = {
-  "北海道": "札幌", "青森県": "青森", "岩手県": "盛岡", "宮城県": "仙台",
-  "秋田県": "秋田", "山形県": "山形", "福島県": "福島", "茨城県": "水戸",
-  "栃木県": "宇都宮", "群馬県": "前橋", "埼玉県": "大宮",
-  "千葉県": "千葉", "東京都": "東京", "神奈川県": "横浜",
-  "新潟県": "新潟", "富山県": "富山", "石川県": "金沢", "福井県": "福井",
-  "山梨県": "甲府", "長野県": "長野", "岐阜県": "岐阜", "静岡県": "静岡",
-  "愛知県": "名古屋", "三重県": "津", "滋賀県": "大津", "京都府": "京都",
-  "大阪府": "大阪", "兵庫県": "三ノ宮", "奈良県": "奈良", "和歌山県": "和歌山",
-  "鳥取県": "鳥取", "島根県": "松江", "岡山県": "岡山", "広島県": "広島",
-  "山口県": "山口", "徳島県": "徳島", "香川県": "高松", "愛媛県": "松山",
-  "高知県": "高知", "福岡県": "博多", "佐賀県": "佐賀", "長崎県": "長崎",
-  "熊本県": "熊本", "大分県": "大分", "宮崎県": "宮崎", "鹿児島県": "鹿児島中央",
-  "沖縄県": "おもろまち",
+  "北海道": ["札幌"], "青森県": ["青森"], "岩手県": ["盛岡"],
+  "宮城県": ["仙台"], "秋田県": ["秋田"], "山形県": ["山形"],
+  "福島県": ["福島", "郡山", "いわき"], "茨城県": ["水戸"],
+  "栃木県": ["宇都宮"], "群馬県": ["前橋", "高崎"],
+  "埼玉県": ["大宮"], "千葉県": ["千葉", "船橋"],
+  "東京都": ["東京"], "神奈川県": ["横浜"],
+  "新潟県": ["新潟"], "富山県": ["富山"], "石川県": ["金沢"],
+  "福井県": ["福井"], "山梨県": ["甲府"], "長野県": ["長野"],
+  "岐阜県": ["岐阜"], "静岡県": ["静岡", "浜松"],
+  "愛知県": ["名古屋"], "三重県": ["津", "四日市"],
+  "滋賀県": ["大津"], "京都府": ["京都"],
+  "大阪府": ["大阪"], "兵庫県": ["三ノ宮", "姫路"],
+  "奈良県": ["奈良"], "和歌山県": ["和歌山"],
+  "鳥取県": ["鳥取"], "島根県": ["松江"],
+  "岡山県": ["岡山", "倉敷"], "広島県": ["広島"],
+  "山口県": ["山口", "下関"], "徳島県": ["徳島"],
+  "香川県": ["高松"], "愛媛県": ["松山"],
+  "高知県": ["高知"], "福岡県": ["博多"],
+  "佐賀県": ["佐賀"], "長崎県": ["長崎"],
+  "熊本県": ["熊本"], "大分県": ["大分"],
+  "宮崎県": ["宮崎"], "鹿児島県": ["鹿児島中央"],
+  "沖縄県": ["おもろまち"],
 };
 
 const CIRCLE_OPTIONS = {
@@ -419,17 +428,17 @@ function renderRegionTable() {
 function renderCapitalRanking() {
   const content = document.getElementById("tab-capital");
 
-  // 各県庁所在地の代表駅を検索（同名駅の中で最大乗降客数を採用）
+  // 各県の代表駅を検索（候補の中で最大乗降客数を採用）
   const results = [];
   const featureMap = {};
 
-  for (const [pref, stationName] of Object.entries(CAPITAL_STATIONS)) {
+  for (const [pref, stationNames] of Object.entries(CAPITAL_STATIONS)) {
     let best = null;
     let bestFeature = null;
 
     for (const feat of allFeatures) {
       const p = feat.properties;
-      if (p.station_name !== stationName) continue;
+      if (!stationNames.includes(p.station_name)) continue;
       if (!best || p.ridership > best.ridership) {
         best = p;
         bestFeature = feat;
@@ -448,7 +457,7 @@ function renderCapitalRanking() {
     } else {
       results.push({
         pref,
-        station_name: stationName,
+        station_name: stationNames[0],
         operator_name: "-",
         line_name: "-",
         ridership: 0,
@@ -462,8 +471,8 @@ function renderCapitalRanking() {
   const maxRidership = Math.max(...results.map((r) => r.ridership));
 
   let html = '<div class="region-section">';
-  html += "<h3>県庁所在地駅ランキング（少ない順）</h3>";
-  html += '<div class="region-summary">各都道府県の県庁所在地にある代表駅の乗降客数（事業者別の最大値）</div>';
+  html += "<h3>都道府県代表駅ランキング（少ない順）</h3>";
+  html += '<div class="region-summary">県庁所在地 or 県内人口最大都市の代表駅（事業者別の最大値）</div>';
   html += '<table class="region-table">';
   html += "<thead><tr><th></th><th>都道府県</th><th>駅名</th><th>事業者</th><th>乗降客数</th><th class='capital-bar-cell'></th></tr></thead>";
   html += "<tbody>";
