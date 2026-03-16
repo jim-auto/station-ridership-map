@@ -15,7 +15,7 @@
         <label for="threshold-select">表示閾値</label>
         <select id="threshold-select">
           <option value="0">すべて表示</option>
-          <option value="30000">30,000人以上</option>
+          <option value="30000" selected>30,000人以上</option>
           <option value="100000">100,000人以上</option>
         </select>
       </div>
@@ -27,6 +27,11 @@
     </div>
   </header>
   <div id="map"></div>
+
+  <footer id="data-source">
+    出典: <a href="https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-S12-2023.html" target="_blank" rel="noopener">国土数値情報「駅別乗降客数データ」(国土交通省, 2023年度)</a>
+    ｜地図: <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>
+  </footer>
 
   <div id="table-panel">
     <button id="table-toggle">地域別一覧を表示 ▼</button>

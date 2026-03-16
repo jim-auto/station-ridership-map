@@ -72,8 +72,8 @@ def reverse_geocode(lon, lat):
         req = urllib.request.Request(url)
         with urllib.request.urlopen(req, timeout=5) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-            if "results" in data and "mupiCode" in data["results"]:
-                pref_code = int(str(data["results"]["mupiCode"])[:2])
+            if "results" in data and "muniCd" in data["results"]:
+                pref_code = int(str(data["results"]["muniCd"])[:2])
                 return PREF_NAMES.get(pref_code, "")
     except Exception:
         pass
@@ -128,22 +128,35 @@ def convert():
     entries = list(station_map.values())
     print(f"都道府県を逆ジオコーディング中... ({len(entries)}件)")
 
-    # バッチ処理（キャッシュで同じ地域をまとめる）
+    # バッチ処理（キャッシュで近隣駅をまとめる）
     pref_cache = {}
+    failed = 0
     for i, entry in enumerate(entries):
         lon, lat = entry["coordinates"]
         # 小数点2桁で丸めてキャッシュキーにする（近い駅は同じ都道府県）
-        cache_key = f"{round(lat, 1)}_{round(lon, 1)}"
+        cache_key = f"{round(lat, 2)}_{round(lon, 2)}"
 
         if cache_key in pref_cache:
             entry["prefecture"] = pref_cache[cache_key]
         else:
             pref = reverse_geocode(lon, lat)
+            if pref:
+                pref_cache[cache_key] = pref
+            else:
+                failed += 1
+                # キャッシュキーをさらに粗くして再試行
+                coarse_key = f"{round(lat, 1)}_{round(lon, 1)}"
+                pref = pref_cache.get(coarse_key, "")
             entry["prefecture"] = pref
-            pref_cache[cache_key] = pref
+            if pref and cache_key not in pref_cache:
+                pref_cache[cache_key] = pref
+                pref_cache[f"{round(lat, 1)}_{round(lon, 1)}"] = pref
 
-        if (i + 1) % 100 == 0:
+        if (i + 1) % 500 == 0:
             print(f"  {i + 1}/{len(entries)} 完了")
+
+    if failed:
+        print(f"  ※ {failed}件の逆ジオコーディング失敗")
 
     # GeoJSON出力
     output_features = []
