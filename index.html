@@ -34,8 +34,15 @@
   </footer>
 
   <div id="table-panel">
-    <button id="table-toggle">地域別一覧を表示 ▼</button>
-    <div id="table-content"></div>
+    <button id="table-toggle">一覧を表示 ▼</button>
+    <div id="table-tabs">
+      <button class="tab-btn active" data-tab="region">地域別一覧</button>
+      <button class="tab-btn" data-tab="capital">県庁所在地ランキング</button>
+    </div>
+    <div id="table-content" data-active-tab="region">
+      <div id="tab-region" class="tab-pane active"></div>
+      <div id="tab-capital" class="tab-pane"></div>
+    </div>
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>

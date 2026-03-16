@@ -221,6 +221,40 @@ body {
   background: #eee;
 }
 
+#table-tabs {
+  display: none;
+  gap: 0;
+  border-bottom: 2px solid #e8eaed;
+  padding: 0 16px;
+  background: #fafafa;
+}
+
+#table-tabs.active {
+  display: flex;
+}
+
+.tab-btn {
+  padding: 8px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.tab-btn:hover {
+  color: #555;
+}
+
+.tab-btn.active {
+  color: #1a73e8;
+  border-bottom-color: #1a73e8;
+}
+
 #table-content {
   display: none;
   max-height: 40vh;
@@ -230,6 +264,38 @@ body {
 
 #table-content.active {
   display: block;
+}
+
+.tab-pane {
+  display: none;
+}
+
+.tab-pane.active {
+  display: block;
+}
+
+/* Capital ranking specific */
+.capital-rank {
+  font-size: 12px;
+  color: #999;
+  width: 30px;
+  text-align: right;
+}
+
+.capital-bar-cell {
+  width: 40%;
+}
+
+.capital-bar {
+  height: 14px;
+  border-radius: 2px;
+  min-width: 2px;
+}
+
+.capital-comment {
+  font-size: 11px;
+  color: #999;
+  font-style: italic;
 }
 
 .region-section {

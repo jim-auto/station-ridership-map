@@ -39,6 +39,23 @@ const REGION_ORDER = [
   "北海道", "東北", "関東", "中部", "近畿", "中国", "四国", "九州・沖縄",
 ];
 
+// 県庁所在地の代表駅名
+const CAPITAL_STATIONS = {
+  "北海道": "札幌", "青森県": "青森", "岩手県": "盛岡", "宮城県": "仙台",
+  "秋田県": "秋田", "山形県": "山形", "福島県": "福島", "茨城県": "水戸",
+  "栃木県": "宇都宮", "群馬県": "前橋", "埼玉県": "大宮",
+  "千葉県": "千葉", "東京都": "東京", "神奈川県": "横浜",
+  "新潟県": "新潟", "富山県": "富山", "石川県": "金沢", "福井県": "福井",
+  "山梨県": "甲府", "長野県": "長野", "岐阜県": "岐阜", "静岡県": "静岡",
+  "愛知県": "名古屋", "三重県": "津", "滋賀県": "大津", "京都府": "京都",
+  "大阪府": "大阪", "兵庫県": "三ノ宮", "奈良県": "奈良", "和歌山県": "和歌山",
+  "鳥取県": "鳥取", "島根県": "松江", "岡山県": "岡山", "広島県": "広島",
+  "山口県": "山口", "徳島県": "徳島", "香川県": "高松", "愛媛県": "松山",
+  "高知県": "高知", "福岡県": "博多", "佐賀県": "佐賀", "長崎県": "長崎",
+  "熊本県": "熊本", "大分県": "大分", "宮崎県": "宮崎", "鹿児島県": "鹿児島中央",
+  "沖縄県": "おもろまち",
+};
+
 const CIRCLE_OPTIONS = {
   weight: 1,
   opacity: 0.8,
@@ -141,6 +158,7 @@ async function loadStationData() {
     allFeatures = geojson.features || [];
     renderStations();
     renderRegionTable();
+    renderCapitalRanking();
   } catch (err) {
     console.error("駅データの読み込みに失敗しました:", err);
   }
@@ -302,15 +320,25 @@ function flyToStation(feature) {
 function initTablePanel() {
   const toggle = document.getElementById("table-toggle");
   const content = document.getElementById("table-content");
+  const tabs = document.getElementById("table-tabs");
 
   toggle.addEventListener("click", () => {
     const isOpen = content.classList.toggle("active");
-    toggle.textContent = isOpen
-      ? "地域別一覧を閉じる ▲"
-      : "地域別一覧を表示 ▼";
+    tabs.classList.toggle("active", isOpen);
+    toggle.textContent = isOpen ? "一覧を閉じる ▲" : "一覧を表示 ▼";
     if (isOpen) {
       map.invalidateSize();
     }
+  });
+
+  // タブ切り替え
+  tabs.querySelectorAll(".tab-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      tabs.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+      content.querySelectorAll(".tab-pane").forEach((p) => p.classList.remove("active"));
+      btn.classList.add("active");
+      document.getElementById("tab-" + btn.dataset.tab).classList.add("active");
+    });
   });
 }
 
@@ -319,7 +347,7 @@ function initTablePanel() {
 // ---------------------
 function renderRegionTable() {
   const threshold = getThreshold();
-  const content = document.getElementById("table-content");
+  const content = document.getElementById("tab-region");
 
   const filtered = allFeatures.filter(
     (f) => (f.properties.ridership || 0) >= threshold
@@ -380,6 +408,86 @@ function renderRegionTable() {
     row.addEventListener("click", () => {
       const [region, idx] = row.dataset.regionIdx.split(/-(.+)/);
       const feature = grouped[region][parseInt(idx, 10)];
+      if (feature) flyToStation(feature);
+    });
+  });
+}
+
+// ---------------------
+// 県庁所在地ランキング描画
+// ---------------------
+function renderCapitalRanking() {
+  const content = document.getElementById("tab-capital");
+
+  // 各県庁所在地の代表駅を検索（同名駅の中で最大乗降客数を採用）
+  const results = [];
+  const featureMap = {};
+
+  for (const [pref, stationName] of Object.entries(CAPITAL_STATIONS)) {
+    let best = null;
+    let bestFeature = null;
+
+    for (const feat of allFeatures) {
+      const p = feat.properties;
+      if (p.station_name !== stationName) continue;
+      if (!best || p.ridership > best.ridership) {
+        best = p;
+        bestFeature = feat;
+      }
+    }
+
+    if (best) {
+      results.push({
+        pref,
+        station_name: best.station_name,
+        operator_name: best.operator_name,
+        line_name: best.line_name,
+        ridership: best.ridership,
+      });
+      featureMap[pref] = bestFeature;
+    } else {
+      results.push({
+        pref,
+        station_name: stationName,
+        operator_name: "-",
+        line_name: "-",
+        ridership: 0,
+      });
+    }
+  }
+
+  // 乗降客数の少ない順にソート
+  results.sort((a, b) => a.ridership - b.ridership);
+
+  const maxRidership = Math.max(...results.map((r) => r.ridership));
+
+  let html = '<div class="region-section">';
+  html += "<h3>県庁所在地駅ランキング（少ない順）</h3>";
+  html += '<div class="region-summary">各都道府県の県庁所在地にある代表駅の乗降客数（事業者別の最大値）</div>';
+  html += '<table class="region-table">';
+  html += "<thead><tr><th></th><th>都道府県</th><th>駅名</th><th>事業者</th><th>乗降客数</th><th class='capital-bar-cell'></th></tr></thead>";
+  html += "<tbody>";
+
+  results.forEach((r, idx) => {
+    const barWidth = maxRidership > 0 ? (r.ridership / maxRidership) * 100 : 0;
+    const hasFeature = featureMap[r.pref] ? "clickable-row" : "";
+    html += `<tr class="${hasFeature}" data-capital-pref="${r.pref}">`;
+    html += `<td class="capital-rank">${idx + 1}</td>`;
+    html += `<td>${escapeHtml(r.pref)}</td>`;
+    html += `<td>${escapeHtml(r.station_name)}</td>`;
+    html += `<td>${escapeHtml(r.operator_name)}</td>`;
+    html += `<td class="ridership-cell">${r.ridership.toLocaleString()}</td>`;
+    html += `<td class="capital-bar-cell"><div class="capital-bar" style="width:${barWidth}%;background:${getColor(r.ridership)}"></div></td>`;
+    html += "</tr>";
+  });
+
+  html += "</tbody></table></div>";
+  content.innerHTML = html;
+
+  // 行クリックで地図移動
+  content.querySelectorAll(".clickable-row").forEach((row) => {
+    row.addEventListener("click", () => {
+      const feature = featureMap[row.dataset.capitalPref];
       if (feature) flyToStation(feature);
     });
   });
