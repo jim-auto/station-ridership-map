@@ -208,6 +208,43 @@ body {
   color: #f9a825;
 }
 
+/* ===== Spot City Tabs ===== */
+.spot-city-tabs {
+  display: flex;
+  gap: 0;
+  margin-bottom: 12px;
+  border-bottom: 2px solid #e8eaed;
+}
+
+.spot-city-btn {
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #888;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  cursor: pointer;
+}
+
+.spot-city-btn:hover {
+  color: #555;
+}
+
+.spot-city-btn.active {
+  color: #e91e63;
+  border-bottom-color: #e91e63;
+}
+
+.spot-city-pane {
+  display: none;
+}
+
+.spot-city-pane.active {
+  display: block;
+}
+
 .route-label {
   background: none;
   border: none;

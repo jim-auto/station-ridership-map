@@ -616,15 +616,22 @@ async function renderSpotRanking() {
     allResults[pref] = results;
   }
 
-  let html = "";
+  // 都市切り替えボタン
+  let html = '<div class="spot-city-tabs">';
+  targetPrefs.forEach(({ pref, label }, i) => {
+    html += `<button class="spot-city-btn${i === 0 ? " active" : ""}" data-pref="${pref}">${label}</button>`;
+  });
+  html += "</div>";
 
+  // 各都市のテーブル（最初の都市だけ表示）
   for (const { pref, label } of targetPrefs) {
     const results = allResults[pref];
     if (!results || results.length === 0) continue;
     const maxScore = results[0].score;
+    const isFirst = pref === targetPrefs[0].pref;
 
+    html += `<div class="spot-city-pane${isFirst ? " active" : ""}" data-pref="${pref}">`;
     html += '<div class="region-section">';
-    html += `<h3>${escapeHtml(label)}のおすすめ駅</h3>`;
     html += '<div class="region-summary">乗降客数 × 徒歩圏内ラブホ数でスコア化</div>';
     html += '<table class="region-table">';
     html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th><th class="hide-sp">スコア</th><th class="capital-bar-cell hide-sp"></th></tr></thead>';
@@ -642,9 +649,19 @@ async function renderSpotRanking() {
       html += "</tr>";
     });
 
-    html += "</tbody></table></div>";
+    html += "</tbody></table></div></div>";
   }
   content.innerHTML = html;
+
+  // 都市切り替えイベント
+  content.querySelectorAll(".spot-city-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      content.querySelectorAll(".spot-city-btn").forEach((b) => b.classList.remove("active"));
+      content.querySelectorAll(".spot-city-pane").forEach((p) => p.classList.remove("active"));
+      btn.classList.add("active");
+      content.querySelector(`.spot-city-pane[data-pref="${btn.dataset.pref}"]`).classList.add("active");
+    });
+  });
 
   // 全結果をフラット化
   const flatResults = Object.values(allResults).flat();
