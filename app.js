@@ -567,11 +567,12 @@ async function renderSpotRanking() {
     return;
   }
 
-  // 東京3万人以上の駅を集約（同名駅は乗降客数を合算、座標は最大のものを採用）
+  // 対象都道府県の3万人以上の駅を集約（同名駅は乗降客数を合算）
+  const targetPrefs = new Set(["東京都", "大阪府", "愛知県"]);
   const stationMap = {};
   for (const feat of allFeatures) {
     const p = feat.properties;
-    if (p.prefecture !== "東京都" || (p.ridership || 0) < 30000) continue;
+    if (!targetPrefs.has(p.prefecture) || (p.ridership || 0) < 30000) continue;
     const name = p.station_name;
     if (!stationMap[name]) {
       stationMap[name] = {
@@ -608,7 +609,7 @@ async function renderSpotRanking() {
   const maxScore = results.length > 0 ? results[0].score : 1;
 
   let html = '<div class="region-section">';
-  html += "<h3>おすすめ駅ランキング（東京）</h3>";
+  html += "<h3>おすすめ駅ランキング（東京・大阪・名古屋）</h3>";
   html += '<div class="region-summary">乗降客数 × 徒歩圏内ラブホ数でスコア化。人が多くてラブホも近い駅</div>';
   html += '<table class="region-table">';
   html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th><th class="hide-sp">スコア</th><th class="capital-bar-cell hide-sp"></th></tr></thead>';

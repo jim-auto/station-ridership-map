@@ -12434,6 +12434,6527 @@
           "尾山台"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503458,
+          34.701701
+        ]
+      },
+      "properties": {
+        "name": "HOTEL CEEDS",
+        "address": "大阪市北区太融寺町４−１５",
+        "rating": 2.7,
+        "user_ratings_total": 184,
+        "nearest_station": "東梅田",
+        "distance_m": 356,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.50238,
+          34.700269
+        ]
+      },
+      "properties": {
+        "name": "ホテル ラヴィアンソフト 梅田",
+        "address": "大阪市北区兎我野町１５−１７",
+        "rating": 3.3,
+        "user_ratings_total": 53,
+        "nearest_station": "東梅田",
+        "distance_m": 239,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "福島",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.486723,
+          34.698207
+        ]
+      },
+      "properties": {
+        "name": "HOTEL SHASHA Jewel 福島店",
+        "address": "大阪市福島区福島７丁目１１−５４",
+        "rating": 3.2,
+        "user_ratings_total": 29,
+        "nearest_station": "福島",
+        "distance_m": 113,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "肥後橋",
+          "福島",
+          "野田"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.502705,
+          34.701655
+        ]
+      },
+      "properties": {
+        "name": "ホテル フランチェスカ 梅田",
+        "address": "大阪市北区太融寺町７−９",
+        "rating": 3.3,
+        "user_ratings_total": 30,
+        "nearest_station": "東梅田",
+        "distance_m": 290,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.501634,
+          34.699422
+        ]
+      },
+      "properties": {
+        "name": "ホテル サル デ バーン梅田",
+        "address": "大阪市北区曾根崎２丁目５−２６",
+        "rating": 3.1,
+        "user_ratings_total": 24,
+        "nearest_station": "東梅田",
+        "distance_m": 213,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "福島",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503172,
+          34.704245
+        ]
+      },
+      "properties": {
+        "name": "Hotel Coco",
+        "address": "大阪市北区堂山町１６−２０",
+        "rating": 4.1,
+        "user_ratings_total": 30,
+        "nearest_station": "大阪梅田",
+        "distance_m": 470,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504367,
+          34.701378
+        ]
+      },
+      "properties": {
+        "name": "HOTEL ef",
+        "address": "大阪市北区兎我野町４−１８",
+        "rating": 2.8,
+        "user_ratings_total": 18,
+        "nearest_station": "東梅田",
+        "distance_m": 426,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504214,
+          34.699348
+        ]
+      },
+      "properties": {
+        "name": "HOTEL CANDY BOX",
+        "address": "大阪市北区西天満６丁目９−８ キャンディボックス",
+        "rating": 3.1,
+        "user_ratings_total": 33,
+        "nearest_station": "東梅田",
+        "distance_m": 427,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "天満橋",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504743,
+          34.702651
+        ]
+      },
+      "properties": {
+        "name": "堂山ホテル",
+        "address": "大阪市北区堂山町１−２５",
+        "rating": 3.1,
+        "user_ratings_total": 60,
+        "nearest_station": "東梅田",
+        "distance_m": 506,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "淀屋橋",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503301,
+          34.703217
+        ]
+      },
+      "properties": {
+        "name": "ホテル トレビ",
+        "address": "大阪市北区堂山町６−６−１６",
+        "rating": 3.4,
+        "user_ratings_total": 68,
+        "nearest_station": "東梅田",
+        "distance_m": 433,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "淀屋橋",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504141,
+          34.701418
+        ]
+      },
+      "properties": {
+        "name": "HOTEL MYTH DX (ホテル マイス ディーエックス）",
+        "address": "大阪市北区兎我野町４−１６",
+        "rating": 2.7,
+        "user_ratings_total": 33,
+        "nearest_station": "東梅田",
+        "distance_m": 407,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.50382,
+          34.70056
+        ]
+      },
+      "properties": {
+        "name": "HOTEL MYTH BB（ホテル マイス ビービー）",
+        "address": "大阪市北区兎我野町９−２０",
+        "rating": 2.9,
+        "user_ratings_total": 24,
+        "nearest_station": "東梅田",
+        "distance_m": 368,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.502631,
+          34.697268
+        ]
+      },
+      "properties": {
+        "name": "ホテルギャラリエ",
+        "address": "大阪市北区西天満４丁目１２−２０",
+        "rating": 3.6,
+        "user_ratings_total": 15,
+        "nearest_station": "東梅田",
+        "distance_m": 452,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天満",
+          "大阪天満宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.502504,
+          34.701792
+        ]
+      },
+      "properties": {
+        "name": "ホテルアメリカン",
+        "address": "大阪市北区太融寺町６−４",
+        "rating": 2.9,
+        "user_ratings_total": 26,
+        "nearest_station": "東梅田",
+        "distance_m": 281,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503031,
+          34.701092
+        ]
+      },
+      "properties": {
+        "name": "ホテルマンハッタン 梅田店",
+        "address": "大阪市北区兎我野町１１−８",
+        "rating": 2.7,
+        "user_ratings_total": 52,
+        "nearest_station": "東梅田",
+        "distance_m": 300,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "南森町",
+          "北浜",
+          "肥後橋",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.501134,
+          34.698804
+        ]
+      },
+      "properties": {
+        "name": "ホテルアフリカ 梅田",
+        "address": "大阪市北区曾根崎２丁目５−３ ＡＦＲＩＣＡ ＬＵＸＵＲＹＨＯＴＥＬ",
+        "rating": 2.7,
+        "user_ratings_total": 28,
+        "nearest_station": "東梅田",
+        "distance_m": 234,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "北浜",
+          "肥後橋",
+          "福島"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.502378,
+          34.701475
+        ]
+      },
+      "properties": {
+        "name": "ホテル ディガ・ディガ・ドゥ",
+        "address": "大阪市北区太融寺町８−２３",
+        "rating": 3,
+        "user_ratings_total": 30,
+        "nearest_station": "東梅田",
+        "distance_m": 255,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "北浜",
+          "肥後橋",
+          "福島",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504366,
+          34.701223
+        ]
+      },
+      "properties": {
+        "name": "兎我野ホテル",
+        "address": "大阪市北区兎我野町４−４番６号",
+        "rating": 3.6,
+        "user_ratings_total": 101,
+        "nearest_station": "東梅田",
+        "distance_m": 423,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "大阪梅田",
+          "淀屋橋",
+          "東梅田",
+          "西梅田",
+          "北新地",
+          "北浜",
+          "肥後橋",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503578,
+          34.699764
+        ]
+      },
+      "properties": {
+        "name": "グランドカーム",
+        "address": "大阪市北区兎我野町８−５ Ｇｒａｎｄ Ｃａｌｍ",
+        "rating": 3.6,
+        "user_ratings_total": 77,
+        "nearest_station": "大阪梅田",
+        "distance_m": 605,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "大阪",
+          "梅田",
+          "淀屋橋",
+          "大阪梅田",
+          "西梅田",
+          "北新地",
+          "北浜",
+          "肥後橋",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.512001,
+          34.704108
+        ]
+      },
+      "properties": {
+        "name": "ホテル アヴァンシア 天満",
+        "address": "大阪市北区天神橋４丁目３−４ ホテルアヴァンシア天満",
+        "rating": 3.4,
+        "user_ratings_total": 12,
+        "nearest_station": "天満",
+        "distance_m": 95,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "大阪梅田",
+          "東梅田",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.880557,
+          35.177274
+        ]
+      },
+      "properties": {
+        "name": "ホテルフェリーチェ名駅店",
+        "address": "名古屋市西区名駅２丁目１６−１２",
+        "rating": 2.8,
+        "user_ratings_total": 50,
+        "nearest_station": "名古屋",
+        "distance_m": 661,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "近鉄名古屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.893445,
+          35.161546
+        ]
+      },
+      "properties": {
+        "name": "ホテルルナパーク",
+        "address": "名古屋市中区大須１丁目１５−１０",
+        "rating": 2.9,
+        "user_ratings_total": 47,
+        "nearest_station": "伏見",
+        "distance_m": 924,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "栄",
+          "伏見",
+          "近鉄名古屋",
+          "久屋大通",
+          "上前津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.891549,
+          35.166747
+        ]
+      },
+      "properties": {
+        "name": "ホテル ティファニー",
+        "address": "名古屋市中村区名駅南１丁目７−１",
+        "rating": 3.2,
+        "user_ratings_total": 42,
+        "nearest_station": "伏見",
+        "distance_m": 598,
+        "walk_min": 7,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "伏見",
+          "近鉄名古屋",
+          "上前津",
+          "丸の内"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.892416,
+          35.161079
+        ]
+      },
+      "properties": {
+        "name": "休憩2890円|名駅南のラブホHOTEL ZERO",
+        "address": "名古屋市中村区名駅南３丁目２−１６",
+        "rating": 3.6,
+        "user_ratings_total": 42,
+        "nearest_station": "伏見",
+        "distance_m": 1010,
+        "walk_min": 13,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "伏見",
+          "近鉄名古屋",
+          "上前津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.877767,
+          35.174676
+        ]
+      },
+      "properties": {
+        "name": "ホテル P-West",
+        "address": "名古屋市中村区亀島２丁目７−７",
+        "rating": 2.8,
+        "user_ratings_total": 54,
+        "nearest_station": "名古屋",
+        "distance_m": 510,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "近鉄名古屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.891644,
+          35.165627
+        ]
+      },
+      "properties": {
+        "name": "Mホテル",
+        "address": "名古屋市中村区名駅南２丁目２−３",
+        "rating": 3.4,
+        "user_ratings_total": 36,
+        "nearest_station": "伏見",
+        "distance_m": 657,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "伏見",
+          "近鉄名古屋",
+          "上前津",
+          "丸の内"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.891416,
+          35.166892
+        ]
+      },
+      "properties": {
+        "name": "ホテル パラドール",
+        "address": "名古屋市中村区名駅南１丁目６−５ ＰＡＲＡＤＯＲ",
+        "rating": 2.8,
+        "user_ratings_total": 40,
+        "nearest_station": "伏見",
+        "distance_m": 601,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "伏見",
+          "近鉄名古屋",
+          "上前津",
+          "丸の内"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.891423,
+          35.165465
+        ]
+      },
+      "properties": {
+        "name": "ザ・スターホテル 名駅南",
+        "address": "名古屋市中村区名駅南２丁目２−５",
+        "rating": 3.5,
+        "user_ratings_total": 48,
+        "nearest_station": "伏見",
+        "distance_m": 684,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "伏見",
+          "近鉄名古屋",
+          "上前津",
+          "丸の内"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.891024,
+          35.166109
+        ]
+      },
+      "properties": {
+        "name": "ホテルクローバー名古屋",
+        "address": "名古屋市中村区名駅南１丁目１０−５",
+        "rating": 2.9,
+        "user_ratings_total": 34,
+        "nearest_station": "伏見",
+        "distance_m": 674,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "伏見",
+          "近鉄名古屋",
+          "上前津",
+          "丸の内"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.891998,
+          35.161242
+        ]
+      },
+      "properties": {
+        "name": "CORONA CLUB(コロナクラブ)",
+        "address": "名古屋市中村区名駅南３丁目３−３ 3F",
+        "rating": 3.5,
+        "user_ratings_total": 47,
+        "nearest_station": "伏見",
+        "distance_m": 1012,
+        "walk_min": 13,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "伏見",
+          "近鉄名古屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.897358,
+          35.163921
+        ]
+      },
+      "properties": {
+        "name": "ホテル さんまりのbyシャンゼリゼ",
+        "address": "名古屋市中区栄１丁目２４−９",
+        "rating": 2.2,
+        "user_ratings_total": 20,
+        "nearest_station": "伏見",
+        "distance_m": 587,
+        "walk_min": 7,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "栄",
+          "伏見",
+          "近鉄名古屋",
+          "矢場町",
+          "久屋大通",
+          "上前津",
+          "栄町",
+          "丸の内"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.896206,
+          35.161744
+        ]
+      },
+      "properties": {
+        "name": "HOTEL JAZZ （ホテル ジャズ） 白川",
+        "address": "名古屋市中区大須１丁目６−７",
+        "rating": 2.9,
+        "user_ratings_total": 22,
+        "nearest_station": "伏見",
+        "distance_m": 836,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "名古屋",
+          "名鉄名古屋",
+          "栄",
+          "伏見",
+          "近鉄名古屋",
+          "矢場町",
+          "上前津",
+          "栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.512588,
+          34.649831
+        ]
+      },
+      "properties": {
+        "name": "ホテル リトルチャペルココナッツ 天王寺",
+        "address": "大阪市天王寺区茶臼山町３−２",
+        "rating": 2.8,
+        "user_ratings_total": 38,
+        "nearest_station": "天王寺",
+        "distance_m": 430,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513021,
+          34.643439
+        ]
+      },
+      "properties": {
+        "name": "ホテル ファイブプラス",
+        "address": "大阪市阿倍野区阿倍野筋２丁目４−６",
+        "rating": 3.7,
+        "user_ratings_total": 25,
+        "nearest_station": "大阪阿部野橋",
+        "distance_m": 276,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513426,
+          34.644189
+        ]
+      },
+      "properties": {
+        "name": "HOTEL SHASHA tiara阿倍野",
+        "address": "大阪市阿倍野区阿倍野筋２丁目１−２６",
+        "rating": 2.9,
+        "user_ratings_total": 14,
+        "nearest_station": "大阪阿部野橋",
+        "distance_m": 185,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.51301,
+          34.650468
+        ]
+      },
+      "properties": {
+        "name": "RUKA TENNOJI HOTEL",
+        "address": "大阪市天王寺区茶臼山町１−２５",
+        "rating": 5,
+        "user_ratings_total": 1,
+        "nearest_station": "天王寺",
+        "distance_m": 483,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513231,
+          34.64412
+        ]
+      },
+      "properties": {
+        "name": "HOTELロコポルティ",
+        "address": "大阪市阿倍野区阿倍野筋２丁目１−１５",
+        "rating": 2.8,
+        "user_ratings_total": 26,
+        "nearest_station": "大阪阿部野橋",
+        "distance_m": 201,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5126,
+          34.649293
+        ]
+      },
+      "properties": {
+        "name": "茶臼山ホテル",
+        "address": "大阪市天王寺区茶臼山町４−２０",
+        "rating": 3.5,
+        "user_ratings_total": 22,
+        "nearest_station": "天王寺",
+        "distance_m": 375,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.512394,
+          34.649929
+        ]
+      },
+      "properties": {
+        "name": "エンジェルハート",
+        "address": "大阪市天王寺区茶臼山町３−２７ ホテルえんじぇるはーと",
+        "rating": 4,
+        "user_ratings_total": 21,
+        "nearest_station": "天王寺",
+        "distance_m": 447,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "天下茶屋",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.512731,
+          34.650203
+        ]
+      },
+      "properties": {
+        "name": "ホテル ウェディングベル",
+        "address": "大阪市天王寺区茶臼山町２−３２ ＨＯＴＥＬ Ｗｅｄｄｉｎｇ Ｂｅｌｌ",
+        "rating": 3.6,
+        "user_ratings_total": 52,
+        "nearest_station": "天王寺",
+        "distance_m": 463,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "動物園前",
+          "寺田町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.507496,
+          34.652698
+        ]
+      },
+      "properties": {
+        "name": "タワーサイドホテル",
+        "address": "大阪市浪速区恵美須東１丁目２−７",
+        "rating": 2.9,
+        "user_ratings_total": 27,
+        "nearest_station": "動物園前",
+        "distance_m": 508,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "天王寺",
+          "大阪阿部野橋",
+          "新今宮",
+          "大国町",
+          "動物園前"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.507004,
+          34.667322
+        ]
+      },
+      "properties": {
+        "name": "ホテルファイブ",
+        "address": "大阪市中央区日本橋１丁目５−３ ＨＯＴＥＬ ５ ＦＩＶＥ",
+        "rating": 3.1,
+        "user_ratings_total": 27,
+        "nearest_station": "日本橋",
+        "distance_m": 74,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504859,
+          34.66762
+        ]
+      },
+      "properties": {
+        "name": "ホテルマガンダ",
+        "address": "大阪市中央区千日前１丁目４−２１",
+        "rating": 3,
+        "user_ratings_total": 76,
+        "nearest_station": "日本橋",
+        "distance_m": 149,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.502403,
+          34.665733
+        ]
+      },
+      "properties": {
+        "name": "ホテル ハイパー",
+        "address": "大阪市中央区難波３丁目１−２３",
+        "rating": 3.8,
+        "user_ratings_total": 45,
+        "nearest_station": "難波",
+        "distance_m": 202,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498384,
+          34.666276
+        ]
+      },
+      "properties": {
+        "name": "ルトゥール難波店 男塾ホテルグループ ミナミ 心斎橋",
+        "address": "大阪市浪速区難波中１丁目２−４",
+        "rating": 4.3,
+        "user_ratings_total": 130,
+        "nearest_station": "大阪難波",
+        "distance_m": 108,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.497507,
+          34.670154
+        ]
+      },
+      "properties": {
+        "name": "ホテル シーグラン心斎橋アメ村",
+        "address": "大阪市中央区西心斎橋２丁目１６−５",
+        "rating": 3.6,
+        "user_ratings_total": 20,
+        "nearest_station": "大阪難波",
+        "distance_m": 366,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "堺筋本町",
+          "日本橋",
+          "長堀橋",
+          "阿波座",
+          "近鉄日本橋",
+          "JR難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.505096,
+          34.667715
+        ]
+      },
+      "properties": {
+        "name": "ホテル ララフルール",
+        "address": "大阪市中央区千日前１丁目５−３",
+        "rating": 2.6,
+        "user_ratings_total": 14,
+        "nearest_station": "日本橋",
+        "distance_m": 136,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498329,
+          34.668152
+        ]
+      },
+      "properties": {
+        "name": "ホテル なんでやねん 難波店",
+        "address": "大阪市中央区道頓堀２丁目３−１６",
+        "rating": 2.3,
+        "user_ratings_total": 32,
+        "nearest_station": "大阪難波",
+        "distance_m": 132,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.50718,
+          34.668468
+        ]
+      },
+      "properties": {
+        "name": "HOTEL MYTH BS （ホテル マイス ビィーエス）",
+        "address": "大阪市中央区道頓堀１丁目東 7-16",
+        "rating": 4,
+        "user_ratings_total": 103,
+        "nearest_station": "日本橋",
+        "distance_m": 182,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "四ツ橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498232,
+          34.666398
+        ]
+      },
+      "properties": {
+        "name": "Hotel Jay",
+        "address": "大阪市浪速区難波中１丁目１−４",
+        "rating": 3.6,
+        "user_ratings_total": 11,
+        "nearest_station": "大阪難波",
+        "distance_m": 105,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.507064,
+          34.668409
+        ]
+      },
+      "properties": {
+        "name": "ホテル K.T",
+        "address": "大阪市中央区日本橋１丁目１−３",
+        "rating": 3.2,
+        "user_ratings_total": 12,
+        "nearest_station": "日本橋",
+        "distance_m": 172,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "四ツ橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498363,
+          34.665489
+        ]
+      },
+      "properties": {
+        "name": "ホテル バリモダン難波 bali modern",
+        "address": "大阪市浪速区難波中１丁目４−１５",
+        "rating": 4.6,
+        "user_ratings_total": 14,
+        "nearest_station": "難波",
+        "distance_m": 174,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498324,
+          34.666165
+        ]
+      },
+      "properties": {
+        "name": "ホテルトワイライトイン",
+        "address": "大阪市浪速区難波中１丁目２−８ ホテルトワイライトイン",
+        "rating": 4.2,
+        "user_ratings_total": 5,
+        "nearest_station": "大阪難波",
+        "distance_m": 121,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "日本橋",
+          "長堀橋",
+          "近鉄日本橋",
+          "JR難波",
+          "大国町",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498265,
+          34.668392
+        ]
+      },
+      "properties": {
+        "name": "ホテル どないやねん 難波店",
+        "address": "大阪市中央区道頓堀２丁目３−１８",
+        "rating": 3.2,
+        "user_ratings_total": 14,
+        "nearest_station": "大阪難波",
+        "distance_m": 159,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "長堀橋",
+          "JR難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.499222,
+          34.669628
+        ]
+      },
+      "properties": {
+        "name": "ホテルバリアンリゾートなんば心斎橋店",
+        "address": "大阪市中央区西心斎橋２丁目７−３２",
+        "rating": 4.4,
+        "user_ratings_total": 134,
+        "nearest_station": "大阪難波",
+        "distance_m": 282,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "堺筋本町",
+          "JR難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498111,
+          34.669205
+        ]
+      },
+      "properties": {
+        "name": "ローズリップス心斎橋店",
+        "address": "大阪市中央区西心斎橋２丁目６−３",
+        "rating": 3.9,
+        "user_ratings_total": 42,
+        "nearest_station": "大阪難波",
+        "distance_m": 248,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "心斎橋",
+          "堺筋本町",
+          "JR難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.49855,
+          34.664838
+        ]
+      },
+      "properties": {
+        "name": "ホテル フー難波",
+        "address": "大阪市浪速区難波中１丁目７−１４",
+        "rating": 1.8,
+        "user_ratings_total": 13,
+        "nearest_station": "難波",
+        "distance_m": 192,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "JR難波",
+          "大国町",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498389,
+          34.667638
+        ]
+      },
+      "properties": {
+        "name": "ホテルユーズナンバ",
+        "address": "大阪市中央区難波２丁目３−１４",
+        "rating": 3.6,
+        "user_ratings_total": 115,
+        "nearest_station": "大阪難波",
+        "distance_m": 82,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "JR難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498182,
+          34.668461
+        ]
+      },
+      "properties": {
+        "name": "ホテルSEN",
+        "address": "大阪市中央区道頓堀２丁目５−１８",
+        "rating": 3.1,
+        "user_ratings_total": 21,
+        "nearest_station": "大阪難波",
+        "distance_m": 169,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "JR難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.507975,
+          34.668143
+        ]
+      },
+      "properties": {
+        "name": "ホテルセリーヌ",
+        "address": "大阪市中央区道頓堀１丁目東７−３",
+        "rating": 3.1,
+        "user_ratings_total": 11,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 731,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "谷町九丁目",
+          "大阪上本町",
+          "四ツ橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.499157,
+          34.667774
+        ]
+      },
+      "properties": {
+        "name": "Hotel Love La Doll",
+        "address": "大阪市中央区難波２丁目３−２７ ホテルラブラドール",
+        "rating": 2.6,
+        "user_ratings_total": 5,
+        "nearest_station": "大阪難波",
+        "distance_m": 76,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "難波",
+          "大阪難波",
+          "四ツ橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.52494,
+          34.69957
+        ]
+      },
+      "properties": {
+        "name": "ホテルノアリゾート桜ノ宮店",
+        "address": "大阪市都島区中野町１丁目７−１２",
+        "rating": 4.1,
+        "user_ratings_total": 28,
+        "nearest_station": "京橋",
+        "distance_m": 546,
+        "walk_min": 7,
+        "all_nearby_stations": [
+          "京橋",
+          "天満橋",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531917,
+          34.699159
+        ]
+      },
+      "properties": {
+        "name": "ホテルディアプレス 京橋",
+        "address": "大阪市都島区東野田町４丁目１１−１５",
+        "rating": 2.3,
+        "user_ratings_total": 9,
+        "nearest_station": "京橋",
+        "distance_m": 221,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.52409,
+          34.699903
+        ]
+      },
+      "properties": {
+        "name": "NOAH GRANDE 桜ノ宮店",
+        "address": "大阪市都島区中野町１丁目９−１９",
+        "rating": 3.1,
+        "user_ratings_total": 34,
+        "nearest_station": "京橋",
+        "distance_m": 632,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "京橋",
+          "天満橋",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.524343,
+          34.699687
+        ]
+      },
+      "properties": {
+        "name": "ホテルキングダム",
+        "address": "大阪市都島区中野町１丁目９−２４",
+        "rating": 3.7,
+        "user_ratings_total": 13,
+        "nearest_station": "京橋",
+        "distance_m": 600,
+        "walk_min": 7,
+        "all_nearby_stations": [
+          "京橋",
+          "天満橋",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.532258,
+          34.698847
+        ]
+      },
+      "properties": {
+        "name": "ベルシャトゥ （大人専用）",
+        "address": "大阪市都島区東野田町４丁目１２−２６ ホテルベルシャトウ",
+        "rating": 4,
+        "user_ratings_total": 1,
+        "nearest_station": "京橋",
+        "distance_m": 183,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531935,
+          34.698953
+        ]
+      },
+      "properties": {
+        "name": "ホテルBERAGE",
+        "address": "大阪市都島区東野田町４丁目１０−１２ ホテルベラージュ",
+        "rating": 2.9,
+        "user_ratings_total": 9,
+        "nearest_station": "京橋",
+        "distance_m": 198,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.53211,
+          34.69936
+        ]
+      },
+      "properties": {
+        "name": "ホテル レディシー大阪京橋(HOTEL REDISY)",
+        "address": "大阪市都島区東野田町４丁目１２−８",
+        "rating": 3.3,
+        "user_ratings_total": 12,
+        "nearest_station": "京橋",
+        "distance_m": 241,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.535313,
+          34.698664
+        ]
+      },
+      "properties": {
+        "name": "ホテル富貴",
+        "address": "大阪市都島区東野田町３丁目７−１１",
+        "rating": 3.7,
+        "user_ratings_total": 86,
+        "nearest_station": "京橋",
+        "distance_m": 259,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531656,
+          34.699175
+        ]
+      },
+      "properties": {
+        "name": "ホテル FIORE",
+        "address": "大阪市都島区東野田町４丁目１１−１６",
+        "rating": 2.6,
+        "user_ratings_total": 7,
+        "nearest_station": "京橋",
+        "distance_m": 227,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531475,
+          34.699899
+        ]
+      },
+      "properties": {
+        "name": "ホテル 王将",
+        "address": "大阪市都島区東野田町４丁目１４−７",
+        "rating": 3.3,
+        "user_ratings_total": 20,
+        "nearest_station": "京橋",
+        "distance_m": 309,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531471,
+          34.6989
+        ]
+      },
+      "properties": {
+        "name": "ホテルソラ",
+        "address": "大阪市都島区東野田町４丁目１０−１６ ＨＯＴＥＬＳＯＬＡ",
+        "rating": 2.8,
+        "user_ratings_total": 10,
+        "nearest_station": "京橋",
+        "distance_m": 204,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.523925,
+          34.700938
+        ]
+      },
+      "properties": {
+        "name": "株式会社Best Delight Group 大阪本社（ベストディライトグループ）",
+        "address": "大阪市都島区中野町１丁目１３−４",
+        "rating": 3,
+        "user_ratings_total": 1,
+        "nearest_station": "桜ノ宮",
+        "distance_m": 525,
+        "walk_min": 7,
+        "all_nearby_stations": [
+          "京橋",
+          "天満橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531577,
+          34.69918
+        ]
+      },
+      "properties": {
+        "name": "ホテルマジェスティ hotel Majesty",
+        "address": "大阪市都島区東野田町４丁目１１−１７",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "京橋",
+        "distance_m": 230,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531695,
+          34.699466
+        ]
+      },
+      "properties": {
+        "name": "ホテルフルフル",
+        "address": "大阪市都島区東野田町４丁目１４−１９",
+        "rating": 3.9,
+        "user_ratings_total": 9,
+        "nearest_station": "京橋",
+        "distance_m": 258,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531679,
+          34.698799
+        ]
+      },
+      "properties": {
+        "name": "ホテル レガ",
+        "address": "大阪市都島区東野田町４丁目８−７",
+        "rating": 2.2,
+        "user_ratings_total": 5,
+        "nearest_station": "京橋",
+        "distance_m": 187,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531342,
+          34.699287
+        ]
+      },
+      "properties": {
+        "name": "HOTEL KEIHAN",
+        "address": "大阪市都島区東野田町４丁目１１−１",
+        "rating": 3.9,
+        "user_ratings_total": 11,
+        "nearest_station": "京橋",
+        "distance_m": 248,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531636,
+          34.699392
+        ]
+      },
+      "properties": {
+        "name": "ホテル ホムラ大阪京橋(HOTEL HOMRA)",
+        "address": "大阪市都島区東野田町４丁目１１−６",
+        "rating": 2.7,
+        "user_ratings_total": 3,
+        "nearest_station": "京橋",
+        "distance_m": 251,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.534785,
+          34.698392
+        ]
+      },
+      "properties": {
+        "name": "ホテル千扇",
+        "address": "大阪市都島区東野田町３丁目７−４",
+        "rating": 3.6,
+        "user_ratings_total": 5,
+        "nearest_station": "京橋",
+        "distance_m": 212,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531863,
+          34.699641
+        ]
+      },
+      "properties": {
+        "name": "ホテルCULLEN",
+        "address": "大阪市都島区東野田町４丁目１４−１２",
+        "rating": 3.1,
+        "user_ratings_total": 7,
+        "nearest_station": "京橋",
+        "distance_m": 274,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531974,
+          34.699347
+        ]
+      },
+      "properties": {
+        "name": "ホテル ガルフ大阪京橋(HOTEL GALF)",
+        "address": "大阪市都島区東野田町４丁目１１−１１",
+        "rating": 1,
+        "user_ratings_total": 1,
+        "nearest_station": "京橋",
+        "distance_m": 241,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "京橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513757,
+          34.666044
+        ]
+      },
+      "properties": {
+        "name": "Hotel Gaia Diana （ホテル ガイア・ディアーナ）",
+        "address": "大阪市天王寺区生玉町８−６",
+        "rating": 2.8,
+        "user_ratings_total": 16,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 205,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513784,
+          34.666339
+        ]
+      },
+      "properties": {
+        "name": "ホテル べんきょう部屋 生玉店",
+        "address": "大阪市天王寺区生玉町９−１７",
+        "rating": 3.2,
+        "user_ratings_total": 79,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 191,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.51372,
+          34.663696
+        ]
+      },
+      "properties": {
+        "name": "ホテル ロテル",
+        "address": "大阪市天王寺区生玉町５−３２",
+        "rating": 3.9,
+        "user_ratings_total": 56,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 394,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513607,
+          34.663188
+        ]
+      },
+      "properties": {
+        "name": "HOTEL VIZEN（ホテル ビゼン）",
+        "address": "大阪市天王寺区生玉寺町５−３９ HOTEL VIZEN",
+        "rating": 3.7,
+        "user_ratings_total": 55,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 449,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "難波",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "近鉄日本橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.514763,
+          34.665913
+        ]
+      },
+      "properties": {
+        "name": "HOTEL MYTH Selene（ホテル マイス セレネ）",
+        "address": "大阪市天王寺区生玉町１−１４",
+        "rating": 3.4,
+        "user_ratings_total": 11,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 137,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "桃谷",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.514478,
+          34.665989
+        ]
+      },
+      "properties": {
+        "name": "HOTEL MYTH LUNA (ホテル マイス ルナ)",
+        "address": "大阪市天王寺区生玉町１−１９ ホテル マイス ルナ",
+        "rating": 3.6,
+        "user_ratings_total": 19,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 151,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "難波",
+          "心斎橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.497522,
+          34.670578
+        ]
+      },
+      "properties": {
+        "name": "ザ ウォールホテル",
+        "address": "大阪市中央区西心斎橋２丁目１７−９",
+        "rating": 3.6,
+        "user_ratings_total": 254,
+        "nearest_station": "本町",
+        "distance_m": 1477,
+        "walk_min": 18,
+        "all_nearby_stations": [
+          "本町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503279,
+          34.672311
+        ]
+      },
+      "properties": {
+        "name": "Arashi Hotel Shinsaibashi",
+        "address": "大阪市中央区東心斎橋１丁目１６−５",
+        "rating": 4.2,
+        "user_ratings_total": 111,
+        "nearest_station": "堺筋本町",
+        "distance_m": 1116,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "本町",
+          "堺筋本町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504642,
+          34.700809
+        ]
+      },
+      "properties": {
+        "name": "ホテル デッサン・ドゥ・フルール",
+        "address": "大阪市北区兎我野町５−４",
+        "rating": 3.3,
+        "user_ratings_total": 88,
+        "nearest_station": "淀屋橋",
+        "distance_m": 966,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "淀屋橋",
+          "天満橋",
+          "北浜",
+          "肥後橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.50341,
+          34.699941
+        ]
+      },
+      "properties": {
+        "name": "バッキンガムホテル",
+        "address": "大阪市北区兎我野町８−１２",
+        "rating": 2.3,
+        "user_ratings_total": 16,
+        "nearest_station": "淀屋橋",
+        "distance_m": 861,
+        "walk_min": 11,
+        "all_nearby_stations": [
+          "淀屋橋",
+          "北浜",
+          "肥後橋",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503308,
+          34.700576
+        ]
+      },
+      "properties": {
+        "name": "ホテル フォンテガイア",
+        "address": "大阪市北区兎我野町９−１３ ホテル・フォンテガイア",
+        "rating": 1.2,
+        "user_ratings_total": 54,
+        "nearest_station": "淀屋橋",
+        "distance_m": 1055,
+        "walk_min": 13,
+        "all_nearby_stations": [
+          "淀屋橋",
+          "北浜",
+          "肥後橋",
+          "天満橋",
+          "中津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503546,
+          34.700955
+        ]
+      },
+      "properties": {
+        "name": "ホテルほうれん荘",
+        "address": "大阪市北区兎我野町１０−１５",
+        "rating": 2.7,
+        "user_ratings_total": 6,
+        "nearest_station": "淀屋橋",
+        "distance_m": 1101,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "淀屋橋",
+          "北浜",
+          "天満橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.921971,
+          35.162308
+        ]
+      },
+      "properties": {
+        "name": "W ZIP CLUB DESIGN",
+        "address": "名古屋市中区新栄２丁目４５−４０",
+        "rating": 3.2,
+        "user_ratings_total": 67,
+        "nearest_station": "鶴舞",
+        "distance_m": 683,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "栄",
+          "矢場町",
+          "千種",
+          "上前津",
+          "鶴舞",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.918133,
+          35.171954
+        ]
+      },
+      "properties": {
+        "name": "名古屋ラブホテル＆スパ 更|名古屋市東新町ラブホテル",
+        "address": "名古屋市東区東桜２丁目１６−１８",
+        "rating": 3.1,
+        "user_ratings_total": 32,
+        "nearest_station": "新栄町",
+        "distance_m": 227,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "栄",
+          "矢場町",
+          "千種",
+          "久屋大通",
+          "名古屋城",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.911144,
+          35.165712
+        ]
+      },
+      "properties": {
+        "name": "ホテル ヴィラ 栄店",
+        "address": "名古屋市中区栄５丁目３−３９",
+        "rating": 3.3,
+        "user_ratings_total": 55,
+        "nearest_station": "矢場町",
+        "distance_m": 348,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "栄",
+          "伏見",
+          "矢場町",
+          "久屋大通",
+          "上前津",
+          "鶴舞",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.898766,
+          35.161372
+        ]
+      },
+      "properties": {
+        "name": "ラグーン名古屋",
+        "address": "名古屋市中区大須２丁目１０−４",
+        "rating": 3.3,
+        "user_ratings_total": 40,
+        "nearest_station": "上前津",
+        "distance_m": 848,
+        "walk_min": 11,
+        "all_nearby_stations": [
+          "栄",
+          "伏見",
+          "矢場町",
+          "上前津",
+          "栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.911235,
+          35.165989
+        ]
+      },
+      "properties": {
+        "name": "コンパクトホテル ハグハグSAKAE-Ⅱ",
+        "address": "名古屋市中区栄４丁目１７−２２",
+        "rating": 4.5,
+        "user_ratings_total": 12,
+        "nearest_station": "矢場町",
+        "distance_m": 378,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "栄",
+          "伏見",
+          "矢場町",
+          "久屋大通",
+          "上前津",
+          "鶴舞",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.912517,
+          35.167024
+        ]
+      },
+      "properties": {
+        "name": "コンパクトホテル ハグハグSAKAE-Ⅰ",
+        "address": "名古屋市中区栄４丁目１１−１２",
+        "rating": 3.5,
+        "user_ratings_total": 40,
+        "nearest_station": "栄",
+        "distance_m": 486,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "栄",
+          "矢場町",
+          "久屋大通",
+          "上前津",
+          "鶴舞",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.917314,
+          35.171837
+        ]
+      },
+      "properties": {
+        "name": "新栄・東新町ラブホテル｜オリエンタルホテル",
+        "address": "名古屋市東区東桜２丁目１６−４９",
+        "rating": 2.7,
+        "user_ratings_total": 26,
+        "nearest_station": "新栄町",
+        "distance_m": 283,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "栄",
+          "矢場町",
+          "千種",
+          "久屋大通",
+          "名古屋城",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.912314,
+          35.163375
+        ]
+      },
+      "properties": {
+        "name": "ホテル スイーツガーデン",
+        "address": "名古屋市中区栄５丁目２０−２６",
+        "rating": 3.7,
+        "user_ratings_total": 44,
+        "nearest_station": "矢場町",
+        "distance_m": 329,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "栄",
+          "矢場町",
+          "久屋大通",
+          "上前津",
+          "鶴舞",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.911665,
+          35.16507
+        ]
+      },
+      "properties": {
+        "name": "ホテルセッティングザシーン栄",
+        "address": "名古屋市中区栄５丁目３−１７",
+        "rating": 2.7,
+        "user_ratings_total": 33,
+        "nearest_station": "矢場町",
+        "distance_m": 334,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "栄",
+          "矢場町",
+          "久屋大通",
+          "上前津",
+          "鶴舞",
+          "栄町",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.531268,
+          34.667844
+        ]
+      },
+      "properties": {
+        "name": "ホテルどんぐりころころ 鶴橋店",
+        "address": "大阪市東成区東小橋３丁目１−６",
+        "rating": 3.1,
+        "user_ratings_total": 35,
+        "nearest_station": "鶴橋",
+        "distance_m": 275,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "鶴橋",
+          "大阪上本町",
+          "森ノ宮",
+          "桃谷",
+          "玉造",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.527125,
+          34.664527
+        ]
+      },
+      "properties": {
+        "name": "ローズリップス 鶴橋店",
+        "address": "大阪市天王寺区筆ケ崎町４−１５",
+        "rating": 4.2,
+        "user_ratings_total": 40,
+        "nearest_station": "鶴橋",
+        "distance_m": 310,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "鶴橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "桃谷",
+          "玉造",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.52033,
+          34.666955
+        ]
+      },
+      "properties": {
+        "name": "ホテル パープルアイ",
+        "address": "大阪市天王寺区上本町５丁目６−１３",
+        "rating": 3.8,
+        "user_ratings_total": 8,
+        "nearest_station": "大阪上本町",
+        "distance_m": 134,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "鶴橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "桃谷",
+          "玉造",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.520374,
+          34.667447
+        ]
+      },
+      "properties": {
+        "name": "ホテル パブリックジャム",
+        "address": "大阪市天王寺区上本町５丁目５−１２",
+        "rating": 3.7,
+        "user_ratings_total": 42,
+        "nearest_station": "大阪上本町",
+        "distance_m": 179,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "鶴橋",
+          "日本橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "長堀橋",
+          "近鉄日本橋",
+          "桃谷",
+          "玉造",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.892788,
+          35.15362
+        ]
+      },
+      "properties": {
+        "name": "HOTEL LOVE",
+        "address": "名古屋市中川区山王１丁目２−１",
+        "rating": 3.5,
+        "user_ratings_total": 124,
+        "nearest_station": "上前津",
+        "distance_m": 1345,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "金山",
+          "上前津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.903598,
+          35.140642
+        ]
+      },
+      "properties": {
+        "name": "ホテル ペントハウス",
+        "address": "名古屋市熱田区金山町２丁目６−２３",
+        "rating": 3.3,
+        "user_ratings_total": 55,
+        "nearest_station": "金山",
+        "distance_m": 327,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "金山"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.908724,
+          35.147509
+        ]
+      },
+      "properties": {
+        "name": "ホテル クリスタルゲート名古屋",
+        "address": "名古屋市中区平和２丁目１１−１３",
+        "rating": 2.9,
+        "user_ratings_total": 47,
+        "nearest_station": "金山",
+        "distance_m": 739,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "金山",
+          "上前津",
+          "鶴舞"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.909272,
+          35.130597
+        ]
+      },
+      "properties": {
+        "name": "M'z HOTEL",
+        "address": "名古屋市熱田区横田２丁目４−２４",
+        "rating": 3.5,
+        "user_ratings_total": 122,
+        "nearest_station": "神宮前",
+        "distance_m": 623,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "金山",
+          "神宮前"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.903747,
+          35.140828
+        ]
+      },
+      "properties": {
+        "name": "ル・エルミタージュ",
+        "address": "名古屋市熱田区金山町２丁目６−９",
+        "rating": 3,
+        "user_ratings_total": 42,
+        "nearest_station": "金山",
+        "distance_m": 320,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "金山"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.905138,
+          35.143654
+        ]
+      },
+      "properties": {
+        "name": "ホテル カリフォルニア ナチュラル",
+        "address": "名古屋市中区金山４丁目３−１５",
+        "rating": 2.4,
+        "user_ratings_total": 83,
+        "nearest_station": "金山",
+        "distance_m": 296,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "金山"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.904588,
+          35.144618
+        ]
+      },
+      "properties": {
+        "name": "金山エンペラー",
+        "address": "名古屋市中区金山２丁目１５−１０ ホテル金山エンペラー",
+        "rating": 3.2,
+        "user_ratings_total": 26,
+        "nearest_station": "金山",
+        "distance_m": 257,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "金山",
+          "上前津",
+          "鶴舞"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.89261,
+          35.146778
+        ]
+      },
+      "properties": {
+        "name": "HOTEL NOI 名古屋",
+        "address": "名古屋市中川区山王４丁目８−１",
+        "rating": 3.4,
+        "user_ratings_total": 45,
+        "nearest_station": "金山",
+        "distance_m": 900,
+        "walk_min": 11,
+        "all_nearby_stations": [
+          "金山",
+          "上前津"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.512845,
+          34.704343
+        ]
+      },
+      "properties": {
+        "name": "ラ・ヴィアンローズ",
+        "address": "大阪市北区天神橋４丁目２−１６",
+        "rating": 3.3,
+        "user_ratings_total": 9,
+        "nearest_station": "天満",
+        "distance_m": 74,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "東梅田",
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.500482,
+          34.726081
+        ]
+      },
+      "properties": {
+        "name": "love & peace",
+        "address": "大阪市淀川区西中島３丁目１４−５",
+        "rating": 3,
+        "user_ratings_total": 2,
+        "nearest_station": "南方",
+        "distance_m": 116,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "新大阪",
+          "西中島南方",
+          "南方"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.500047,
+          34.726147
+        ]
+      },
+      "properties": {
+        "name": "ホテル ネオワールド",
+        "address": "大阪市淀川区西中島３丁目１４−９ 第３三好ビル",
+        "rating": 3.1,
+        "user_ratings_total": 37,
+        "nearest_station": "南方",
+        "distance_m": 84,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "新大阪",
+          "西中島南方",
+          "南方"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.487216,
+          34.72231
+        ]
+      },
+      "properties": {
+        "name": "マルイ・フォト株式会社",
+        "address": "大阪市淀川区十三東３丁目５−３",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "十三",
+        "distance_m": 467,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "新大阪",
+          "西中島南方",
+          "十三",
+          "南方"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.514112,
+          34.665815
+        ]
+      },
+      "properties": {
+        "name": "HOTEL Lei ホテル レイ",
+        "address": "大阪市天王寺区生玉町７−１",
+        "rating": 3.6,
+        "user_ratings_total": 36,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 189,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "心斎橋",
+          "谷町九丁目",
+          "大阪上本町",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.499117,
+          34.67052
+        ]
+      },
+      "properties": {
+        "name": "ホテル アメリカ 心斎橋",
+        "address": "大阪市中央区西心斎橋２丁目９−１０",
+        "rating": 2.6,
+        "user_ratings_total": 5,
+        "nearest_station": "堺筋本町",
+        "distance_m": 1452,
+        "walk_min": 18,
+        "all_nearby_stations": [
+          "堺筋本町",
+          "阿波座"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.50735,
+          34.67084
+        ]
+      },
+      "properties": {
+        "name": "コルドン ブルー",
+        "address": "大阪市中央区島之内２丁目１１−２３ 南第一マンション",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "堺筋本町",
+        "distance_m": 1230,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "堺筋本町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.506668,
+          34.669275
+        ]
+      },
+      "properties": {
+        "name": "ホテル ファインアロマ道頓堀",
+        "address": "大阪市中央区島之内２丁目１７−５",
+        "rating": 3.5,
+        "user_ratings_total": 67,
+        "nearest_station": "谷町四丁目",
+        "distance_m": 1708,
+        "walk_min": 21,
+        "all_nearby_stations": [
+          "谷町四丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.563239,
+          34.806128
+        ]
+      },
+      "properties": {
+        "name": "ホテル サンロード",
+        "address": "茨木市奈良町１２−１１",
+        "rating": 3.4,
+        "user_ratings_total": 19,
+        "nearest_station": "南茨木",
+        "distance_m": 355,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "茨木",
+          "茨木市",
+          "南茨木"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.368648,
+          34.76591
+        ]
+      },
+      "properties": {
+        "name": "HOTEL BOTA（ホテルボタ）",
+        "address": "豊橋市新栄町鳥畷４５",
+        "rating": 4.6,
+        "user_ratings_total": 24,
+        "nearest_station": "豊橋",
+        "distance_m": 1352,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "豊橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.381893,
+          34.758141
+        ]
+      },
+      "properties": {
+        "name": "ルナパーク",
+        "address": "豊橋市八通町１１８−１",
+        "rating": 3.8,
+        "user_ratings_total": 35,
+        "nearest_station": "豊橋",
+        "distance_m": 446,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "豊橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.382311,
+          34.758455
+        ]
+      },
+      "properties": {
+        "name": "ユアーズ",
+        "address": "豊橋市野黒町56−５６",
+        "rating": 3.2,
+        "user_ratings_total": 73,
+        "nearest_station": "豊橋",
+        "distance_m": 407,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "豊橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504072,
+          34.699204
+        ]
+      },
+      "properties": {
+        "name": "ホテルアイ 梅田店",
+        "address": "大阪市北区曾根崎１丁目６−２２",
+        "rating": 2.9,
+        "user_ratings_total": 26,
+        "nearest_station": "天満橋",
+        "distance_m": 1486,
+        "walk_min": 19,
+        "all_nearby_stations": [
+          "天満橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.524219,
+          34.699834
+        ]
+      },
+      "properties": {
+        "name": "（株）天遊",
+        "address": "大阪市都島区中野町１丁目９−２４",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "天満橋",
+        "distance_m": 1341,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "天満橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.516186,
+          34.707021
+        ]
+      },
+      "properties": {
+        "name": "ホテル ザ レオン キタ店",
+        "address": "大阪市北区樋之口町１−６",
+        "rating": 3.7,
+        "user_ratings_total": 13,
+        "nearest_station": "天満",
+        "distance_m": 419,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "南森町",
+          "天神橋筋六丁目",
+          "天満",
+          "大阪天満宮",
+          "京橋",
+          "都島",
+          "桜ノ宮"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504466,
+          34.647909
+        ]
+      },
+      "properties": {
+        "name": "ホテル中央オアシス",
+        "address": "大阪市西成区太子１丁目９−１５",
+        "rating": 3.9,
+        "user_ratings_total": 651,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1396,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503522,
+          34.647501
+        ]
+      },
+      "properties": {
+        "name": "ホテル ラッキー",
+        "address": "大阪市西成区太子１丁目８−１１ ビジネスホテルラッキー",
+        "rating": 4,
+        "user_ratings_total": 372,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1314,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.49733,
+          34.64757
+        ]
+      },
+      "properties": {
+        "name": "ホテル ザ･ワン 新今宮",
+        "address": "大阪市西成区花園北１丁目１０−１６",
+        "rating": 3.7,
+        "user_ratings_total": 156,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1166,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.499199,
+          34.645221
+        ]
+      },
+      "properties": {
+        "name": "OKINI - DOYANEN HOTELS",
+        "address": "大阪市西成区萩之茶屋３丁目４−１５",
+        "rating": 4.3,
+        "user_ratings_total": 243,
+        "nearest_station": "天下茶屋",
+        "distance_m": 931,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.501993,
+          34.647918
+        ]
+      },
+      "properties": {
+        "name": "R Hostel Namba South",
+        "address": "大阪市西成区萩之茶屋１丁目１２−２",
+        "rating": 4.1,
+        "user_ratings_total": 148,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1297,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.509532,
+          34.647732
+        ]
+      },
+      "properties": {
+        "name": "ホテルトレンド あべの天王寺",
+        "address": "大阪市阿倍野区旭町１丁目１−２４",
+        "rating": 4,
+        "user_ratings_total": 207,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1666,
+        "walk_min": 21,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.493227,
+          34.626323
+        ]
+      },
+      "properties": {
+        "name": "BANDE HOTEL OSAKA",
+        "address": "大阪市西成区玉出中２丁目１−２４",
+        "rating": 4.2,
+        "user_ratings_total": 354,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1240,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.505709,
+          34.644843
+        ]
+      },
+      "properties": {
+        "name": "RTi Tennoji",
+        "address": "大阪市西成区山王２丁目５−１８",
+        "rating": 4.4,
+        "user_ratings_total": 146,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1192,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.50345,
+          34.648093
+        ]
+      },
+      "properties": {
+        "name": "HOTEL.LINKS 動物園前",
+        "address": "大阪市西成区太子１丁目６−１９",
+        "rating": 3.9,
+        "user_ratings_total": 308,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1370,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.508089,
+          34.648098
+        ]
+      },
+      "properties": {
+        "name": "東横INNあべの天王寺",
+        "address": "大阪市西成区山王１丁目１−７",
+        "rating": 3.9,
+        "user_ratings_total": 2002,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1607,
+        "walk_min": 20,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498181,
+          34.635703
+        ]
+      },
+      "properties": {
+        "name": "JAホテル難波南",
+        "address": "大阪市西成区天下茶屋３丁目１７−５",
+        "rating": 3.3,
+        "user_ratings_total": 53,
+        "nearest_station": "天下茶屋",
+        "distance_m": 206,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.499582,
+          34.646512
+        ]
+      },
+      "properties": {
+        "name": "BAKURO - DOYANEN HOTELS",
+        "address": "大阪市西成区萩之茶屋２丁目８−１２",
+        "rating": 4.4,
+        "user_ratings_total": 402,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1079,
+        "walk_min": 13,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.501352,
+          34.646731
+        ]
+      },
+      "properties": {
+        "name": "ホテルビーバー２",
+        "address": "大阪市西成区萩之茶屋２丁目６−７",
+        "rating": 4,
+        "user_ratings_total": 96,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1152,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.49805,
+          34.639397
+        ]
+      },
+      "properties": {
+        "name": "ザワンダーアットステイ -天下茶屋-",
+        "address": "大阪市西成区天下茶屋２丁目１７−１３",
+        "rating": 4.8,
+        "user_ratings_total": 21,
+        "nearest_station": "天下茶屋",
+        "distance_m": 284,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.499325,
+          34.63758
+        ]
+      },
+      "properties": {
+        "name": "Poshtel Osaka 240",
+        "address": "大阪市西成区天下茶屋２丁目９−６",
+        "rating": 4.5,
+        "user_ratings_total": 6,
+        "nearest_station": "天下茶屋",
+        "distance_m": 246,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.502055,
+          34.64577
+        ]
+      },
+      "properties": {
+        "name": "YAMATO - DOYANEN HOTELS",
+        "address": "大阪市西成区萩之茶屋２丁目２−３",
+        "rating": 4,
+        "user_ratings_total": 319,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1081,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.509797,
+          34.634798
+        ]
+      },
+      "properties": {
+        "name": "ホテルステイト天王寺（HOTEL STATE TENNOJI）",
+        "address": "大阪市阿倍野区阿倍野元町２−４",
+        "rating": 3.8,
+        "user_ratings_total": 83,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1225,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.506544,
+          34.645749
+        ]
+      },
+      "properties": {
+        "name": "ぴーすはうす昭和",
+        "address": "大阪市西成区山王２丁目８−４",
+        "rating": 3.8,
+        "user_ratings_total": 145,
+        "nearest_station": "天下茶屋",
+        "distance_m": 1318,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "天下茶屋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.444369,
+          34.675874
+        ]
+      },
+      "properties": {
+        "name": "TORACO konohana",
+        "address": "大阪市此花区島屋３丁目２−２０",
+        "rating": 4.6,
+        "user_ratings_total": 49,
+        "nearest_station": "ユニバーサルシティ",
+        "distance_m": 1041,
+        "walk_min": 13,
+        "all_nearby_stations": [
+          "ユニバーサルシティ"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.44293,
+          34.6753
+        ]
+      },
+      "properties": {
+        "name": "ジェイホッパーズ大阪ユニバーサル",
+        "address": "大阪市此花区島屋３丁目１０−１２",
+        "rating": 4.6,
+        "user_ratings_total": 430,
+        "nearest_station": "ユニバーサルシティ",
+        "distance_m": 923,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "ユニバーサルシティ"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.445755,
+          34.656759
+        ]
+      },
+      "properties": {
+        "name": "AsashiobashiBase",
+        "address": "大阪市港区八幡屋２丁目２−１８",
+        "rating": 4.8,
+        "user_ratings_total": 5,
+        "nearest_station": "桜島",
+        "distance_m": 1358,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "ユニバーサルシティ",
+          "桜島"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513191,
+          34.667531
+        ]
+      },
+      "properties": {
+        "name": "ホテル ヒルズ 谷九",
+        "address": "大阪市中央区高津１丁目４−１",
+        "rating": 3.1,
+        "user_ratings_total": 114,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 252,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "谷町九丁目",
+          "大阪上本町",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.51394,
+          34.665952
+        ]
+      },
+      "properties": {
+        "name": "Hotel Gaia Diana （ホテル ガイア・ディアーナ）駐車場",
+        "address": "大阪市天王寺区生玉町８−４ 隣のガイア・ディアーナの駐車場(ホテル側で通知済み",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 195,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "谷町九丁目",
+          "大阪上本町",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.514088,
+          34.666027
+        ]
+      },
+      "properties": {
+        "name": "ホテル レクシオ",
+        "address": "大阪市天王寺区生玉町８−３ ホテルプラス",
+        "rating": 2.6,
+        "user_ratings_total": 9,
+        "nearest_station": "谷町九丁目",
+        "distance_m": 179,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "谷町九丁目",
+          "大阪上本町",
+          "谷町六丁目"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.458808,
+          34.671579
+        ]
+      },
+      "properties": {
+        "name": "JAホテル弁天町",
+        "address": "大阪市港区弁天４丁目７−６",
+        "rating": 3.3,
+        "user_ratings_total": 59,
+        "nearest_station": "弁天町",
+        "distance_m": 335,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.464523,
+          34.664365
+        ]
+      },
+      "properties": {
+        "name": "HOTEL SHE, OSAKA",
+        "address": "大阪市港区市岡１丁目２−５",
+        "rating": 4.5,
+        "user_ratings_total": 474,
+        "nearest_station": "弁天町",
+        "distance_m": 500,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.456856,
+          34.661969
+        ]
+      },
+      "properties": {
+        "name": "橙｜Ｄａｉ－Ｄａｉ Ａｑｕａｒｉｕｍ ＆ ＵＳＪ Ｇｕｅｓｔ ｈｏｕｓｅ",
+        "address": "大阪市港区市岡２丁目１１−６",
+        "rating": 3.5,
+        "user_ratings_total": 4,
+        "nearest_station": "弁天町",
+        "distance_m": 861,
+        "walk_min": 11,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.472057,
+          34.669476
+        ]
+      },
+      "properties": {
+        "name": "@RLiS_house大阪ドームシティ",
+        "address": "大阪市西区境川１丁目３−１ @Rlis_House 大阪ドームシティ",
+        "rating": 4.1,
+        "user_ratings_total": 34,
+        "nearest_station": "弁天町",
+        "distance_m": 918,
+        "walk_min": 11,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.465416,
+          34.663899
+        ]
+      },
+      "properties": {
+        "name": "KURU BENTENCHO クル弁天町",
+        "address": "大阪市港区南市岡３丁目１０−１９ 武智商事ビル",
+        "rating": 4.4,
+        "user_ratings_total": 5,
+        "nearest_station": "弁天町",
+        "distance_m": 585,
+        "walk_min": 7,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.457961,
+          34.675031
+        ]
+      },
+      "properties": {
+        "name": "KOMAINU.INN",
+        "address": "大阪市港区弁天６丁目１−２０",
+        "rating": 5,
+        "user_ratings_total": 7,
+        "nearest_station": "弁天町",
+        "distance_m": 661,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.458583,
+          34.671656
+        ]
+      },
+      "properties": {
+        "name": "Art House Tomoya ~友家~",
+        "address": "大阪市港区弁天４丁目７−９",
+        "rating": 5,
+        "user_ratings_total": 3,
+        "nearest_station": "弁天町",
+        "distance_m": 357,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.464488,
+          34.679646
+        ]
+      },
+      "properties": {
+        "name": "Casa Stella 12 by Liaison カーサステラ 12 by リエゾン",
+        "address": "大阪市此花区西九条２丁目１０−８",
+        "rating": 5,
+        "user_ratings_total": 5,
+        "nearest_station": "西九条",
+        "distance_m": 310,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.474835,
+          34.67143
+        ]
+      },
+      "properties": {
+        "name": "IMCAHotel",
+        "address": "大阪市西区九条南１丁目１０−１８",
+        "rating": 4.5,
+        "user_ratings_total": 8,
+        "nearest_station": "弁天町",
+        "distance_m": 1183,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.463345,
+          34.670322
+        ]
+      },
+      "properties": {
+        "name": "ＬＯＯＰ弁天町",
+        "address": "大阪市港区波除３丁目３−６",
+        "rating": 5,
+        "user_ratings_total": 1,
+        "nearest_station": "弁天町",
+        "distance_m": 125,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.470714,
+          34.668344
+        ]
+      },
+      "properties": {
+        "name": "白樺の宿 港",
+        "address": "大阪市港区市岡元町１丁目６−３",
+        "rating": 4.8,
+        "user_ratings_total": 5,
+        "nearest_station": "弁天町",
+        "distance_m": 788,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.473053,
+          34.673401
+        ]
+      },
+      "properties": {
+        "name": "MOCOMOCO KUJO",
+        "address": "大阪市西区九条南２丁目５−７",
+        "rating": 5,
+        "user_ratings_total": 4,
+        "nearest_station": "弁天町",
+        "distance_m": 1075,
+        "walk_min": 13,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.474086,
+          34.671273
+        ]
+      },
+      "properties": {
+        "name": "吉徳旅館",
+        "address": "西区九条南２丁目１６−６",
+        "rating": 3.1,
+        "user_ratings_total": 72,
+        "nearest_station": "弁天町",
+        "distance_m": 1113,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.458774,
+          34.671258
+        ]
+      },
+      "properties": {
+        "name": "Bijou Suites Musubi ビジュースイーツ 結び",
+        "address": "大阪市港区弁天４丁目６−１８",
+        "rating": 5,
+        "user_ratings_total": 2,
+        "nearest_station": "弁天町",
+        "distance_m": 322,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.474776,
+          34.679821
+        ]
+      },
+      "properties": {
+        "name": "Naos House Hotel Osaka 5",
+        "address": "大阪市西区川口４丁目８−４",
+        "rating": 4.7,
+        "user_ratings_total": 6,
+        "nearest_station": "西九条",
+        "distance_m": 793,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.464135,
+          34.680769
+        ]
+      },
+      "properties": {
+        "name": "リエゾンハウス ユニバーサルゲートウェイ Liaison House Universal Gateway",
+        "address": "大阪市此花区西九条４丁目６−９",
+        "rating": 4.6,
+        "user_ratings_total": 11,
+        "nearest_station": "弁天町",
+        "distance_m": 1202,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.475326,
+          34.674505
+        ]
+      },
+      "properties": {
+        "name": "ハッピー",
+        "address": "大阪市西区九条１丁目２０−２３ 福元マンション",
+        "rating": 4.5,
+        "user_ratings_total": 4,
+        "nearest_station": "西九条",
+        "distance_m": 1194,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.460025,
+          34.671397
+        ]
+      },
+      "properties": {
+        "name": "Osaka Ocean Guest House",
+        "address": "大阪市港区弁天４丁目４−１８",
+        "rating": 5,
+        "user_ratings_total": 2,
+        "nearest_station": "弁天町",
+        "distance_m": 231,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "弁天町",
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.474122,
+          34.662707
+        ]
+      },
+      "properties": {
+        "name": "Mackey's House 大正Ⅰ",
+        "address": "大阪市大正区泉尾１丁目１４−５",
+        "rating": 5,
+        "user_ratings_total": 1,
+        "nearest_station": "弁天町",
+        "distance_m": 1269,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.921919,
+          35.194768
+        ]
+      },
+      "properties": {
+        "name": "家",
+        "address": "名古屋市北区城東町６丁目１２９",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "大曽根",
+        "distance_m": 1316,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "大曽根"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.481787,
+          34.67981
+        ]
+      },
+      "properties": {
+        "name": "ホテルアイアンプレミアム 阿波座店",
+        "address": "大阪市西区本田１丁目２−１９",
+        "rating": 2.4,
+        "user_ratings_total": 20,
+        "nearest_station": "阿波座",
+        "distance_m": 583,
+        "walk_min": 7,
+        "all_nearby_stations": [
+          "西九条",
+          "阿波座"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.468399,
+          34.682906
+        ]
+      },
+      "properties": {
+        "name": "Hotel Jungle fun fun J3",
+        "address": "大阪市此花区西九条１丁目１７−１８",
+        "rating": 4.3,
+        "user_ratings_total": 6,
+        "nearest_station": "西九条",
+        "distance_m": 138,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.457888,
+          34.682529
+        ]
+      },
+      "properties": {
+        "name": "地球タビカゾクII CHIKYUUTABIKAZOKU USJ Ⅱ",
+        "address": "大阪市此花区梅香３丁目１１−２１",
+        "rating": 4,
+        "user_ratings_total": 1,
+        "nearest_station": "西九条",
+        "distance_m": 752,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.455527,
+          34.682626
+        ]
+      },
+      "properties": {
+        "name": "此花 SLOW INN",
+        "address": "大阪市此花区梅香３丁目１８−３",
+        "rating": 5,
+        "user_ratings_total": 1,
+        "nearest_station": "西九条",
+        "distance_m": 969,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.459569,
+          34.685115
+        ]
+      },
+      "properties": {
+        "name": "千鳥朝日の家",
+        "address": "大阪市此花区朝日１丁目９−１７",
+        "rating": 5,
+        "user_ratings_total": 2,
+        "nearest_station": "西九条",
+        "distance_m": 685,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.46732,
+          34.682129
+        ]
+      },
+      "properties": {
+        "name": "Casa Stella 3 Sagittarius by Liaison カーサ ステラ 3 サジタリアス by リエゾン",
+        "address": "大阪市此花区西九条１丁目３１−１４",
+        "rating": 5,
+        "user_ratings_total": 3,
+        "nearest_station": "西九条",
+        "distance_m": 84,
+        "walk_min": 1,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.461129,
+          34.683813
+        ]
+      },
+      "properties": {
+        "name": "chidori house1 チドリハウス１",
+        "address": "大阪市此花区梅香１丁目１６−９",
+        "rating": 5,
+        "user_ratings_total": 2,
+        "nearest_station": "西九条",
+        "distance_m": 493,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.467815,
+          34.684255
+        ]
+      },
+      "properties": {
+        "name": "MINATOの宿",
+        "address": "大阪市此花区西九条３丁目６−４",
+        "rating": 4,
+        "user_ratings_total": 2,
+        "nearest_station": "西九条",
+        "distance_m": 182,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.468571,
+          34.682163
+        ]
+      },
+      "properties": {
+        "name": "Hotel Jungle fun fun J4",
+        "address": "大阪市此花区西九条１丁目１５−１",
+        "rating": 5,
+        "user_ratings_total": 1,
+        "nearest_station": "西九条",
+        "distance_m": 168,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "西九条"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.511239,
+          34.717597
+        ]
+      },
+      "properties": {
+        "name": "ウォーターロード天神橋",
+        "address": "大阪市北区天神橋８丁目１３−１１",
+        "rating": 2.9,
+        "user_ratings_total": 30,
+        "nearest_station": "天神橋筋六丁目",
+        "distance_m": 767,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "西中島南方",
+          "天神橋筋六丁目",
+          "都島",
+          "南方"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.484963,
+          34.7189
+        ]
+      },
+      "properties": {
+        "name": "エレガンス・イン",
+        "address": "大阪市淀川区十三東１丁目１６−８ エレガンスイン十三",
+        "rating": 3.5,
+        "user_ratings_total": 4,
+        "nearest_station": "十三",
+        "distance_m": 323,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "西中島南方",
+          "十三",
+          "中津",
+          "南方"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.482909,
+          34.716743
+        ]
+      },
+      "properties": {
+        "name": "ホテル VIA103",
+        "address": "大阪市淀川区新北野１丁目４−９",
+        "rating": 3.9,
+        "user_ratings_total": 9,
+        "nearest_station": "十三",
+        "distance_m": 465,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "西中島南方",
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.485031,
+          34.718423
+        ]
+      },
+      "properties": {
+        "name": "ホテル Liebe (ホテル リーベ)",
+        "address": "大阪市淀川区十三東１丁目１９−１",
+        "rating": 2.4,
+        "user_ratings_total": 5,
+        "nearest_station": "十三",
+        "distance_m": 366,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "西中島南方",
+          "十三",
+          "中津",
+          "南方"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.483105,
+          34.717082
+        ]
+      },
+      "properties": {
+        "name": "ホテルNEOエクセレンス",
+        "address": "大阪市淀川区新北野１丁目４−２３",
+        "rating": 3.6,
+        "user_ratings_total": 12,
+        "nearest_station": "十三",
+        "distance_m": 429,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "西中島南方",
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.481285,
+          34.717227
+        ]
+      },
+      "properties": {
+        "name": "ホテル ジェムジェム 十三",
+        "address": "大阪市淀川区新北野１丁目７−８ ＨＯＴＥＬ ＧｅｍＧｅｍ",
+        "rating": 3.7,
+        "user_ratings_total": 19,
+        "nearest_station": "十三",
+        "distance_m": 421,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.48139,
+          34.717377
+        ]
+      },
+      "properties": {
+        "name": "ホテル ジュエリージュエリー 十三",
+        "address": "大阪市淀川区新北野１丁目７−１１",
+        "rating": 3,
+        "user_ratings_total": 21,
+        "nearest_station": "十三",
+        "distance_m": 402,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.482197,
+          34.71774
+        ]
+      },
+      "properties": {
+        "name": "ホテルマンハッタン 十三店",
+        "address": "大阪市淀川区新北野１丁目３−１１",
+        "rating": 3.3,
+        "user_ratings_total": 12,
+        "nearest_station": "十三",
+        "distance_m": 352,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.481919,
+          34.717495
+        ]
+      },
+      "properties": {
+        "name": "ホテル チョウ 十三",
+        "address": "大阪市淀川区新北野１丁目７−１",
+        "rating": 3.1,
+        "user_ratings_total": 25,
+        "nearest_station": "十三",
+        "distance_m": 381,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.481123,
+          34.717581
+        ]
+      },
+      "properties": {
+        "name": "ホテルQ&P",
+        "address": "大阪市淀川区新北野１丁目８−６ キュー＆ピー",
+        "rating": 2.8,
+        "user_ratings_total": 69,
+        "nearest_station": "十三",
+        "distance_m": 387,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.478965,
+          34.718307
+        ]
+      },
+      "properties": {
+        "name": "ホテル サンパチ 十三店",
+        "address": "大阪市淀川区十三本町１丁目１８−２１",
+        "rating": 2.7,
+        "user_ratings_total": 7,
+        "nearest_station": "十三",
+        "distance_m": 426,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "十三",
+          "塚本"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.026671,
+          35.169889
+        ]
+      },
+      "properties": {
+        "name": "ホテルチャーミーズ",
+        "address": "名古屋市名東区猪高町大字上社井堀２４",
+        "rating": 2.5,
+        "user_ratings_total": 12,
+        "nearest_station": "藤が丘",
+        "distance_m": 1492,
+        "walk_min": 19,
+        "all_nearby_stations": [
+          "藤が丘"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.019189,
+          35.17597
+        ]
+      },
+      "properties": {
+        "name": "ビーナスガーデン",
+        "address": "名古屋市名東区本郷３丁目１５９",
+        "rating": 3.2,
+        "user_ratings_total": 13,
+        "nearest_station": "藤が丘",
+        "distance_m": 764,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "藤が丘"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.02508,
+          35.170505
+        ]
+      },
+      "properties": {
+        "name": "ホテルケイズアバ",
+        "address": "名古屋市名東区小井堀町１３０８",
+        "rating": 3.3,
+        "user_ratings_total": 24,
+        "nearest_station": "藤が丘",
+        "distance_m": 1386,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "藤が丘"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.019863,
+          35.176061
+        ]
+      },
+      "properties": {
+        "name": "HOTEL SAN MARINO by Grand Prix（ホテル サンマリノ バイ グランプリ）",
+        "address": "名古屋市名東区本郷３丁目２０４",
+        "rating": 3.8,
+        "user_ratings_total": 17,
+        "nearest_station": "藤が丘",
+        "distance_m": 740,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "藤が丘"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.022737,
+          35.172818
+        ]
+      },
+      "properties": {
+        "name": "HOTEL JAZZ （ホテル ジャズ）名東",
+        "address": "名古屋市名東区小井堀町５０９",
+        "rating": 3.9,
+        "user_ratings_total": 25,
+        "nearest_station": "藤が丘",
+        "distance_m": 1094,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "藤が丘"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.477858,
+          34.574544
+        ]
+      },
+      "properties": {
+        "name": "AI 堺東店",
+        "address": "堺市堺区甲斐町東６丁１−２８ ホテルAI堺東",
+        "rating": 4.3,
+        "user_ratings_total": 24,
+        "nearest_station": "堺東",
+        "distance_m": 671,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "堺東",
+          "三国ヶ丘",
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.485888,
+          34.566869
+        ]
+      },
+      "properties": {
+        "name": "HOTEL MYTH ADAGIO（ホテル マイスア ダージョ）",
+        "address": "堺市堺区北丸保園６−２４",
+        "rating": 4.6,
+        "user_ratings_total": 5,
+        "nearest_station": "三国ヶ丘",
+        "distance_m": 627,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "堺東",
+          "三国ヶ丘"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.47803,
+          34.574713
+        ]
+      },
+      "properties": {
+        "name": "ホテル チャペルストーリー 堺",
+        "address": "堺市堺区甲斐町東６丁１−２６",
+        "rating": 3.2,
+        "user_ratings_total": 17,
+        "nearest_station": "堺東",
+        "distance_m": 652,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "堺東",
+          "三国ヶ丘",
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.490371,
+          34.567272
+        ]
+      },
+      "properties": {
+        "name": "ホテルイレブン",
+        "address": "堺市堺区向陵西町４丁２−２０",
+        "rating": 3.7,
+        "user_ratings_total": 15,
+        "nearest_station": "三国ヶ丘",
+        "distance_m": 252,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "堺東",
+          "三国ヶ丘"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.47793,
+          34.574633
+        ]
+      },
+      "properties": {
+        "name": "ホテル Liebe 堺東",
+        "address": "堺市堺区甲斐町東６丁目１−２７",
+        "rating": 4.6,
+        "user_ratings_total": 10,
+        "nearest_station": "堺東",
+        "distance_m": 662,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "堺東",
+          "三国ヶ丘",
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.477763,
+          34.573397
+        ]
+      },
+      "properties": {
+        "name": "HOTEL LINDO（ホテル リンド）（旧 カサ・デル・アモール）",
+        "address": "堺市堺区翁橋町１丁３−２２ HOTEL LINDO",
+        "rating": 3.2,
+        "user_ratings_total": 21,
+        "nearest_station": "堺東",
+        "distance_m": 719,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "堺東",
+          "三国ヶ丘",
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.477173,
+          34.574894
+        ]
+      },
+      "properties": {
+        "name": "ホテルおしゃべりダック",
+        "address": "堺市堺区甲斐町東５丁２−１５ ＨＯＴＥＬおしゃべりダック",
+        "rating": 1.7,
+        "user_ratings_total": 3,
+        "nearest_station": "堺東",
+        "distance_m": 725,
+        "walk_min": 9,
+        "all_nearby_stations": [
+          "堺東",
+          "三国ヶ丘",
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.472293,
+          34.574679
+        ]
+      },
+      "properties": {
+        "name": "サファリ 堺店",
+        "address": "堺市堺区宿院町東２丁２−１８ ＯＲＩＥＮＴＡＬ Ｓａｆｆａｒｉ",
+        "rating": 1.9,
+        "user_ratings_total": 7,
+        "nearest_station": "堺",
+        "distance_m": 851,
+        "walk_min": 11,
+        "all_nearby_stations": [
+          "堺東",
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.476531,
+          34.574597
+        ]
+      },
+      "properties": {
+        "name": "ステラ",
+        "address": "堺市堺区甲斐町東６丁１−３",
+        "rating": 3,
+        "user_ratings_total": 1,
+        "nearest_station": "堺東",
+        "distance_m": 789,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "堺東",
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.931915,
+          35.172548
+        ]
+      },
+      "properties": {
+        "name": "タウスホテル",
+        "address": "名古屋市東区葵３丁目１２−１１ アーバンスクエアーホテルタウス",
+        "rating": 4.1,
+        "user_ratings_total": 37,
+        "nearest_station": "千種",
+        "distance_m": 198,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.93494,
+          35.170544
+        ]
+      },
+      "properties": {
+        "name": "ホテル リゾパラ",
+        "address": "名古屋市千種区内山３丁目１１−２７",
+        "rating": 2.8,
+        "user_ratings_total": 46,
+        "nearest_station": "今池",
+        "distance_m": 299,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.923205,
+          35.17038
+        ]
+      },
+      "properties": {
+        "name": "栄・千種のラブホテル|HOTEL LAPIS (ホテル ラピス)栄店",
+        "address": "名古屋市東区葵１丁目２７−４ ホテルラピス",
+        "rating": 3.6,
+        "user_ratings_total": 33,
+        "nearest_station": "新栄町",
+        "distance_m": 284,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.923576,
+          35.170403
+        ]
+      },
+      "properties": {
+        "name": "ホテル Luxe 新栄店",
+        "address": "名古屋市東区葵１丁目２７−１１",
+        "rating": 2.8,
+        "user_ratings_total": 40,
+        "nearest_station": "新栄町",
+        "distance_m": 318,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.940314,
+          35.165507
+        ]
+      },
+      "properties": {
+        "name": "ホテル チュチュ今池店",
+        "address": "名古屋市千種区今池５丁目３２−３",
+        "rating": 3.3,
+        "user_ratings_total": 28,
+        "nearest_station": "今池",
+        "distance_m": 518,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "千種",
+          "今池"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.933441,
+          35.173057
+        ]
+      },
+      "properties": {
+        "name": "ホテル ハグハグ千種店",
+        "address": "名古屋市千種区内山１丁目２４−１４",
+        "rating": 2.5,
+        "user_ratings_total": 21,
+        "nearest_station": "千種",
+        "distance_m": 321,
+        "walk_min": 4,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.922397,
+          35.16196
+        ]
+      },
+      "properties": {
+        "name": "ホテル ミラージュ",
+        "address": "名古屋市中区新栄２丁目４５−１２",
+        "rating": 3.5,
+        "user_ratings_total": 39,
+        "nearest_station": "鶴舞",
+        "distance_m": 671,
+        "walk_min": 8,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "鶴舞",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.922355,
+          35.170436
+        ]
+      },
+      "properties": {
+        "name": "ホテル ピアット",
+        "address": "名古屋市東区葵１丁目２４−７",
+        "rating": 3.3,
+        "user_ratings_total": 19,
+        "nearest_station": "新栄町",
+        "distance_m": 207,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.92315,
+          35.170411
+        ]
+      },
+      "properties": {
+        "name": "テイコク観光（株）",
+        "address": "名古屋市東区葵１丁目２７−４ ホテルラピス",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "新栄町",
+        "distance_m": 279,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "千種",
+          "今池",
+          "新栄町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.481765,
+          34.668559
+        ]
+      },
+      "properties": {
+        "name": "ホテル ラブリー大阪店",
+        "address": "大阪市浪速区幸町３丁目８−２８",
+        "rating": 2.1,
+        "user_ratings_total": 13,
+        "nearest_station": "大正",
+        "distance_m": 376,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大正",
+          "JR難波"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.481695,
+          34.668746
+        ]
+      },
+      "properties": {
+        "name": "ホテルアフリカ桜川店",
+        "address": "大阪市浪速区幸町３丁目９−９",
+        "rating": 2.7,
+        "user_ratings_total": 14,
+        "nearest_station": "大正",
+        "distance_m": 393,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "大正",
+          "JR難波"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.055803,
+          35.265013
+        ]
+      },
+      "properties": {
+        "name": "ホテルローズクオーツ",
+        "address": "瀬戸市鹿乗町７３０",
+        "rating": 4.1,
+        "user_ratings_total": 19,
+        "nearest_station": "高蔵寺",
+        "distance_m": 1137,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "高蔵寺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.503733,
+          34.699165
+        ]
+      },
+      "properties": {
+        "name": "ファーストポケット",
+        "address": "大阪市北区曾根崎１丁目６−７ 火星ビル",
+        "rating": 2.8,
+        "user_ratings_total": 9,
+        "nearest_station": "天満橋",
+        "distance_m": 1507,
+        "walk_min": 19,
+        "all_nearby_stations": [
+          "天満橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504037,
+          34.701338
+        ]
+      },
+      "properties": {
+        "name": "hotel SIX",
+        "address": "大阪市北区兎我野町４−１５",
+        "rating": 2.3,
+        "user_ratings_total": 29,
+        "nearest_station": "天満橋",
+        "distance_m": 1654,
+        "walk_min": 21,
+        "all_nearby_stations": [
+          "天満橋"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.453162,
+          34.782937
+        ]
+      },
+      "properties": {
+        "name": "フェアリーテール",
+        "address": "豊中市箕輪１丁目３−５",
+        "rating": 3.6,
+        "user_ratings_total": 16,
+        "nearest_station": "豊中",
+        "distance_m": 928,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "豊中",
+          "蛍池"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.463058,
+          34.669922
+        ]
+      },
+      "properties": {
+        "name": "ポルタイン弁天町",
+        "address": "大阪市港区波除３丁目９−２２",
+        "rating": 4.1,
+        "user_ratings_total": 576,
+        "nearest_station": "弁天町",
+        "distance_m": 191,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.464477,
+          34.668394
+        ]
+      },
+      "properties": {
+        "name": "今昔荘 大阪 弁天町 - 光湯屋 -",
+        "address": "大阪市港区市岡元町３丁目５−６",
+        "rating": 5,
+        "user_ratings_total": 20,
+        "nearest_station": "弁天町",
+        "distance_m": 217,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "弁天町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.437799,
+          34.800355
+        ]
+      },
+      "properties": {
+        "name": "ホテル グランレオン池田店",
+        "address": "池田市住吉２丁目１４−１９",
+        "rating": 3.3,
+        "user_ratings_total": 8,
+        "nearest_station": "石橋阪大前",
+        "distance_m": 1120,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "石橋阪大前",
+          "蛍池"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.467123,
+          34.578398
+        ]
+      },
+      "properties": {
+        "name": "丸和グッドサービス㈱",
+        "address": "堺市堺区住吉橋町１丁１−１２",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "堺",
+        "distance_m": 391,
+        "walk_min": 5,
+        "all_nearby_stations": [
+          "堺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.155881,
+          34.955231
+        ]
+      },
+      "properties": {
+        "name": "ホテルワルツ岡崎店",
+        "address": "岡崎市板屋町１７０−３",
+        "rating": 3.4,
+        "user_ratings_total": 19,
+        "nearest_station": "東岡崎",
+        "distance_m": 1118,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "東岡崎"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.558872,
+          34.666186
+        ]
+      },
+      "properties": {
+        "name": "ホテル ラブリー(LOVELY)布施店",
+        "address": "東大阪市足代北１丁目３−８ ホテルアベックス",
+        "rating": 1.5,
+        "user_ratings_total": 11,
+        "nearest_station": "布施",
+        "distance_m": 491,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "布施"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.559216,
+          34.666089
+        ]
+      },
+      "properties": {
+        "name": "ゴールデン メトロ",
+        "address": "東大阪市足代北１丁目２−８",
+        "rating": 2.7,
+        "user_ratings_total": 3,
+        "nearest_station": "布施",
+        "distance_m": 458,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "布施"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.558852,
+          34.666353
+        ]
+      },
+      "properties": {
+        "name": "ホテル リー",
+        "address": "東大阪市足代北１丁目３−１４",
+        "rating": 3.8,
+        "user_ratings_total": 5,
+        "nearest_station": "布施",
+        "distance_m": 501,
+        "walk_min": 6,
+        "all_nearby_stations": [
+          "布施"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498528,
+          34.666049
+        ]
+      },
+      "properties": {
+        "name": "マリア・テレジア 難波",
+        "address": "大阪市浪速区難波中１丁目４−２１",
+        "rating": 3.3,
+        "user_ratings_total": 23,
+        "nearest_station": "大国町",
+        "distance_m": 1086,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "大国町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498414,
+          34.665177
+        ]
+      },
+      "properties": {
+        "name": "レディファースト",
+        "address": "Hotel Little Chapel, １丁目-７-１９ 難波中 浪速区 大阪市",
+        "rating": 3,
+        "user_ratings_total": 1,
+        "nearest_station": "大国町",
+        "distance_m": 988,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "大国町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.498798,
+          34.665013
+        ]
+      },
+      "properties": {
+        "name": "ホテルモダンエイジ",
+        "address": "大阪市浪速区難波中１丁目７−２",
+        "rating": 1.9,
+        "user_ratings_total": 11,
+        "nearest_station": "大国町",
+        "distance_m": 972,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "大国町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.504837,
+          34.665262
+        ]
+      },
+      "properties": {
+        "name": "ホテル アルプス",
+        "address": "大阪市中央区難波千日前２−２５ ホテルアルプス",
+        "rating": 4.2,
+        "user_ratings_total": 209,
+        "nearest_station": "大国町",
+        "distance_m": 1181,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "大国町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.506727,
+          34.667531
+        ]
+      },
+      "properties": {
+        "name": "ガルボ",
+        "address": "大阪市中央区日本橋１丁目５",
+        "rating": 4,
+        "user_ratings_total": 3,
+        "nearest_station": "大国町",
+        "distance_m": 1487,
+        "walk_min": 19,
+        "all_nearby_stations": [
+          "大国町"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.513294,
+          34.612361
+        ]
+      },
+      "properties": {
+        "name": "ホテルマンハッタン長居店",
+        "address": "大阪市住吉区長居２丁目７−５",
+        "rating": 3.3,
+        "user_ratings_total": 10,
+        "nearest_station": "長居",
+        "distance_m": 267,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.514985,
+          34.617389
+        ]
+      },
+      "properties": {
+        "name": "ＦＯＲ ＬＥＡＶＥＳ ＩＮＮ 長居",
+        "address": "大阪市阿倍野区西田辺町２丁目６−２１",
+        "rating": 3.3,
+        "user_ratings_total": 136,
+        "nearest_station": "長居",
+        "distance_m": 829,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.506893,
+          34.62131
+        ]
+      },
+      "properties": {
+        "name": "BONFIRE HOSTEL Osaka",
+        "address": "大阪市住吉区万代東１丁目３−１４ 森脇ビル2F",
+        "rating": 4.4,
+        "user_ratings_total": 73,
+        "nearest_station": "長居",
+        "distance_m": 1408,
+        "walk_min": 18,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.515669,
+          34.617261
+        ]
+      },
+      "properties": {
+        "name": "GATE80",
+        "address": "大阪市阿倍野区西田辺町２丁目５−３",
+        "rating": 4,
+        "user_ratings_total": 101,
+        "nearest_station": "長居",
+        "distance_m": 825,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.51245,
+          34.609776
+        ]
+      },
+      "properties": {
+        "name": "HOTEL is (ホテル アイエス)",
+        "address": "大阪市住吉区長居東４丁目７−２１ ＨＯＴＥＬ ｉｓ",
+        "rating": 2,
+        "user_ratings_total": 4,
+        "nearest_station": "長居",
+        "distance_m": 126,
+        "walk_min": 2,
+        "all_nearby_stations": [
+          "長居",
+          "我孫子"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.514659,
+          34.622603
+        ]
+      },
+      "properties": {
+        "name": "駅徒歩1分 静かな阿倍野の一棟貸し 長期滞在向け 最大6名 Tsubame INN Abeno",
+        "address": "大阪市阿倍野区阪南町５丁目１６−２２",
+        "rating": 5,
+        "user_ratings_total": 3,
+        "nearest_station": "長居",
+        "distance_m": 1404,
+        "walk_min": 18,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.512906,
+          34.612132
+        ]
+      },
+      "properties": {
+        "name": "R HOTEL RE. OSAKA NAGAI PARK",
+        "address": "大阪市住吉区長居２丁目１３−１３",
+        "rating": 4.9,
+        "user_ratings_total": 7,
+        "nearest_station": "長居",
+        "distance_m": 251,
+        "walk_min": 3,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.515638,
+          34.597467
+        ]
+      },
+      "properties": {
+        "name": "Prestige Suites OSAKA ABIKO プレステージ スイーツ 大阪 あびこ",
+        "address": "大阪市住吉区苅田９丁目３−２５",
+        "rating": 3.7,
+        "user_ratings_total": 3,
+        "nearest_station": "長居",
+        "distance_m": 1404,
+        "walk_min": 18,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.512098,
+          34.602995
+        ]
+      },
+      "properties": {
+        "name": "A's Guest Room 303",
+        "address": "大阪市住吉区我孫子東１丁目９−３２ メゾンドソレイユＰＡＲＴ３",
+        "rating": 2.9,
+        "user_ratings_total": 7,
+        "nearest_station": "長居",
+        "distance_m": 794,
+        "walk_min": 10,
+        "all_nearby_stations": [
+          "長居"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.575129,
+          34.616038
+        ]
+      },
+      "properties": {
+        "name": "ヴィラジュリア",
+        "address": "八尾市南亀井町３丁目１−４３",
+        "rating": 3.9,
+        "user_ratings_total": 39,
+        "nearest_station": "久宝寺",
+        "distance_m": 1098,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "久宝寺"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.571006,
+          34.762313
+        ]
+      },
+      "properties": {
+        "name": "ホテル マホーラ摂津店",
+        "address": "摂津市鳥飼和道１丁目４−２２",
+        "rating": 3.9,
+        "user_ratings_total": 49,
+        "nearest_station": "大日",
+        "distance_m": 1573,
+        "walk_min": 20,
+        "all_nearby_stations": [
+          "大日"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.654291,
+          34.738041
+        ]
+      },
+      "properties": {
+        "name": "ホテル オーラリゾート 四條畷",
+        "address": "四條畷市清瀧７２８−１",
+        "rating": 2.7,
+        "user_ratings_total": 11,
+        "nearest_station": "四条畷",
+        "distance_m": 1620,
+        "walk_min": 20,
+        "all_nearby_stations": [
+          "四条畷"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.652881,
+          34.737898
+        ]
+      },
+      "properties": {
+        "name": "ホテルAYA",
+        "address": "四條畷市南野６丁目１０−２６",
+        "rating": 2.7,
+        "user_ratings_total": 16,
+        "nearest_station": "四条畷",
+        "distance_m": 1503,
+        "walk_min": 19,
+        "all_nearby_stations": [
+          "四条畷"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.411825,
+          34.482642
+        ]
+      },
+      "properties": {
+        "name": "HOTEL Pierrot 泉大津",
+        "address": "泉大津市板原町５丁目８−３６",
+        "rating": 4.2,
+        "user_ratings_total": 53,
+        "nearest_station": "和泉府中",
+        "distance_m": 1257,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.414775,
+          34.484527
+        ]
+      },
+      "properties": {
+        "name": "スタイリッシュリゾート",
+        "address": "泉大津市板原町４丁目１６−１",
+        "rating": 3.2,
+        "user_ratings_total": 5,
+        "nearest_station": "和泉府中",
+        "distance_m": 921,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.412053,
+          34.482288
+        ]
+      },
+      "properties": {
+        "name": "ホテルねこの長ぐつ",
+        "address": "府, ５丁目-８-４３ 板原町 泉大津市",
+        "rating": 3,
+        "user_ratings_total": 2,
+        "nearest_station": "和泉府中",
+        "distance_m": 1258,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.411893,
+          34.481616
+        ]
+      },
+      "properties": {
+        "name": "ホテル ザ レオン 泉大津店",
+        "address": "忠岡町高月北２丁目１−１",
+        "rating": 3.1,
+        "user_ratings_total": 7,
+        "nearest_station": "和泉府中",
+        "distance_m": 1310,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.4183,
+          34.476725
+        ]
+      },
+      "properties": {
+        "name": "ホテルMIYUKI",
+        "address": "和泉市小田町１丁目５−７",
+        "rating": 3.1,
+        "user_ratings_total": 13,
+        "nearest_station": "和泉府中",
+        "distance_m": 1355,
+        "walk_min": 17,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.411936,
+          34.481659
+        ]
+      },
+      "properties": {
+        "name": "べんきょう部屋",
+        "address": "忠岡町高月北２丁目５９２",
+        "rating": 4.3,
+        "user_ratings_total": 6,
+        "nearest_station": "和泉府中",
+        "distance_m": 1304,
+        "walk_min": 16,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.414862,
+          34.484363
+        ]
+      },
+      "properties": {
+        "name": "ラブストーリー",
+        "address": "泉大津市板原町４丁目１６−３０",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "和泉府中",
+        "distance_m": 922,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.411325,
+          34.48459
+        ]
+      },
+      "properties": {
+        "name": "うみがすき",
+        "address": "泉大津市板原町５丁目６−３",
+        "rating": null,
+        "user_ratings_total": 0,
+        "nearest_station": "和泉府中",
+        "distance_m": 1213,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "和泉府中"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.919443,
+          35.132653
+        ]
+      },
+      "properties": {
+        "name": "ホテル ハグハグ堀田店",
+        "address": "名古屋市瑞穂区堀田通３丁目10−１０",
+        "rating": 3.8,
+        "user_ratings_total": 26,
+        "nearest_station": "神宮前",
+        "distance_m": 992,
+        "walk_min": 12,
+        "all_nearby_stations": [
+          "神宮前"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.974744,
+          35.148688
+        ]
+      },
+      "properties": {
+        "name": "八事の森ホテル",
+        "address": "名古屋市千種区東山元町５丁目４５",
+        "rating": 3,
+        "user_ratings_total": 9,
+        "nearest_station": "八事",
+        "distance_m": 1637,
+        "walk_min": 20,
+        "all_nearby_stations": [
+          "八事"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.432294,
+          34.652204
+        ]
+      },
+      "properties": {
+        "name": "ユニバーサル ベイ コンドミニアム",
+        "address": "大阪市港区築港２丁目７−３３",
+        "rating": 4.4,
+        "user_ratings_total": 388,
+        "nearest_station": "桜島",
+        "distance_m": 1100,
+        "walk_min": 14,
+        "all_nearby_stations": [
+          "桜島"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.432853,
+          34.651055
+        ]
+      },
+      "properties": {
+        "name": "ファミリーロッジ旅籠屋・大阪港店",
+        "address": "大阪市港区築港２丁目５−１６",
+        "rating": 4.4,
+        "user_ratings_total": 111,
+        "nearest_station": "桜島",
+        "distance_m": 1229,
+        "walk_min": 15,
+        "all_nearby_stations": [
+          "桜島"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.431579,
+          34.65244
+        ]
+      },
+      "properties": {
+        "name": "WADACHI",
+        "address": "大阪市港区築港２丁目８−３０",
+        "rating": 5,
+        "user_ratings_total": 1,
+        "nearest_station": "桜島",
+        "distance_m": 1077,
+        "walk_min": 13,
+        "all_nearby_stations": [
+          "桜島"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.470783,
+          34.468848
+        ]
+      },
+      "properties": {
+        "name": "hotel satis",
+        "address": "和泉市室堂町１６１７",
+        "rating": 2.2,
+        "user_ratings_total": 10,
+        "nearest_station": "和泉中央",
+        "distance_m": 1522,
+        "walk_min": 19,
+        "all_nearby_stations": [
+          "和泉中央"
+        ]
+      }
     }
   ]
 }
