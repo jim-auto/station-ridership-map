@@ -156,13 +156,14 @@ function initControls() {
 
   // ラブホ表示トグル
   const lhToggle = document.getElementById("lovehotel-toggle");
+  const walkFilterGroup = document.getElementById("walk-filter-group");
   const walkFilter = document.getElementById("walk-filter");
   lhToggle.addEventListener("change", () => {
     if (lhToggle.checked) {
-      walkFilter.style.display = "";
+      walkFilterGroup.style.display = "flex";
       loadAndShowLovehotels();
     } else {
-      walkFilter.style.display = "none";
+      walkFilterGroup.style.display = "none";
       hideLovehotels();
     }
   });
