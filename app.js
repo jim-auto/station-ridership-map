@@ -10,6 +10,8 @@ let stationLayer;
 let allFeatures = [];
 let lovehotelLayer;
 let lovehotelData = null;
+let rentalroomLayer;
+let rentalroomData = null;
 let routeLines = [];
 
 // ---------------------
@@ -19,6 +21,7 @@ const JAPAN_CENTER = [36.5, 137.0];
 const JAPAN_ZOOM = 6;
 const DATA_PATH = "data/stations.geojson";
 const LOVEHOTEL_PATH = "data/lovehotels_tokyo.geojson";
+const RENTALROOM_PATH = "data/rentalrooms.geojson";
 
 const REGION_MAP = {
   "北海道": "北海道",
@@ -163,12 +166,25 @@ function initControls() {
       walkFilterGroup.style.display = "flex";
       loadAndShowLovehotels();
     } else {
-      walkFilterGroup.style.display = "none";
       hideLovehotels();
+      if (!document.getElementById("rentalroom-toggle").checked) walkFilterGroup.style.display = "none";
     }
   });
   walkFilter.addEventListener("change", () => {
     if (lhToggle.checked && lovehotelData) showLovehotels();
+    if (rrToggle.checked && rentalroomData) showRentalrooms();
+  });
+
+  // レンタルルーム表示トグル
+  const rrToggle = document.getElementById("rentalroom-toggle");
+  rrToggle.addEventListener("change", () => {
+    if (rrToggle.checked) {
+      walkFilterGroup.style.display = "flex";
+      loadAndShowRentalrooms();
+    } else {
+      hideRentalrooms();
+      if (!lhToggle.checked) walkFilterGroup.style.display = "none";
+    }
   });
 
   // 検索結果の外側クリックで閉じる
@@ -815,6 +831,74 @@ function hideLovehotels() {
   if (lovehotelLayer) {
     map.removeLayer(lovehotelLayer);
     lovehotelLayer = null;
+  }
+}
+
+// ---------------------
+// レンタルルーム読み込み・表示
+// ---------------------
+async function loadAndShowRentalrooms() {
+  if (!rentalroomData) {
+    try {
+      const resp = await fetch(RENTALROOM_PATH);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      rentalroomData = await resp.json();
+    } catch (err) {
+      console.error("レンタルルームデータの読み込みに失敗:", err);
+      document.getElementById("rentalroom-toggle").checked = false;
+      return;
+    }
+  }
+  showRentalrooms();
+}
+
+function showRentalrooms() {
+  if (rentalroomLayer) map.removeLayer(rentalroomLayer);
+
+  const maxWalk = getWalkFilter();
+  const filtered = {
+    type: "FeatureCollection",
+    features: rentalroomData.features.filter(
+      (f) => (f.properties.walk_min || 0) <= maxWalk
+    ),
+  };
+
+  rentalroomLayer = L.geoJSON(filtered, {
+    pointToLayer: (feature, latlng) => {
+      return L.marker(latlng, {
+        icon: L.divIcon({
+          className: "rr-icon",
+          html: '<div class="rr-marker">R</div>',
+          iconSize: [20, 20],
+          iconAnchor: [10, 10],
+        }),
+      });
+    },
+    onEachFeature: (feature, layer) => {
+      const p = feature.properties;
+      const stars = p.rating ? `${"★".repeat(Math.round(p.rating))} ${p.rating}` : "";
+      const reviews = p.user_ratings_total ? `(${p.user_ratings_total}件)` : "";
+
+      layer.bindPopup(`
+        <div class="lovehotel-popup">
+          <div class="lh-name">${escapeHtml(p.name || "")}</div>
+          <div class="lh-info">
+            ${p.address ? escapeHtml(p.address) + "<br>" : ""}
+            ${stars ? `<span class="lh-rating">${stars}</span> ${reviews}<br>` : ""}
+            最寄: <span class="lh-distance">${escapeHtml(p.nearest_station || "")}駅 徒歩${p.walk_min || "?"}分</span>
+          </div>
+        </div>
+      `);
+    },
+  });
+
+  rentalroomLayer.addTo(map);
+}
+
+function hideRentalrooms() {
+  if (rentalroomLayer) {
+    map.removeLayer(rentalroomLayer);
+    rentalroomLayer = null;
   }
 }
 
