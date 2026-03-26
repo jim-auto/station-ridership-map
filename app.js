@@ -156,12 +156,18 @@ function initControls() {
 
   // ラブホ表示トグル
   const lhToggle = document.getElementById("lovehotel-toggle");
+  const walkFilter = document.getElementById("walk-filter");
   lhToggle.addEventListener("change", () => {
     if (lhToggle.checked) {
+      walkFilter.style.display = "";
       loadAndShowLovehotels();
     } else {
+      walkFilter.style.display = "none";
       hideLovehotels();
     }
+  });
+  walkFilter.addEventListener("change", () => {
+    if (lhToggle.checked && lovehotelData) showLovehotels();
   });
 
   // 検索結果の外側クリックで閉じる
@@ -721,10 +727,22 @@ async function loadAndShowLovehotels() {
   showLovehotels();
 }
 
+function getWalkFilter() {
+  return parseInt(document.getElementById("walk-filter").value, 10) || 15;
+}
+
 function showLovehotels() {
   if (lovehotelLayer) map.removeLayer(lovehotelLayer);
 
-  lovehotelLayer = L.geoJSON(lovehotelData, {
+  const maxWalk = getWalkFilter();
+  const filtered = {
+    type: "FeatureCollection",
+    features: lovehotelData.features.filter(
+      (f) => (f.properties.walk_min || 0) <= maxWalk
+    ),
+  };
+
+  lovehotelLayer = L.geoJSON(filtered, {
     pointToLayer: (feature, latlng) => {
       return L.marker(latlng, {
         icon: L.divIcon({

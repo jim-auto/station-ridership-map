@@ -76,6 +76,15 @@ body {
   cursor: pointer;
 }
 
+#walk-filter {
+  padding: 4px 8px;
+  font-size: 13px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fff;
+  cursor: pointer;
+}
+
 #search-input {
   padding: 4px 8px;
   font-size: 13px;
