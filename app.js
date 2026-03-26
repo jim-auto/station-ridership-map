@@ -10,6 +10,7 @@ let stationLayer;
 let allFeatures = [];
 let lovehotelLayer;
 let lovehotelData = null;
+let routeLines = [];
 
 // ---------------------
 // 定数
@@ -99,6 +100,9 @@ function initMap() {
   }).addTo(map);
 
   addLegend();
+
+  // 地図移動時に経路線をクリア
+  map.on("zoomstart", clearRouteLines);
 }
 
 // ---------------------
@@ -618,14 +622,85 @@ async function renderSpotRanking() {
   html += "</tbody></table></div>";
   content.innerHTML = html;
 
-  // 行クリックで地図移動
+  // 行クリックで地図移動 + ラブホ表示 + 経路表示
   content.querySelectorAll(".clickable-row").forEach((row) => {
     row.addEventListener("click", () => {
       const name = row.dataset.spotName;
       const r = results.find((r) => r.name === name);
-      if (r && r.feature) flyToStation(r.feature);
+      if (!r || !r.feature) return;
+
+      // ラブホ表示をONにする
+      const toggle = document.getElementById("lovehotel-toggle");
+      if (!toggle.checked) {
+        toggle.checked = true;
+        loadAndShowLovehotels().then(() => {
+          flyToStation(r.feature);
+          showRoutesToNearbyHotels(r.feature, hotels);
+        });
+      } else {
+        flyToStation(r.feature);
+        showRoutesToNearbyHotels(r.feature, hotels);
+      }
     });
   });
+}
+
+// ---------------------
+// 駅から周辺ラブホへの経路線を表示
+// ---------------------
+function showRoutesToNearbyHotels(stationFeature, hotelsGeoJson) {
+  clearRouteLines();
+
+  const coords = stationFeature.geometry.coordinates;
+  const stLat = coords[1];
+  const stLon = coords[0];
+  const stLatLng = L.latLng(stLat, stLon);
+
+  // 1.2km以内のラブホを距離順で取得
+  const nearby = [];
+  for (const h of hotelsGeoJson.features) {
+    const hc = h.geometry.coordinates;
+    const dist = haversine(stLat, stLon, hc[1], hc[0]);
+    if (dist <= 1200) {
+      nearby.push({ hotel: h, dist });
+    }
+  }
+  nearby.sort((a, b) => a.dist - b.dist);
+
+  // 各ホテルへの接続線を描画
+  nearby.forEach((item) => {
+    const hc = item.hotel.geometry.coordinates;
+    const hLatLng = L.latLng(hc[1], hc[0]);
+    const walkMin = Math.round(item.dist / 80);
+    const name = item.hotel.properties.name || "";
+
+    // 点線を描画
+    const line = L.polyline([stLatLng, hLatLng], {
+      color: "#e91e63",
+      weight: 2,
+      opacity: 0.6,
+      dashArray: "6, 8",
+    }).addTo(map);
+
+    // 中間点に徒歩分数を表示
+    const midLat = (stLat + hc[1]) / 2;
+    const midLon = (stLon + hc[0]) / 2;
+    const label = L.marker(L.latLng(midLat, midLon), {
+      icon: L.divIcon({
+        className: "route-label",
+        html: `<span>${walkMin}分</span>`,
+        iconSize: [40, 16],
+        iconAnchor: [20, 8],
+      }),
+    }).addTo(map);
+
+    routeLines.push(line, label);
+  });
+}
+
+function clearRouteLines() {
+  routeLines.forEach((layer) => map.removeLayer(layer));
+  routeLines = [];
 }
 
 // ---------------------

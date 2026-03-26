@@ -199,6 +199,21 @@ body {
   color: #f9a825;
 }
 
+.route-label {
+  background: none;
+  border: none;
+}
+
+.route-label span {
+  background: #e91e63;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 5px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
 /* ===== Data Source Footer ===== */
 #data-source {
   background: #f8f8f8;
