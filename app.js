@@ -634,18 +634,15 @@ async function renderSpotRanking() {
     html += '<div class="region-section">';
     html += '<div class="region-summary">乗降客数 × 徒歩圏内ラブホ数でスコア化</div>';
     html += '<table class="region-table">';
-    html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th><th class="hide-sp">スコア</th><th class="capital-bar-cell hide-sp"></th></tr></thead>';
+    html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th></tr></thead>';
     html += "<tbody>";
 
     results.slice(0, 15).forEach((r, idx) => {
-      const barWidth = (r.score / maxScore) * 100;
       html += `<tr class="clickable-row" data-spot-name="${escapeHtml(r.name)}">`;
       html += `<td class="capital-rank">${idx + 1}</td>`;
       html += `<td>${escapeHtml(r.name)}</td>`;
       html += `<td class="ridership-cell">${r.ridership.toLocaleString()}</td>`;
-      html += `<td style="text-align:right">${r.count}</td>`;
-      html += `<td class="ridership-cell hide-sp">${Math.round(r.score).toLocaleString()}</td>`;
-      html += `<td class="capital-bar-cell hide-sp"><div class="capital-bar" style="width:${barWidth}%;background:#e91e63"></div></td>`;
+      html += `<td style="text-align:right;font-weight:600;color:#e91e63">${r.count}</td>`;
       html += "</tr>";
     });
 
