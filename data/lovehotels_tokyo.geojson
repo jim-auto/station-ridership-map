@@ -3638,56 +3638,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.805375,
-          35.748368
-        ]
-      },
-      "properties": {
-        "name": "プラザホテルトウキョウキタセンジュ",
-        "address": "足立区千住旭町２−１",
-        "rating": 2.6,
-        "user_ratings_total": 24,
-        "nearest_station": "北千住",
-        "distance_m": 85,
-        "walk_min": 1,
-        "all_nearby_stations": [
-          "北千住",
-          "北千住",
-          "北千住",
-          "北千住"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.805318,
-          35.74826
-        ]
-      },
-      "properties": {
-        "name": "新日本ロイヤルプラザホテル",
-        "address": "足立区千住旭町１−１１ ロイヤルプラザホテル",
-        "rating": 2.2,
-        "user_ratings_total": 29,
-        "nearest_station": "北千住",
-        "distance_m": 88,
-        "walk_min": 1,
-        "all_nearby_stations": [
-          "北千住",
-          "北千住",
-          "北千住",
-          "北千住"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.803386,
           35.762555
         ]
@@ -5532,29 +5482,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.747851,
-          35.642716
-        ]
-      },
-      "properties": {
-        "name": "相鉄フレッサイン 東京田町",
-        "address": "港区芝浦３丁目１４−２１",
-        "rating": 4,
-        "user_ratings_total": 987,
-        "nearest_station": "田町",
-        "distance_m": 333,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "田町",
-          "三田"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.736667,
           35.654475
         ]
@@ -5623,29 +5550,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.753776,
-          35.655581
-        ]
-      },
-      "properties": {
-        "name": "相鉄フレッサイン 大門駅前",
-        "address": "港区芝大門２丁目６−２",
-        "rating": 4.3,
-        "user_ratings_total": 587,
-        "nearest_station": "三田",
-        "distance_m": 955,
-        "walk_min": 12,
-        "all_nearby_stations": [
-          "三田",
-          "田町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.75222,
           35.644876
         ]
@@ -5658,29 +5562,6 @@
         "nearest_station": "三田",
         "distance_m": 419,
         "walk_min": 5,
-        "all_nearby_stations": [
-          "三田",
-          "田町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.751268,
-          35.650033
-        ]
-      },
-      "properties": {
-        "name": "スーパーホテル東京・芝",
-        "address": "港区芝２丁目３１−１７",
-        "rating": 4.2,
-        "user_ratings_total": 649,
-        "nearest_station": "三田",
-        "distance_m": 305,
-        "walk_min": 4,
         "all_nearby_stations": [
           "三田",
           "田町"
@@ -5784,28 +5665,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.754758,
-          35.65545
-        ]
-      },
-      "properties": {
-        "name": "スーパーホテル東京・浜松町",
-        "address": "港区浜松町２丁目２−１",
-        "rating": 4.1,
-        "user_ratings_total": 399,
-        "nearest_station": "田町",
-        "distance_m": 1262,
-        "walk_min": 16,
-        "all_nearby_stations": [
-          "田町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.744002,
           35.654985
         ]
@@ -5851,29 +5710,6 @@
           "御成門",
           "六本木",
           "虎ノ門ヒルズ",
-          "三田",
-          "田町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.750135,
-          35.648434
-        ]
-      },
-      "properties": {
-        "name": "アパホテル〈三田駅前〉",
-        "address": "港区芝４丁目４−８",
-        "rating": 3.7,
-        "user_ratings_total": 1038,
-        "nearest_station": "三田",
-        "distance_m": 103,
-        "walk_min": 1,
-        "all_nearby_stations": [
           "三田",
           "田町"
         ]
@@ -6356,52 +6192,6 @@
           "西日暮里",
           "田端",
           "町屋"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.796695,
-          35.652825
-        ]
-      },
-      "properties": {
-        "name": "ホテルリブマックス 豊洲駅前",
-        "address": "江東区豊洲５丁目５−３４",
-        "rating": 3.1,
-        "user_ratings_total": 348,
-        "nearest_station": "豊洲",
-        "distance_m": 152,
-        "walk_min": 2,
-        "all_nearby_stations": [
-          "豊洲",
-          "豊洲",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.810633,
-          35.667151
-        ]
-      },
-      "properties": {
-        "name": "アパホテル〈東京木場〉",
-        "address": "江東区東陽１丁目１６−１６",
-        "rating": 3.3,
-        "user_ratings_total": 1055,
-        "nearest_station": "豊洲",
-        "distance_m": 1882,
-        "walk_min": 24,
-        "all_nearby_stations": [
-          "豊洲"
         ]
       }
     },
@@ -8417,29 +8207,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.707593,
-          35.690534
-        ]
-      },
-      "properties": {
-        "name": "ビジネスホテル・Ｓ",
-        "address": "新宿区新宿２丁目１２−３ B1",
-        "rating": 2.5,
-        "user_ratings_total": 6,
-        "nearest_station": "代々木",
-        "distance_m": 893,
-        "walk_min": 11,
-        "all_nearby_stations": [
-          "代々木",
-          "千駄ヶ谷"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.703849,
           35.694554
         ]
@@ -8734,28 +8501,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.798779,
-          35.671135
-        ]
-      },
-      "properties": {
-        "name": "東急ステイ 門前仲町",
-        "address": "江東区富岡１丁目２３−２",
-        "rating": 3.9,
-        "user_ratings_total": 474,
-        "nearest_station": "門前仲町",
-        "distance_m": 244,
-        "walk_min": 3,
-        "all_nearby_stations": [
-          "門前仲町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.785111,
           35.6816
         ]
@@ -9031,52 +8776,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.774985,
-          35.671762
-        ]
-      },
-      "properties": {
-        "name": "株式会社MJリサーチ本店 東京都中央区の探偵事務所",
-        "address": "中央区新富１丁目１６−８ 町営和ビル 地下1階",
-        "rating": 4.9,
-        "user_ratings_total": 89,
-        "nearest_station": "新富町",
-        "distance_m": 176,
-        "walk_min": 2,
-        "all_nearby_stations": [
-          "新富町",
-          "八丁堀"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.770024,
-          35.679433
-        ]
-      },
-      "properties": {
-        "name": "㈱スーパーホテル 東京本部",
-        "address": "中央区八重洲２丁目１−８ Kビル 10階",
-        "rating": null,
-        "user_ratings_total": 0,
-        "nearest_station": "八丁堀",
-        "distance_m": 797,
-        "walk_min": 10,
-        "all_nearby_stations": [
-          "八丁堀",
-          "新富町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.856544,
           35.746626
         ]
@@ -9286,30 +8985,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.770511,
-          35.667133
-        ]
-      },
-      "properties": {
-        "name": "ヴィアイン東銀座",
-        "address": "中央区築地２丁目１５−１３",
-        "rating": 4.1,
-        "user_ratings_total": 1173,
-        "nearest_station": "築地",
-        "distance_m": 204,
-        "walk_min": 3,
-        "all_nearby_stations": [
-          "築地",
-          "勝どき",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.7704,
           35.667283
         ]
@@ -9404,30 +9079,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.775092,
-          35.666007
-        ]
-      },
-      "properties": {
-        "name": "アパホテル〈築地駅南〉",
-        "address": "中央区築地７丁目１０−１１",
-        "rating": 3.7,
-        "user_ratings_total": 1003,
-        "nearest_station": "勝どき",
-        "distance_m": 811,
-        "walk_min": 10,
-        "all_nearby_stations": [
-          "勝どき",
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.771451,
           35.664734
         ]
@@ -9469,52 +9120,6 @@
           "月島",
           "月島",
           "豊洲"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.770899,
-          35.665732
-        ]
-      },
-      "properties": {
-        "name": "東急ステイ 築地",
-        "address": "中央区築地４丁目１１−５",
-        "rating": 4.1,
-        "user_ratings_total": 655,
-        "nearest_station": "勝どき",
-        "distance_m": 944,
-        "walk_min": 12,
-        "all_nearby_stations": [
-          "勝どき",
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.765699,
-          35.667575
-        ]
-      },
-      "properties": {
-        "name": "ドーミーインPREMIUM銀座",
-        "address": "中央区銀座６丁目１６−８",
-        "rating": 4.4,
-        "user_ratings_total": 457,
-        "nearest_station": "勝どき",
-        "distance_m": 1411,
-        "walk_min": 18,
-        "all_nearby_stations": [
-          "勝どき"
         ]
       }
     },
@@ -9608,28 +9213,6 @@
           "築地",
           "月島",
           "月島",
-          "勝どき"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.771348,
-          35.668538
-        ]
-      },
-      "properties": {
-        "name": "ホテルリブマックス東銀座",
-        "address": "中央区築地２丁目１２−１",
-        "rating": 3.2,
-        "user_ratings_total": 392,
-        "nearest_station": "勝どき",
-        "distance_m": 1191,
-        "walk_min": 15,
-        "all_nearby_stations": [
           "勝どき"
         ]
       }
@@ -10188,28 +9771,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.79128,
-          35.694386
-        ]
-      },
-      "properties": {
-        "name": "commun両国",
-        "address": "墨田区両国２丁目１１−１０ Commun両国",
-        "rating": 3.3,
-        "user_ratings_total": 3,
-        "nearest_station": "両国",
-        "distance_m": 248,
-        "walk_min": 3,
-        "all_nearby_stations": [
-          "両国"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.780304,
           35.699472
         ]
@@ -10232,76 +9793,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.773533,
-          35.672297
-        ]
-      },
-      "properties": {
-        "name": "ホテルリブマックス東京新富町",
-        "address": "中央区新富１丁目７−１２",
-        "rating": 3.3,
-        "user_ratings_total": 290,
-        "nearest_station": "築地",
-        "distance_m": 487,
-        "walk_min": 6,
-        "all_nearby_stations": [
-          "築地",
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.771748,
-          35.67435
-        ]
-      },
-      "properties": {
-        "name": "アパホテル〈銀座京橋南〉（旧：アパホテル〈銀座 宝町〉）",
-        "address": "中央区京橋３丁目１１−２",
-        "rating": 3.8,
-        "user_ratings_total": 1035,
-        "nearest_station": "月島",
-        "distance_m": 1582,
-        "walk_min": 20,
-        "all_nearby_stations": [
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.773744,
-          35.671629
-        ]
-      },
-      "properties": {
-        "name": "アパホテル〈銀座 新富町駅前〉",
-        "address": "中央区新富２丁目５−１０",
-        "rating": 3.8,
-        "user_ratings_total": 1193,
-        "nearest_station": "月島",
-        "distance_m": 1247,
-        "walk_min": 16,
-        "all_nearby_stations": [
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.776234,
           35.670579
         ]
@@ -10314,52 +9805,6 @@
         "nearest_station": "月島",
         "distance_m": 1000,
         "walk_min": 12,
-        "all_nearby_stations": [
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.774421,
-          35.673208
-        ]
-      },
-      "properties": {
-        "name": "アパホテル〈銀座 新富町駅前北〉",
-        "address": "中央区新富１丁目１２−１１",
-        "rating": 4.1,
-        "user_ratings_total": 697,
-        "nearest_station": "月島",
-        "distance_m": 1321,
-        "walk_min": 17,
-        "all_nearby_stations": [
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.796586,
-          35.672795
-        ]
-      },
-      "properties": {
-        "name": "京成リッチモンドホテル 東京門前仲町",
-        "address": "江東区門前仲町２丁目８−９",
-        "rating": 4.5,
-        "user_ratings_total": 638,
-        "nearest_station": "月島",
-        "distance_m": 1422,
-        "walk_min": 18,
         "all_nearby_stations": [
           "月島",
           "月島"
@@ -10394,29 +9839,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.780803,
-          35.67446
-        ]
-      },
-      "properties": {
-        "name": "ドーミーイン東京八丁堀",
-        "address": "中央区新川２丁目２０−４",
-        "rating": 4.2,
-        "user_ratings_total": 1196,
-        "nearest_station": "月島",
-        "distance_m": 1146,
-        "walk_min": 14,
-        "all_nearby_stations": [
-          "月島",
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.773195,
           35.671625
         ]
@@ -10429,28 +9851,6 @@
         "nearest_station": "月島",
         "distance_m": 1286,
         "walk_min": 16,
-        "all_nearby_stations": [
-          "月島"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.775269,
-          35.671725
-        ]
-      },
-      "properties": {
-        "name": "アパホテル 八丁堀 新富町",
-        "address": "中央区新富１丁目１７−８",
-        "rating": 3.9,
-        "user_ratings_total": 610,
-        "nearest_station": "月島",
-        "distance_m": 1150,
-        "walk_min": 14,
         "all_nearby_stations": [
           "月島"
         ]
@@ -10798,50 +10198,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.778565,
-          35.677749
-        ]
-      },
-      "properties": {
-        "name": "ホテルリブマックス茅場町",
-        "address": "中央区日本橋茅場町３丁目７−３",
-        "rating": 3.3,
-        "user_ratings_total": 601,
-        "nearest_station": "築地",
-        "distance_m": 1215,
-        "walk_min": 15,
-        "all_nearby_stations": [
-          "築地"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.767344,
-          35.670312
-        ]
-      },
-      "properties": {
-        "name": "東急ステイ 銀座",
-        "address": "中央区銀座４丁目１０−５",
-        "rating": 4.2,
-        "user_ratings_total": 929,
-        "nearest_station": "築地",
-        "distance_m": 532,
-        "walk_min": 7,
-        "all_nearby_stations": [
-          "築地"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.762755,
           35.667398
         ]
@@ -10901,52 +10257,6 @@
         "walk_min": 5,
         "all_nearby_stations": [
           "築地"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.771753,
-          35.676486
-        ]
-      },
-      "properties": {
-        "name": "相鉄フレッサイン 東京京橋",
-        "address": "中央区京橋２丁目１１−１",
-        "rating": 3.9,
-        "user_ratings_total": 1146,
-        "nearest_station": "新富町",
-        "distance_m": 691,
-        "walk_min": 9,
-        "all_nearby_stations": [
-          "新富町",
-          "築地"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.763257,
-          35.668182
-        ]
-      },
-      "properties": {
-        "name": "相鉄フレッサイン 銀座七丁目",
-        "address": "中央区銀座７丁目１１−１２ 相鉄フレッサイン銀座 7丁目2F",
-        "rating": 4.1,
-        "user_ratings_total": 1502,
-        "nearest_station": "築地",
-        "distance_m": 835,
-        "walk_min": 10,
-        "all_nearby_stations": [
-          "築地",
-          "新富町"
         ]
       }
     },
@@ -11953,28 +11263,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.667365,
-          35.677087
-        ]
-      },
-      "properties": {
-        "name": "rakuna Inn Sasazuka",
-        "address": "渋谷区笹塚３丁目１９−５",
-        "rating": 5,
-        "user_ratings_total": 1,
-        "nearest_station": "方南町",
-        "distance_m": 1113,
-        "walk_min": 14,
-        "all_nearby_stations": [
-          "方南町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.655664,
           35.673367
         ]
@@ -12075,28 +11363,6 @@
         "nearest_station": "新富町",
         "distance_m": 1274,
         "walk_min": 16,
-        "all_nearby_stations": [
-          "新富町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.775481,
-          35.67314
-        ]
-      },
-      "properties": {
-        "name": "アパホテル〈八丁堀駅南〉",
-        "address": "中央区新富１丁目１４−７",
-        "rating": 3.8,
-        "user_ratings_total": 944,
-        "nearest_station": "新富町",
-        "distance_m": 331,
-        "walk_min": 4,
         "all_nearby_stations": [
           "新富町"
         ]
