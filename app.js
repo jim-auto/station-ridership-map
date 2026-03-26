@@ -8,6 +8,8 @@
 let map;
 let stationLayer;
 let allFeatures = [];
+let lovehotelLayer;
+let lovehotelData = null;
 
 // ---------------------
 // 定数
@@ -15,6 +17,7 @@ let allFeatures = [];
 const JAPAN_CENTER = [36.5, 137.0];
 const JAPAN_ZOOM = 6;
 const DATA_PATH = "data/stations.geojson";
+const LOVEHOTEL_PATH = "data/lovehotels_tokyo.geojson";
 
 const REGION_MAP = {
   "北海道": "北海道",
@@ -145,6 +148,16 @@ function initControls() {
 
   searchInput.addEventListener("input", (e) => {
     handleSearch(e.target.value.trim());
+  });
+
+  // ラブホ表示トグル
+  const lhToggle = document.getElementById("lovehotel-toggle");
+  lhToggle.addEventListener("change", () => {
+    if (lhToggle.checked) {
+      loadAndShowLovehotels();
+    } else {
+      hideLovehotels();
+    }
   });
 
   // 検索結果の外側クリックで閉じる
@@ -510,6 +523,68 @@ function renderCapitalRanking() {
       if (feature) flyToStation(feature);
     });
   });
+}
+
+// ---------------------
+// ラブホテル読み込み・表示
+// ---------------------
+async function loadAndShowLovehotels() {
+  if (!lovehotelData) {
+    try {
+      const resp = await fetch(LOVEHOTEL_PATH);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      lovehotelData = await resp.json();
+    } catch (err) {
+      console.error("ラブホテルデータの読み込みに失敗:", err);
+      document.getElementById("lovehotel-toggle").checked = false;
+      return;
+    }
+  }
+  showLovehotels();
+}
+
+function showLovehotels() {
+  if (lovehotelLayer) map.removeLayer(lovehotelLayer);
+
+  lovehotelLayer = L.geoJSON(lovehotelData, {
+    pointToLayer: (feature, latlng) => {
+      return L.marker(latlng, {
+        icon: L.divIcon({
+          className: "lh-icon",
+          html: '<div class="lh-marker">H</div>',
+          iconSize: [20, 20],
+          iconAnchor: [10, 10],
+        }),
+      });
+    },
+    onEachFeature: (feature, layer) => {
+      const p = feature.properties;
+      const stars = p.rating ? `${"★".repeat(Math.round(p.rating))} ${p.rating}` : "";
+      const reviews = p.user_ratings_total ? `(${p.user_ratings_total}件)` : "";
+      const stations = (p.all_nearby_stations || []).join("、");
+
+      layer.bindPopup(`
+        <div class="lovehotel-popup">
+          <div class="lh-name">${escapeHtml(p.name || "")}</div>
+          <div class="lh-info">
+            ${p.address ? escapeHtml(p.address) + "<br>" : ""}
+            ${stars ? `<span class="lh-rating">${stars}</span> ${reviews}<br>` : ""}
+            最寄: <span class="lh-distance">${escapeHtml(p.nearest_station || "")}駅 徒歩${p.walk_min || "?"}分 (${p.distance_m || "?"}m)</span><br>
+            ${stations ? "周辺駅: " + escapeHtml(stations) : ""}
+          </div>
+        </div>
+      `);
+    },
+  });
+
+  lovehotelLayer.addTo(map);
+}
+
+function hideLovehotels() {
+  if (lovehotelLayer) {
+    map.removeLayer(lovehotelLayer);
+    lovehotelLayer = null;
+  }
 }
 
 // ---------------------
