@@ -567,74 +567,93 @@ async function renderSpotRanking() {
     return;
   }
 
-  // 対象都道府県の3万人以上の駅を集約（同名駅は乗降客数を合算）
-  const targetPrefs = new Set(["東京都", "大阪府", "愛知県"]);
-  const stationMap = {};
+  // 対象都道府県の3万人以上の駅を集約（都道府県ごと）
+  const targetPrefs = [
+    { pref: "東京都", label: "東京" },
+    { pref: "大阪府", label: "大阪" },
+    { pref: "愛知県", label: "名古屋" },
+  ];
+  const stationsByPref = {};
+  for (const { pref } of targetPrefs) stationsByPref[pref] = {};
+
   for (const feat of allFeatures) {
     const p = feat.properties;
-    if (!targetPrefs.has(p.prefecture) || (p.ridership || 0) < 30000) continue;
+    if (!(p.prefecture in stationsByPref) || (p.ridership || 0) < 30000) continue;
     const name = p.station_name;
-    if (!stationMap[name]) {
-      stationMap[name] = {
+    const sm = stationsByPref[p.prefecture];
+    if (!sm[name]) {
+      sm[name] = {
         ridership: 0,
         lon: feat.geometry.coordinates[0],
         lat: feat.geometry.coordinates[1],
         feature: feat,
       };
     }
-    stationMap[name].ridership += p.ridership;
-    if (p.ridership > (stationMap[name].maxRidership || 0)) {
-      stationMap[name].maxRidership = p.ridership;
-      stationMap[name].feature = feat;
+    sm[name].ridership += p.ridership;
+    if (p.ridership > (sm[name].maxRidership || 0)) {
+      sm[name].maxRidership = p.ridership;
+      sm[name].feature = feat;
     }
   }
 
-  // 各駅の1.2km以内のラブホ数をカウント
-  const results = [];
-  for (const [name, st] of Object.entries(stationMap)) {
-    let count = 0;
-    for (const h of hotels.features) {
-      const hc = h.geometry.coordinates;
-      const d = haversine(st.lat, st.lon, hc[1], hc[0]);
-      if (d <= 1200) count++;
+  // 都道府県ごとにランキング作成
+  const allResults = {};
+  for (const { pref } of targetPrefs) {
+    const results = [];
+    for (const [name, st] of Object.entries(stationsByPref[pref])) {
+      let count = 0;
+      for (const h of hotels.features) {
+        const hc = h.geometry.coordinates;
+        const d = haversine(st.lat, st.lon, hc[1], hc[0]);
+        if (d <= 1200) count++;
+      }
+      if (count > 0) {
+        const score = (st.ridership / 10000) * count;
+        results.push({ name, ridership: st.ridership, count, score, feature: st.feature });
+      }
     }
-    if (count > 0) {
-      const score = (st.ridership / 10000) * count;
-      results.push({ name, ridership: st.ridership, count, score, feature: st.feature });
-    }
+    results.sort((a, b) => b.score - a.score);
+    allResults[pref] = results;
   }
 
-  results.sort((a, b) => b.score - a.score);
+  let html = "";
 
-  const maxScore = results.length > 0 ? results[0].score : 1;
+  for (const { pref, label } of targetPrefs) {
+    const results = allResults[pref];
+    if (!results || results.length === 0) continue;
+    const maxScore = results[0].score;
 
-  let html = '<div class="region-section">';
-  html += "<h3>おすすめ駅ランキング（東京・大阪・名古屋）</h3>";
-  html += '<div class="region-summary">乗降客数 × 徒歩圏内ラブホ数でスコア化。人が多くてラブホも近い駅</div>';
-  html += '<table class="region-table">';
-  html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th><th class="hide-sp">スコア</th><th class="capital-bar-cell hide-sp"></th></tr></thead>';
-  html += "<tbody>";
+    html += '<div class="region-section">';
+    html += `<h3>${escapeHtml(label)}のおすすめ駅</h3>`;
+    html += '<div class="region-summary">乗降客数 × 徒歩圏内ラブホ数でスコア化</div>';
+    html += '<table class="region-table">';
+    html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th><th class="hide-sp">スコア</th><th class="capital-bar-cell hide-sp"></th></tr></thead>';
+    html += "<tbody>";
 
-  results.slice(0, 30).forEach((r, idx) => {
-    const barWidth = (r.score / maxScore) * 100;
-    html += `<tr class="clickable-row" data-spot-name="${escapeHtml(r.name)}">`;
-    html += `<td class="capital-rank">${idx + 1}</td>`;
-    html += `<td>${escapeHtml(r.name)}</td>`;
-    html += `<td class="ridership-cell">${r.ridership.toLocaleString()}</td>`;
-    html += `<td style="text-align:right">${r.count}</td>`;
-    html += `<td class="ridership-cell hide-sp">${Math.round(r.score).toLocaleString()}</td>`;
-    html += `<td class="capital-bar-cell hide-sp"><div class="capital-bar" style="width:${barWidth}%;background:#e91e63"></div></td>`;
-    html += "</tr>";
-  });
+    results.slice(0, 15).forEach((r, idx) => {
+      const barWidth = (r.score / maxScore) * 100;
+      html += `<tr class="clickable-row" data-spot-name="${escapeHtml(r.name)}">`;
+      html += `<td class="capital-rank">${idx + 1}</td>`;
+      html += `<td>${escapeHtml(r.name)}</td>`;
+      html += `<td class="ridership-cell">${r.ridership.toLocaleString()}</td>`;
+      html += `<td style="text-align:right">${r.count}</td>`;
+      html += `<td class="ridership-cell hide-sp">${Math.round(r.score).toLocaleString()}</td>`;
+      html += `<td class="capital-bar-cell hide-sp"><div class="capital-bar" style="width:${barWidth}%;background:#e91e63"></div></td>`;
+      html += "</tr>";
+    });
 
-  html += "</tbody></table></div>";
+    html += "</tbody></table></div>";
+  }
   content.innerHTML = html;
+
+  // 全結果をフラット化
+  const flatResults = Object.values(allResults).flat();
 
   // 行クリックで地図移動 + ラブホ表示 + 経路表示
   content.querySelectorAll(".clickable-row").forEach((row) => {
     row.addEventListener("click", () => {
       const name = row.dataset.spotName;
-      const r = results.find((r) => r.name === name);
+      const r = flatResults.find((r) => r.name === name);
       if (!r || !r.feature) return;
 
       // ラブホ表示をONにする
