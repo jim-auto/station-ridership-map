@@ -181,6 +181,7 @@ async function loadStationData() {
     renderStations();
     renderRegionTable();
     renderCapitalRanking();
+    renderSpotRanking();
   } catch (err) {
     console.error("駅データの読み込みに失敗しました:", err);
   }
@@ -521,6 +522,108 @@ function renderCapitalRanking() {
     row.addEventListener("click", () => {
       const feature = featureMap[row.dataset.capitalPref];
       if (feature) flyToStation(feature);
+    });
+  });
+}
+
+// ---------------------
+// おすすめ駅ランキング描画
+// ---------------------
+function haversine(lat1, lon1, lat2, lon2) {
+  const R = 6371000;
+  const p1 = (lat1 * Math.PI) / 180;
+  const p2 = (lat2 * Math.PI) / 180;
+  const dp = ((lat2 - lat1) * Math.PI) / 180;
+  const dl = ((lon2 - lon1) * Math.PI) / 180;
+  const a =
+    Math.sin(dp / 2) ** 2 +
+    Math.cos(p1) * Math.cos(p2) * Math.sin(dl / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+async function renderSpotRanking() {
+  const content = document.getElementById("tab-spot");
+
+  // ラブホデータ読み込み
+  let hotels;
+  try {
+    const resp = await fetch(LOVEHOTEL_PATH);
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    hotels = await resp.json();
+  } catch (err) {
+    content.innerHTML =
+      '<p style="padding:12px;color:#999">ラブホテルデータの読み込みに失敗しました</p>';
+    return;
+  }
+
+  // 東京3万人以上の駅を集約（同名駅は乗降客数を合算、座標は最大のものを採用）
+  const stationMap = {};
+  for (const feat of allFeatures) {
+    const p = feat.properties;
+    if (p.prefecture !== "東京都" || (p.ridership || 0) < 30000) continue;
+    const name = p.station_name;
+    if (!stationMap[name]) {
+      stationMap[name] = {
+        ridership: 0,
+        lon: feat.geometry.coordinates[0],
+        lat: feat.geometry.coordinates[1],
+        feature: feat,
+      };
+    }
+    stationMap[name].ridership += p.ridership;
+    if (p.ridership > (stationMap[name].maxRidership || 0)) {
+      stationMap[name].maxRidership = p.ridership;
+      stationMap[name].feature = feat;
+    }
+  }
+
+  // 各駅の1.2km以内のラブホ数をカウント
+  const results = [];
+  for (const [name, st] of Object.entries(stationMap)) {
+    let count = 0;
+    for (const h of hotels.features) {
+      const hc = h.geometry.coordinates;
+      const d = haversine(st.lat, st.lon, hc[1], hc[0]);
+      if (d <= 1200) count++;
+    }
+    if (count > 0) {
+      const score = (st.ridership / 10000) * count;
+      results.push({ name, ridership: st.ridership, count, score, feature: st.feature });
+    }
+  }
+
+  results.sort((a, b) => b.score - a.score);
+
+  const maxScore = results.length > 0 ? results[0].score : 1;
+
+  let html = '<div class="region-section">';
+  html += "<h3>おすすめ駅ランキング（東京）</h3>";
+  html += '<div class="region-summary">乗降客数 × 徒歩圏内ラブホ数でスコア化。人が多くてラブホも近い駅</div>';
+  html += '<table class="region-table">';
+  html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th><th class="hide-sp">スコア</th><th class="capital-bar-cell hide-sp"></th></tr></thead>';
+  html += "<tbody>";
+
+  results.slice(0, 30).forEach((r, idx) => {
+    const barWidth = (r.score / maxScore) * 100;
+    html += `<tr class="clickable-row" data-spot-name="${escapeHtml(r.name)}">`;
+    html += `<td class="capital-rank">${idx + 1}</td>`;
+    html += `<td>${escapeHtml(r.name)}</td>`;
+    html += `<td class="ridership-cell">${r.ridership.toLocaleString()}</td>`;
+    html += `<td style="text-align:right">${r.count}</td>`;
+    html += `<td class="ridership-cell hide-sp">${Math.round(r.score).toLocaleString()}</td>`;
+    html += `<td class="capital-bar-cell hide-sp"><div class="capital-bar" style="width:${barWidth}%;background:#e91e63"></div></td>`;
+    html += "</tr>";
+  });
+
+  html += "</tbody></table></div>";
+  content.innerHTML = html;
+
+  // 行クリックで地図移動
+  content.querySelectorAll(".clickable-row").forEach((row) => {
+    row.addEventListener("click", () => {
+      const name = row.dataset.spotName;
+      const r = results.find((r) => r.name === name);
+      if (r && r.feature) flyToStation(r.feature);
     });
   });
 }
