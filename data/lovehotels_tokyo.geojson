@@ -2571,101 +2571,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.72198,
-          35.624172
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム サン",
-        "address": "品川区西五反田１丁目３２−４ 東京モリスビル4階",
-        "rating": 3.3,
-        "user_ratings_total": 32,
-        "nearest_station": "五反田",
-        "distance_m": 355,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "五反田",
-          "五反田",
-          "五反田",
-          "大崎",
-          "目黒"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.721993,
-          35.624168
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム プチテル",
-        "address": "品川区西五反田１丁目３２−４ 東京モリスビル 3F",
-        "rating": null,
-        "user_ratings_total": 0,
-        "nearest_station": "五反田",
-        "distance_m": 353,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "五反田",
-          "五反田",
-          "五反田",
-          "大崎",
-          "目黒"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.75721,
-          35.663998
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム【Re-Zan～リザン～】",
-        "address": "港区新橋４丁目２０−８ 2F",
-        "rating": 3.9,
-        "user_ratings_total": 19,
-        "nearest_station": "新橋",
-        "distance_m": 364,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "新橋",
-          "新橋",
-          "新橋",
-          "汐留",
-          "新橋",
-          "内幸町",
-          "御成門",
-          "大門",
-          "モノレール浜松町",
-          "虎ノ門ヒルズ",
-          "虎ノ門",
-          "浜松町",
-          "銀座",
-          "東銀座",
-          "東銀座",
-          "神谷町",
-          "日比谷",
-          "霞ヶ関",
-          "築地",
-          "銀座一丁目",
-          "赤羽橋",
-          "国会議事堂前"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.757515,
           35.664952
         ]
@@ -2703,51 +2608,6 @@
           "築地",
           "国会議事堂前",
           "赤羽橋"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.75804,
-          35.664717
-        ]
-      },
-      "properties": {
-        "name": "ホテル＋レンタルルーム ASTRO アストロ",
-        "address": "港区新橋３丁目２２−５",
-        "rating": 3.3,
-        "user_ratings_total": 25,
-        "nearest_station": "新橋",
-        "distance_m": 299,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "新橋",
-          "新橋",
-          "新橋",
-          "汐留",
-          "新橋",
-          "内幸町",
-          "御成門",
-          "大門",
-          "虎ノ門",
-          "虎ノ門ヒルズ",
-          "銀座",
-          "東銀座",
-          "東銀座",
-          "モノレール浜松町",
-          "浜松町",
-          "日比谷",
-          "霞ヶ関",
-          "神谷町",
-          "有楽町",
-          "有楽町",
-          "日比谷",
-          "銀座一丁目",
-          "新富町",
-          "京橋"
         ]
       }
     },
@@ -2838,143 +2698,6 @@
           "銀座一丁目",
           "国会議事堂前",
           "赤羽橋"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.757273,
-          35.665495
-        ]
-      },
-      "properties": {
-        "name": "ビオス 新橋レンタルルーム",
-        "address": "港区新橋３丁目１６−８ エムエービル３階",
-        "rating": 3.1,
-        "user_ratings_total": 32,
-        "nearest_station": "新橋",
-        "distance_m": 255,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "新橋",
-          "新橋",
-          "新橋",
-          "新橋",
-          "汐留",
-          "内幸町",
-          "御成門",
-          "虎ノ門",
-          "虎ノ門ヒルズ",
-          "銀座",
-          "大門",
-          "東銀座",
-          "東銀座",
-          "日比谷",
-          "霞ヶ関",
-          "モノレール浜松町",
-          "浜松町",
-          "神谷町",
-          "有楽町",
-          "有楽町",
-          "日比谷",
-          "銀座一丁目",
-          "築地",
-          "国会議事堂前",
-          "赤羽橋"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.757162,
-          35.664454
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム プレジャー",
-        "address": "港区新橋４丁目１８−７ レンタルルームプレジャー",
-        "rating": 2.9,
-        "user_ratings_total": 9,
-        "nearest_station": "新橋",
-        "distance_m": 343,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "新橋",
-          "新橋",
-          "新橋",
-          "新橋",
-          "汐留",
-          "内幸町",
-          "御成門",
-          "大門",
-          "虎ノ門",
-          "虎ノ門ヒルズ",
-          "モノレール浜松町",
-          "浜松町",
-          "銀座",
-          "東銀座",
-          "東銀座",
-          "日比谷",
-          "神谷町",
-          "霞ヶ関",
-          "有楽町",
-          "有楽町",
-          "銀座一丁目",
-          "赤羽橋",
-          "国会議事堂前"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.754855,
-          35.666228
-        ]
-      },
-      "properties": {
-        "name": "新橋レンタルルーム アーバナイト",
-        "address": "港区新橋３丁目５−１１ ル・グラシエルBldg.12 5階",
-        "rating": 5,
-        "user_ratings_total": 1,
-        "nearest_station": "新橋",
-        "distance_m": 498,
-        "walk_min": 7,
-        "all_nearby_stations": [
-          "新橋",
-          "内幸町",
-          "新橋",
-          "新橋",
-          "新橋",
-          "汐留",
-          "虎ノ門",
-          "虎ノ門ヒルズ",
-          "御成門",
-          "霞ヶ関",
-          "神谷町",
-          "日比谷",
-          "銀座",
-          "大門",
-          "東銀座",
-          "モノレール浜松町",
-          "東銀座",
-          "浜松町",
-          "有楽町",
-          "日比谷",
-          "有楽町",
-          "溜池山王",
-          "国会議事堂前",
-          "銀座一丁目",
-          "赤羽橋",
-          "永田町"
         ]
       }
     },
@@ -3406,37 +3129,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.771683,
-          35.709252
-        ]
-      },
-      "properties": {
-        "name": "上野レンタルルーム スマイルです。上野駅改札口から3分。カップルで利用できるスマイルは、完全個室シャワー付き。時間内は出入り自由で飲食物持ち込みOK。",
-        "address": "台東区上野２丁目１２−１０ 京屋ビル 地下B1",
-        "rating": 4.8,
-        "user_ratings_total": 50,
-        "nearest_station": "上野御徒町",
-        "distance_m": 245,
-        "walk_min": 3,
-        "all_nearby_stations": [
-          "上野御徒町",
-          "湯島",
-          "御徒町",
-          "仲御徒町",
-          "新御徒町",
-          "本郷三丁目",
-          "秋葉原",
-          "御茶ノ水",
-          "秋葉原",
-          "御茶ノ水"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.76916,
           35.708995
         ]
@@ -3464,147 +3156,6 @@
           "水道橋",
           "春日",
           "水道橋"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.771813,
-          35.70928
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム きらら",
-        "address": "台東区上野２丁目１２−１０",
-        "rating": 4,
-        "user_ratings_total": 3,
-        "nearest_station": "上野御徒町",
-        "distance_m": 232,
-        "walk_min": 3,
-        "all_nearby_stations": [
-          "上野御徒町",
-          "湯島",
-          "御徒町",
-          "仲御徒町",
-          "新御徒町",
-          "本郷三丁目",
-          "秋葉原",
-          "御茶ノ水",
-          "秋葉原",
-          "御茶ノ水"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.77521,
-          35.698611
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム MK",
-        "address": "千代田区神田佐久間町１丁目２５ K.Tビル 8階",
-        "rating": 2.3,
-        "user_ratings_total": 56,
-        "nearest_station": "秋葉原",
-        "distance_m": 360,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "秋葉原",
-          "秋葉原",
-          "秋葉原",
-          "岩本町",
-          "神田",
-          "淡路町",
-          "浅草橋",
-          "神田",
-          "小川町",
-          "馬喰町",
-          "仲御徒町",
-          "新御茶ノ水",
-          "御茶ノ水",
-          "御徒町",
-          "小伝馬町",
-          "御茶ノ水",
-          "馬喰横山",
-          "湯島",
-          "浅草橋",
-          "上野御徒町",
-          "新日本橋",
-          "東日本橋",
-          "大手町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.775565,
-          35.709424
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム 8(エイト)",
-        "address": "タジマエンタープライズ 2階, ６丁目-８-６ 上野 台東区",
-        "rating": 2.7,
-        "user_ratings_total": 13,
-        "nearest_station": "御徒町",
-        "distance_m": 308,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "御徒町",
-          "上野御徒町",
-          "仲御徒町",
-          "湯島",
-          "秋葉原",
-          "秋葉原",
-          "御茶ノ水",
-          "御茶ノ水"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.774843,
-          35.705283
-        ]
-      },
-      "properties": {
-        "name": "御徒町レンタルルーム",
-        "address": "台東区上野５丁目１８−２",
-        "rating": 4.3,
-        "user_ratings_total": 8,
-        "nearest_station": "仲御徒町",
-        "distance_m": 271,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "仲御徒町",
-          "御徒町",
-          "上野御徒町",
-          "湯島",
-          "秋葉原",
-          "秋葉原",
-          "秋葉原",
-          "岩本町",
-          "御茶ノ水",
-          "御茶ノ水",
-          "浅草橋",
-          "新御茶ノ水",
-          "淡路町",
-          "神田",
-          "小川町",
-          "浅草橋"
         ]
       }
     },
@@ -4644,30 +4195,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.415649,
-          35.69746
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム Palau（パラオ）",
-        "address": "立川市錦町１丁目１−２７ 第二東信ビル 3F",
-        "rating": 3.5,
-        "user_ratings_total": 62,
-        "nearest_station": "立川",
-        "distance_m": 319,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "立川",
-          "立川南",
-          "立川北"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.667444,
           35.659793
         ]
@@ -4826,30 +4353,6 @@
         "all_nearby_stations": [
           "恵比寿",
           "代々木上原"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.44513,
-          35.540793
-        ]
-      },
-      "properties": {
-        "name": "リバーサイドKOJO",
-        "address": "相模原市南区上鶴間本町３丁目１５−４",
-        "rating": 3.1,
-        "user_ratings_total": 13,
-        "nearest_station": "町田",
-        "distance_m": 525,
-        "walk_min": 7,
-        "all_nearby_stations": [
-          "町田",
-          "町田",
-          "相模大野"
         ]
       }
     },
@@ -5317,31 +4820,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.717859,
-          35.561975
-        ]
-      },
-      "properties": {
-        "name": "蒲田ラブホテル風レンタルルーム Memories",
-        "address": "大田区蒲田５丁目２０−１ B棟 2F、4F",
-        "rating": 4,
-        "user_ratings_total": 14,
-        "nearest_station": "蒲田",
-        "distance_m": 304,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "蒲田",
-          "蒲田",
-          "京急蒲田",
-          "池上"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.717227,
           35.564242
         ]
@@ -5367,31 +4845,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.717921,
-          35.562344
-        ]
-      },
-      "properties": {
-        "name": "蒲田レンタルルーム sorairo",
-        "address": "大田区蒲田５丁目１９−１５ 蒲田東口中央ビル4階",
-        "rating": 3.8,
-        "user_ratings_total": 6,
-        "nearest_station": "蒲田",
-        "distance_m": 268,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "蒲田",
-          "蒲田",
-          "京急蒲田",
-          "池上"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.718453,
           35.563885
         ]
@@ -5404,31 +4857,6 @@
         "nearest_station": "蒲田",
         "distance_m": 389,
         "walk_min": 5,
-        "all_nearby_stations": [
-          "蒲田",
-          "蒲田",
-          "京急蒲田",
-          "池上"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.717927,
-          35.562098
-        ]
-      },
-      "properties": {
-        "name": "蒲田レンタルルーム m2",
-        "address": "大田区蒲田５丁目１９−１５ B1",
-        "rating": 5,
-        "user_ratings_total": 3,
-        "nearest_station": "蒲田",
-        "distance_m": 304,
-        "walk_min": 4,
         "all_nearby_stations": [
           "蒲田",
           "蒲田",
@@ -6673,33 +6101,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.814028,
-          35.694398
-        ]
-      },
-      "properties": {
-        "name": "ホテル＆レンタルルーム プチテル",
-        "address": "墨田区江東橋３丁目５−１０ 瑞穂ビル 1F",
-        "rating": 3.6,
-        "user_ratings_total": 114,
-        "nearest_station": "錦糸町",
-        "distance_m": 332,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "錦糸町",
-          "錦糸町",
-          "住吉",
-          "亀戸",
-          "清澄白河",
-          "清澄白河"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.816159,
           35.693703
         ]
@@ -7492,34 +6893,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.730186,
-          35.7301
-        ]
-      },
-      "properties": {
-        "name": "HOTEL ALL-INN G (ホテル オールインジー)",
-        "address": "豊島区南大塚２丁目４３−９",
-        "rating": 3.4,
-        "user_ratings_total": 21,
-        "nearest_station": "大塚",
-        "distance_m": 419,
-        "walk_min": 6,
-        "all_nearby_stations": [
-          "大塚",
-          "巣鴨",
-          "巣鴨",
-          "東池袋",
-          "護国寺",
-          "千石",
-          "茗荷谷"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.729025,
           35.732699
         ]
@@ -8005,28 +7378,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.88271,
-          35.735188
-        ]
-      },
-      "properties": {
-        "name": "小岩レンタルルーム OLUOLU",
-        "address": "江戸川区西小岩１丁目２９−２ 信守ビル 3階",
-        "rating": 3.2,
-        "user_ratings_total": 32,
-        "nearest_station": "小岩",
-        "distance_m": 255,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "小岩"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.883428,
           35.733702
         ]
@@ -8039,28 +7390,6 @@
         "nearest_station": "小岩",
         "distance_m": 220,
         "walk_min": 3,
-        "all_nearby_stations": [
-          "小岩"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.884901,
-          35.730321
-        ]
-      },
-      "properties": {
-        "name": "11ROOMS (イレブンレンタルルーム) 小岩",
-        "address": "江戸川区３２ 南小岩7-32-13 精和ビル1F",
-        "rating": 3.4,
-        "user_ratings_total": 7,
-        "nearest_station": "小岩",
-        "distance_m": 551,
-        "walk_min": 8,
         "all_nearby_stations": [
           "小岩"
         ]
@@ -8544,29 +7873,6 @@
         "distance_m": 615,
         "walk_min": 9,
         "all_nearby_stations": [
-          "門前仲町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.806294,
-          35.670536
-        ]
-      },
-      "properties": {
-        "name": "東横INN東西線木場駅",
-        "address": "江東区木場５丁目６−４",
-        "rating": 4,
-        "user_ratings_total": 219,
-        "nearest_station": "門前仲町",
-        "distance_m": 1054,
-        "walk_min": 15,
-        "all_nearby_stations": [
-          "門前仲町",
           "門前仲町"
         ]
       }
@@ -9916,28 +9222,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.713434,
-          35.73264
-        ]
-      },
-      "properties": {
-        "name": "スペースミラー",
-        "address": "豊島区東池袋１丁目４２−１８",
-        "rating": null,
-        "user_ratings_total": 0,
-        "nearest_station": "目白",
-        "distance_m": 2054,
-        "walk_min": 28,
-        "all_nearby_stations": [
-          "目白"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.706027,
           35.732232
         ]
@@ -10378,97 +9662,6 @@
         "walk_min": 6,
         "all_nearby_stations": [
           "聖蹟桜ヶ丘"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.813753,
-          35.693664
-        ]
-      },
-      "properties": {
-        "name": "レンタルルームsweet room錦糸町店",
-        "address": "墨田区江東橋３丁目３−４ プラザG1ビル 5階",
-        "rating": null,
-        "user_ratings_total": 0,
-        "nearest_station": "清澄白河",
-        "distance_m": 2530,
-        "walk_min": 35,
-        "all_nearby_stations": [
-          "清澄白河",
-          "清澄白河"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.813851,
-          35.693696
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム ファンタジー",
-        "address": "墨田区江東橋３丁目３−５ スミワート3F",
-        "rating": null,
-        "user_ratings_total": 0,
-        "nearest_station": "清澄白河",
-        "distance_m": 2565,
-        "walk_min": 36,
-        "all_nearby_stations": [
-          "清澄白河",
-          "清澄白河"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.813893,
-          35.694337
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム PARIS",
-        "address": "墨田区江東橋江東橋３丁目５−８ Ｋ ビル ５F",
-        "rating": 4.4,
-        "user_ratings_total": 10,
-        "nearest_station": "清澄白河",
-        "distance_m": 2645,
-        "walk_min": 37,
-        "all_nearby_stations": [
-          "清澄白河",
-          "清澄白河"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.815466,
-          35.694207
-        ]
-      },
-      "properties": {
-        "name": "錦糸町レンタルルーム PALACE",
-        "address": "墨田区江東橋４丁目１０−２ コリンズビル 3F",
-        "rating": 4.4,
-        "user_ratings_total": 9,
-        "nearest_station": "清澄白河",
-        "distance_m": 2771,
-        "walk_min": 39,
-        "all_nearby_stations": [
-          "清澄白河"
         ]
       }
     },
@@ -11875,28 +11068,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.855366,
-          35.743772
-        ]
-      },
-      "properties": {
-        "name": "灯光旅館",
-        "address": "葛飾区青戸１丁目６−６",
-        "rating": 4.1,
-        "user_ratings_total": 50,
-        "nearest_station": "京成立石",
-        "distance_m": 1070,
-        "walk_min": 15,
-        "all_nearby_stations": [
-          "京成立石"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.852982,
           35.739212
         ]
@@ -12366,28 +11537,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.839152,
-          35.749661
-        ]
-      },
-      "properties": {
-        "name": "ohanachaya inn",
-        "address": "葛飾区お花茶屋１丁目１３−５",
-        "rating": 4.8,
-        "user_ratings_total": 4,
-        "nearest_station": "お花茶屋",
-        "distance_m": 294,
-        "walk_min": 4,
-        "all_nearby_stations": [
-          "お花茶屋"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.85032,
           35.748427
         ]
@@ -12582,41 +11731,6 @@
           "天満",
           "大阪天満宮",
           "中津"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.501634,
-          34.699422
-        ]
-      },
-      "properties": {
-        "name": "ホテル サル デ バーン梅田",
-        "address": "大阪市北区曾根崎２丁目５−２６",
-        "rating": 3.1,
-        "user_ratings_total": 24,
-        "nearest_station": "東梅田",
-        "distance_m": 352,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "大阪",
-          "梅田",
-          "大阪梅田",
-          "淀屋橋",
-          "東梅田",
-          "西梅田",
-          "北新地",
-          "南森町",
-          "北浜",
-          "肥後橋",
-          "福島",
-          "天神橋筋六丁目",
-          "天満",
-          "大阪天満宮"
         ]
       }
     },
@@ -13321,33 +12435,6 @@
         "nearest_station": "伏見",
         "distance_m": 1139,
         "walk_min": 16,
-        "all_nearby_stations": [
-          "名古屋",
-          "名鉄名古屋",
-          "伏見",
-          "近鉄名古屋",
-          "上前津",
-          "丸の内"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          136.891024,
-          35.166109
-        ]
-      },
-      "properties": {
-        "name": "ホテルクローバー名古屋",
-        "address": "名古屋市中村区名駅南１丁目１０−５",
-        "rating": 2.9,
-        "user_ratings_total": 34,
-        "nearest_station": "伏見",
-        "distance_m": 928,
-        "walk_min": 13,
         "all_nearby_stations": [
           "名古屋",
           "名鉄名古屋",
@@ -16175,28 +15262,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.508089,
-          34.648098
-        ]
-      },
-      "properties": {
-        "name": "東横INNあべの天王寺",
-        "address": "大阪市西成区山王１丁目１−７",
-        "rating": 3.9,
-        "user_ratings_total": 2002,
-        "nearest_station": "天下茶屋",
-        "distance_m": 2048,
-        "walk_min": 30,
-        "all_nearby_stations": [
-          "天下茶屋"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.498181,
           34.635703
         ]
@@ -16385,28 +15450,6 @@
         "nearest_station": "ユニバーサルシティ",
         "distance_m": 1225,
         "walk_min": 17,
-        "all_nearby_stations": [
-          "ユニバーサルシティ"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.44293,
-          34.6753
-        ]
-      },
-      "properties": {
-        "name": "ジェイホッパーズ大阪ユニバーサル",
-        "address": "大阪市此花区島屋３丁目１０−１２",
-        "rating": 4.6,
-        "user_ratings_total": 430,
-        "nearest_station": "ユニバーサルシティ",
-        "distance_m": 1223,
-        "walk_min": 16,
         "all_nearby_stations": [
           "ユニバーサルシティ"
         ]
@@ -16622,29 +15665,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.457961,
-          34.675031
-        ]
-      },
-      "properties": {
-        "name": "KOMAINU.INN",
-        "address": "大阪市港区弁天６丁目１−２０",
-        "rating": 5,
-        "user_ratings_total": 7,
-        "nearest_station": "弁天町",
-        "distance_m": 735,
-        "walk_min": 10,
-        "all_nearby_stations": [
-          "弁天町",
-          "西九条"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.458583,
           34.671656
         ]
@@ -16780,28 +15800,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.474086,
-          34.671273
-        ]
-      },
-      "properties": {
-        "name": "吉徳旅館",
-        "address": "西区九条南２丁目１６−６",
-        "rating": 3.1,
-        "user_ratings_total": 72,
-        "nearest_station": "弁天町",
-        "distance_m": 1481,
-        "walk_min": 21,
-        "all_nearby_stations": [
-          "弁天町"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.458774,
           34.671258
         ]
@@ -16840,28 +15838,6 @@
         "all_nearby_stations": [
           "弁天町",
           "西九条"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.464135,
-          34.680769
-        ]
-      },
-      "properties": {
-        "name": "リエゾンハウス ユニバーサルゲートウェイ Liaison House Universal Gateway",
-        "address": "大阪市此花区西九条４丁目６−９",
-        "rating": 4.6,
-        "user_ratings_total": 11,
-        "nearest_station": "弁天町",
-        "distance_m": 1973,
-        "walk_min": 27,
-        "all_nearby_stations": [
-          "弁天町"
         ]
       }
     },
@@ -17017,28 +15993,6 @@
         "nearest_station": "西九条",
         "distance_m": 1042,
         "walk_min": 15,
-        "all_nearby_stations": [
-          "西九条"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.455527,
-          34.682626
-        ]
-      },
-      "properties": {
-        "name": "此花 SLOW INN",
-        "address": "大阪市此花区梅香３丁目１８−３",
-        "rating": 5,
-        "user_ratings_total": 1,
-        "nearest_station": "西九条",
-        "distance_m": 1226,
-        "walk_min": 17,
         "all_nearby_stations": [
           "西九条"
         ]
@@ -18491,28 +17445,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.514659,
-          34.622603
-        ]
-      },
-      "properties": {
-        "name": "駅徒歩1分 静かな阿倍野の一棟貸し 長期滞在向け 最大6名 Tsubame INN Abeno",
-        "address": "大阪市阿倍野区阪南町５丁目１６−２２",
-        "rating": 5,
-        "user_ratings_total": 3,
-        "nearest_station": "長居",
-        "distance_m": 1448,
-        "walk_min": 20,
-        "all_nearby_stations": [
-          "長居"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.512906,
           34.612132
         ]
@@ -18879,28 +17811,6 @@
         "walk_min": 29,
         "all_nearby_stations": [
           "八事"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.432294,
-          34.652204
-        ]
-      },
-      "properties": {
-        "name": "ユニバーサル ベイ コンドミニアム",
-        "address": "大阪市港区築港２丁目７−３３",
-        "rating": 4.4,
-        "user_ratings_total": 388,
-        "nearest_station": "桜島",
-        "distance_m": 2072,
-        "walk_min": 28,
-        "all_nearby_stations": [
-          "桜島"
         ]
       }
     },
@@ -20584,28 +19494,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.97679,
-          35.857927
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム エリシオン",
-        "address": "柏市東１丁目２−４５",
-        "rating": 1,
-        "user_ratings_total": 1,
-        "nearest_station": "柏",
-        "distance_m": 694,
-        "walk_min": 10,
-        "all_nearby_stations": [
-          "柏"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.663023,
           35.577946
         ]
@@ -21171,30 +20059,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          140.872365,
-          38.262884
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム エースイン",
-        "address": "仙台市青葉区一番町４丁目１−７ ASプラザビル ６Ｆ",
-        "rating": 4.3,
-        "user_ratings_total": 6,
-        "nearest_station": "勾当台公園",
-        "distance_m": 533,
-        "walk_min": 8,
-        "all_nearby_stations": [
-          "仙台",
-          "あおば通",
-          "勾当台公園"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           140.872558,
           38.262933
         ]
@@ -21255,30 +20119,6 @@
         "nearest_station": "勾当台公園",
         "distance_m": 980,
         "walk_min": 14,
-        "all_nearby_stations": [
-          "仙台",
-          "あおば通",
-          "勾当台公園"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          140.872475,
-          38.262898
-        ]
-      },
-      "properties": {
-        "name": "レンタルルーム プライベートイン",
-        "address": "仙台市青葉区一番町４丁目１−７ ASプラザビル ５F",
-        "rating": 2.9,
-        "user_ratings_total": 10,
-        "nearest_station": "勾当台公園",
-        "distance_m": 536,
-        "walk_min": 8,
         "all_nearby_stations": [
           "仙台",
           "あおば通",
@@ -21899,28 +20739,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          141.354432,
-          43.056224
-        ]
-      },
-      "properties": {
-        "name": "東横INN札幌すすきの交差点",
-        "address": "札幌市中央区南４条西３丁目４−１",
-        "rating": 4,
-        "user_ratings_total": 1831,
-        "nearest_station": "札幌",
-        "distance_m": 1486,
-        "walk_min": 21,
-        "all_nearby_stations": [
-          "札幌"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           141.345088,
           43.08108
         ]
@@ -22292,30 +21110,6 @@
         "nearest_station": "すすきの",
         "distance_m": 530,
         "walk_min": 8,
-        "all_nearby_stations": [
-          "大通",
-          "すすきの",
-          "西11丁目"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          141.352541,
-          43.050703
-        ]
-      },
-      "properties": {
-        "name": "おとぼけビーバー札幌",
-        "address": "札幌市中央区南８条西５丁目５−２８９−８３",
-        "rating": 3.7,
-        "user_ratings_total": 6,
-        "nearest_station": "すすきの",
-        "distance_m": 646,
-        "walk_min": 9,
         "all_nearby_stations": [
           "大通",
           "すすきの",
@@ -25889,28 +24683,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          139.541618,
-          35.311298
-        ]
-      },
-      "properties": {
-        "name": "BIRD HOTEL バードホテル",
-        "address": "鎌倉市由比ガ浜４丁目８−１",
-        "rating": 4.3,
-        "user_ratings_total": 80,
-        "nearest_station": "鎌倉",
-        "distance_m": 1431,
-        "walk_min": 20,
-        "all_nearby_stations": [
-          "鎌倉"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           139.552225,
           35.314945
         ]
@@ -26144,29 +24916,6 @@
         "user_ratings_total": 17,
         "nearest_station": "浦安",
         "distance_m": 342,
-        "walk_min": 5,
-        "all_nearby_stations": [
-          "浦安",
-          "南行徳"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.890197,
-          35.664627
-        ]
-      },
-      "properties": {
-        "name": "ホテル リバーサイド",
-        "address": "浦安市猫実５丁目１４−６",
-        "rating": 3.5,
-        "user_ratings_total": 20,
-        "nearest_station": "浦安",
-        "distance_m": 378,
         "walk_min": 5,
         "all_nearby_stations": [
           "浦安",
@@ -27451,30 +26200,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.776265,
-          35.000531
-        ]
-      },
-      "properties": {
-        "name": "Hotel Love Inn",
-        "address": "京都市東山区毘沙門町４４−２５",
-        "rating": 3,
-        "user_ratings_total": 3,
-        "nearest_station": "祇園四条",
-        "distance_m": 837,
-        "walk_min": 12,
-        "all_nearby_stations": [
-          "京都河原町",
-          "祇園四条",
-          "三条"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           140.46863,
           36.367264
         ]
@@ -28397,28 +27122,6 @@
         "nearest_station": "逗子",
         "distance_m": 855,
         "walk_min": 12,
-        "all_nearby_stations": [
-          "逗子"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          139.574596,
-          35.290469
-        ]
-      },
-      "properties": {
-        "name": "AMIGO INN（旧長島孝一邸）",
-        "address": "逗子市新宿１丁目５−１４ AMIGO INN",
-        "rating": 4,
-        "user_ratings_total": 2,
-        "nearest_station": "逗子",
-        "distance_m": 1240,
-        "walk_min": 17,
         "all_nearby_stations": [
           "逗子"
         ]
@@ -30353,28 +29056,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          135.747372,
-          35.004022
-        ]
-      },
-      "properties": {
-        "name": "東横INN京都四条大宮",
-        "address": "京都市中京区壬生坊城町６−２",
-        "rating": 3.8,
-        "user_ratings_total": 832,
-        "nearest_station": "西院",
-        "distance_m": 1430,
-        "walk_min": 20,
-        "all_nearby_stations": [
-          "西院"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.740586,
           35.009996
         ]
@@ -30683,28 +29364,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          130.7028,
-          32.797896
-        ]
-      },
-      "properties": {
-        "name": "熊本市観光旅館ホテル協同組合",
-        "address": "熊本市中央区練兵町４５",
-        "rating": null,
-        "user_ratings_total": 0,
-        "nearest_station": "熊本",
-        "distance_m": 1982,
-        "walk_min": 29,
-        "all_nearby_stations": [
-          "熊本"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           135.732446,
           34.978221
         ]
@@ -30739,28 +29398,6 @@
         "nearest_station": "西大路",
         "distance_m": 1585,
         "walk_min": 23,
-        "all_nearby_stations": [
-          "西大路"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.734689,
-          34.985849
-        ]
-      },
-      "properties": {
-        "name": "京都梅小路民宿",
-        "address": "京都市下京区梅小路石橋町５４−４",
-        "rating": 4.3,
-        "user_ratings_total": 3,
-        "nearest_station": "西大路",
-        "distance_m": 841,
-        "walk_min": 12,
         "all_nearby_stations": [
           "西大路"
         ]
@@ -31201,28 +29838,6 @@
         "nearest_station": "北大路",
         "distance_m": 1975,
         "walk_min": 27,
-        "all_nearby_stations": [
-          "北大路"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          135.759439,
-          35.036252
-        ]
-      },
-      "properties": {
-        "name": "Kyoto Kurama inn（京都鞍馬INN）",
-        "address": "京都市上京区上御霊前町４１２ ３",
-        "rating": 5,
-        "user_ratings_total": 2,
-        "nearest_station": "北大路",
-        "distance_m": 1024,
-        "walk_min": 14,
         "all_nearby_stations": [
           "北大路"
         ]
