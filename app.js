@@ -106,6 +106,17 @@ function initMap() {
 
   // 地図移動時に経路線をクリア
   map.on("zoomstart", clearRouteLines);
+
+  // ズーム変更時にラブホマーカーサイズを更新
+  map.on("zoomend", () => {
+    if (lovehotelLayer) {
+      const zoom = map.getZoom();
+      const radius = zoom >= 16 ? 8 : zoom >= 13 ? 6 : 4;
+      lovehotelLayer.eachLayer((layer) => {
+        if (layer.setRadius) layer.setRadius(radius);
+      });
+    }
+  });
 }
 
 // ---------------------
@@ -385,9 +396,7 @@ function initTablePanel() {
     const isOpen = content.classList.toggle("active");
     tabs.classList.toggle("active", isOpen);
     toggle.textContent = isOpen ? "一覧を閉じる ▲" : "一覧を表示 ▼";
-    if (isOpen) {
-      map.invalidateSize();
-    }
+    setTimeout(() => map.invalidateSize(), 100);
   });
 
   // タブ切り替え
@@ -406,7 +415,7 @@ function initTablePanel() {
     const isFullscreen = document.body.classList.toggle("table-fullscreen");
     expandBtn.textContent = isFullscreen ? "地図に戻る" : "全画面表示";
     if (!isFullscreen) {
-      map.invalidateSize();
+      setTimeout(() => map.invalidateSize(), 100);
     }
   });
 }
@@ -814,12 +823,15 @@ function showLovehotels() {
 
   lovehotelLayer = L.geoJSON(filtered, {
     pointToLayer: (feature, latlng) => {
+      const zoom = map.getZoom();
+      const radius = zoom >= 16 ? 8 : zoom >= 13 ? 6 : 4;
       return L.circleMarker(latlng, {
-        radius: 5,
+        radius,
         color: "#fff",
-        weight: 1.5,
+        weight: 2,
         fillColor: "#e91e63",
-        fillOpacity: 0.85,
+        fillOpacity: 0.9,
+        pane: "markerPane",
       });
     },
     onEachFeature: (feature, layer) => {
