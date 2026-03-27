@@ -9,34 +9,35 @@
 </head>
 <body>
   <header id="control-bar">
-    <h1>駅別乗降客数マップ</h1>
+    <div class="header-left">
+      <h1>駅別乗降客数マップ</h1>
+      <button id="jump-spot" class="header-link">おすすめ駅</button>
+    </div>
     <div class="controls">
       <div class="control-group">
-        <label for="threshold-select">表示閾値</label>
         <select id="threshold-select">
           <option value="0">すべて表示</option>
-          <option value="30000" selected>30,000人以上</option>
-          <option value="100000">100,000人以上</option>
+          <option value="30000" selected>3万人以上</option>
+          <option value="100000">10万人以上</option>
         </select>
       </div>
-      <div class="control-group">
+      <div class="control-group control-toggles">
         <label class="toggle-label">
-          <input type="checkbox" id="lovehotel-toggle"> ラブホ
+          <input type="checkbox" id="lovehotel-toggle"><span class="toggle-text">ラブホ</span><span class="toggle-icon lh-dot"></span>
         </label>
         <label class="toggle-label">
-          <input type="checkbox" id="rentalroom-toggle"> レンタルルーム
+          <input type="checkbox" id="rentalroom-toggle"><span class="toggle-text">レンタルルーム</span><span class="toggle-icon rr-dot"></span>
         </label>
       </div>
       <div class="control-group" id="walk-filter-group" style="display:none">
         <select id="walk-filter">
-          <option value="15">徒歩15分以内</option>
-          <option value="10">徒歩10分以内</option>
-          <option value="5">徒歩5分以内</option>
+          <option value="15">15分以内</option>
+          <option value="10">10分以内</option>
+          <option value="5">5分以内</option>
         </select>
       </div>
-      <div class="control-group">
-        <label for="search-input">駅検索</label>
-        <input type="text" id="search-input" placeholder="駅名を入力...">
+      <div class="control-group control-search">
+        <input type="text" id="search-input" placeholder="駅名を検索...">
         <ul id="search-results"></ul>
       </div>
     </div>

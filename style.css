@@ -27,10 +27,33 @@ body {
   z-index: 1000;
 }
 
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
 #control-bar h1 {
   font-size: 16px;
   font-weight: 600;
   white-space: nowrap;
+}
+
+.header-link {
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+  background: #e91e63;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.header-link:hover {
+  background: #c2185b;
 }
 
 .controls {
@@ -62,6 +85,10 @@ body {
   cursor: pointer;
 }
 
+.control-toggles {
+  gap: 10px;
+}
+
 .toggle-label {
   font-size: 13px;
   color: #666;
@@ -74,6 +101,23 @@ body {
 
 .toggle-label input[type="checkbox"] {
   cursor: pointer;
+  width: 16px;
+  height: 16px;
+}
+
+.toggle-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.lh-dot {
+  background: #e91e63;
+}
+
+.rr-dot {
+  background: #7c4dff;
 }
 
 #walk-filter {
@@ -534,44 +578,87 @@ body.table-fullscreen #table-content.active {
 /* ===== Responsive ===== */
 @media (max-width: 600px) {
   #control-bar {
-    padding: 6px 10px;
-    gap: 10px;
+    padding: 6px 8px;
+    gap: 6px;
+  }
+
+  .header-left {
+    width: 100%;
+    gap: 6px;
   }
 
   #control-bar h1 {
-    font-size: 14px;
-    width: 100%;
+    font-size: 13px;
+  }
+
+  .header-link {
+    padding: 3px 8px;
+    font-size: 11px;
   }
 
   .controls {
     width: 100%;
-    gap: 10px;
+    gap: 6px;
+    flex-wrap: wrap;
   }
 
   .control-group {
-    flex: 1;
     min-width: 0;
   }
 
-  .control-group label {
+  /* 閾値セレクト */
+  #threshold-select {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  /* トグル: ラベルテキスト非表示、アイコン+チェックのみ */
+  .control-toggles {
+    gap: 8px;
+  }
+
+  .toggle-text {
     display: none;
+  }
+
+  .toggle-label {
+    font-size: 12px;
+    gap: 2px;
+  }
+
+  .toggle-label input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+  }
+
+  .toggle-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  /* 徒歩フィルタ */
+  #walk-filter {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  /* 検索 */
+  .control-search {
+    flex: 1;
   }
 
   #search-input {
     width: 100%;
+    padding: 5px 8px;
+    font-size: 13px;
   }
 
-  #threshold-select {
-    width: 100%;
-  }
-
-  /* 地域別一覧: 事業者列を非表示 */
+  /* テーブル */
   .region-table th:nth-child(3),
   .region-table td:nth-child(3) {
     display: none;
   }
 
-  /* ランキング等: hide-sp クラスで非表示 */
   .hide-sp {
     display: none;
   }
@@ -590,16 +677,47 @@ body.table-fullscreen #table-content.active {
   }
 
   #table-tabs {
-    padding: 0 8px;
+    padding: 0 4px;
+    flex-wrap: wrap;
+    gap: 0;
   }
 
   .tab-btn {
-    padding: 6px 8px;
-    font-size: 11px;
+    padding: 6px 6px;
+    font-size: 10px;
   }
 
   .tab-btn-expand {
-    padding: 4px 8px;
+    padding: 4px 6px;
+    font-size: 10px;
+  }
+
+  /* 出典フッター */
+  #data-source {
+    padding: 3px 8px;
+    font-size: 10px;
+  }
+
+  /* ポップアップ */
+  .station-popup table {
+    font-size: 12px;
+  }
+
+  .lovehotel-popup .lh-name {
+    font-size: 13px;
+  }
+
+  .lovehotel-popup .lh-info {
     font-size: 11px;
+  }
+
+  /* おすすめ駅タブ */
+  .spot-city-tabs {
+    margin-bottom: 8px;
+  }
+
+  .spot-city-btn {
+    padding: 5px 10px;
+    font-size: 12px;
   }
 }

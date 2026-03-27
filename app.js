@@ -148,6 +148,28 @@ function initControls() {
   const thresholdSelect = document.getElementById("threshold-select");
   const searchInput = document.getElementById("search-input");
 
+  // おすすめ駅ショートカット
+  document.getElementById("jump-spot").addEventListener("click", () => {
+    const toggle = document.getElementById("table-toggle");
+    const content = document.getElementById("table-content");
+    const tabs = document.getElementById("table-tabs");
+    // パネルを開く
+    if (!content.classList.contains("active")) {
+      content.classList.add("active");
+      tabs.classList.add("active");
+      toggle.textContent = "一覧を閉じる ▲";
+    }
+    // おすすめ駅タブをアクティブに
+    tabs.querySelectorAll(".tab-btn").forEach((b) => b.classList.remove("active"));
+    content.querySelectorAll(".tab-pane").forEach((p) => p.classList.remove("active"));
+    const spotBtn = tabs.querySelector('[data-tab="spot"]');
+    if (spotBtn) spotBtn.classList.add("active");
+    const spotPane = document.getElementById("tab-spot");
+    if (spotPane) spotPane.classList.add("active");
+    // スクロール
+    spotPane.scrollIntoView({ behavior: "smooth" });
+  });
+
   thresholdSelect.addEventListener("change", () => {
     renderStations();
     renderRegionTable();
@@ -628,7 +650,7 @@ async function renderSpotRanking() {
         results.push({ name, ridership: st.ridership, count, score, feature: st.feature });
       }
     }
-    results.sort((a, b) => b.score - a.score);
+    results.sort((a, b) => b.count - a.count || b.ridership - a.ridership);
     allResults[pref] = results;
   }
 
