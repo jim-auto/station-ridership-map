@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>駅別乗降客数マップ</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -23,10 +25,7 @@
       </div>
       <div class="control-group control-toggles">
         <label class="toggle-label">
-          <input type="checkbox" id="lovehotel-toggle"><span class="toggle-text">ラブホ</span><span class="toggle-icon lh-dot"></span>
-        </label>
-        <label class="toggle-label">
-          <input type="checkbox" id="rentalroom-toggle"><span class="toggle-text">レンタルルーム</span><span class="toggle-icon rr-dot"></span>
+          <input type="checkbox" id="lovehotel-toggle"><span class="toggle-text">ラブホ</span><span class="toggle-icon">🏩</span>
         </label>
       </div>
       <div class="control-group" id="walk-filter-group" style="display:none">
@@ -65,6 +64,7 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
