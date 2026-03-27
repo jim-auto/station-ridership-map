@@ -812,24 +812,14 @@ function showLovehotels() {
     ),
   };
 
-  lovehotelLayer = L.markerClusterGroup({
-    maxClusterRadius: 40,
-    iconCreateFunction: (cluster) => L.divIcon({
-      html: `<div class="lh-cluster">${cluster.getChildCount()}</div>`,
-      className: "lh-icon",
-      iconSize: [30, 30],
-    }),
-  });
-
-  const geojsonLayer = L.geoJSON(filtered, {
+  lovehotelLayer = L.geoJSON(filtered, {
     pointToLayer: (feature, latlng) => {
-      return L.marker(latlng, {
-        icon: L.divIcon({
-          className: "lh-icon",
-          html: '<div class="lh-marker">H</div>',
-          iconSize: [20, 20],
-          iconAnchor: [10, 10],
-        }),
+      return L.circleMarker(latlng, {
+        radius: 5,
+        color: "#fff",
+        weight: 1.5,
+        fillColor: "#e91e63",
+        fillOpacity: 0.85,
       });
     },
     onEachFeature: (feature, layer) => {
@@ -852,7 +842,6 @@ function showLovehotels() {
     },
   });
 
-  lovehotelLayer.addLayer(geojsonLayer);
   lovehotelLayer.addTo(map);
 }
 
