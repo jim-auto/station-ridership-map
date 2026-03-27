@@ -671,7 +671,7 @@ async function renderSpotRanking() {
     html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th></tr></thead>';
     html += "<tbody>";
 
-    results.slice(0, 15).forEach((r, idx) => {
+    results.forEach((r, idx) => {
       html += `<tr class="clickable-row" data-spot-name="${escapeHtml(r.name)}" data-spot-pref="${pref}">`;
       html += `<td class="capital-rank">${idx + 1}</td>`;
       html += `<td>${escapeHtml(r.name)}</td>`;
