@@ -666,7 +666,7 @@ async function renderSpotRanking() {
 
     html += `<div class="spot-city-pane${isFirst ? " active" : ""}" data-pref="${pref}">`;
     html += '<div class="region-section">';
-    html += '<div class="region-summary">タップで駅にフォーカス＆周辺ラブホを表示（下の「一覧を閉じる」で地図に戻れます）</div>';
+    html += '<div class="region-summary">タップで駅にフォーカス（下の「一覧を閉じる」で地図に戻れます）</div>';
     html += '<table class="region-table">';
     html += '<thead><tr><th></th><th>駅名</th><th>乗降客数</th><th>ラブホ数</th></tr></thead>';
     html += "<tbody>";
