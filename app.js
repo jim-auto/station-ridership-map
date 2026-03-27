@@ -654,7 +654,7 @@ async function renderSpotRanking() {
     html += "<tbody>";
 
     results.slice(0, 15).forEach((r, idx) => {
-      html += `<tr class="clickable-row" data-spot-name="${escapeHtml(r.name)}">`;
+      html += `<tr class="clickable-row" data-spot-name="${escapeHtml(r.name)}" data-spot-pref="${pref}">`;
       html += `<td class="capital-rank">${idx + 1}</td>`;
       html += `<td>${escapeHtml(r.name)}</td>`;
       html += `<td class="ridership-cell">${r.ridership.toLocaleString()}</td>`;
@@ -683,7 +683,8 @@ async function renderSpotRanking() {
   content.querySelectorAll(".clickable-row").forEach((row) => {
     row.addEventListener("click", () => {
       const name = row.dataset.spotName;
-      const r = flatResults.find((r) => r.name === name);
+      const pref = row.dataset.spotPref;
+      const r = allResults[pref] && allResults[pref].find((r) => r.name === name);
       if (!r || !r.feature) return;
 
       // ラブホ表示をONにする
