@@ -83,6 +83,9 @@ function initApp() {
   initControls();
   initTablePanel();
   loadStationData();
+  // デフォルトでラブホ表示
+  document.getElementById("walk-filter-group").style.display = "flex";
+  loadAndShowLovehotels();
 }
 
 // ---------------------
@@ -594,6 +597,15 @@ async function renderSpotRanking() {
     { pref: "東京都", label: "東京" },
     { pref: "大阪府", label: "大阪" },
     { pref: "愛知県", label: "名古屋" },
+    { pref: "神奈川県", label: "横浜・神奈川" },
+    { pref: "福岡県", label: "福岡" },
+    { pref: "北海道", label: "札幌" },
+    { pref: "京都府", label: "京都" },
+    { pref: "兵庫県", label: "神戸・兵庫" },
+    { pref: "宮城県", label: "仙台" },
+    { pref: "埼玉県", label: "埼玉" },
+    { pref: "千葉県", label: "千葉" },
+    { pref: "広島県", label: "広島" },
   ];
   const stationsByPref = {};
   for (const { pref } of targetPrefs) stationsByPref[pref] = {};
