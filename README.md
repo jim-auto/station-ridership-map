@@ -1,7 +1,7 @@
-# 駅別乗降客数マップ
+# HOTEMAP（ホテマップ）
 
-鉄道駅の乗降客数を地図上に可視化する静的Webアプリケーションです。
-HTML / CSS / JavaScript のみで動作し、GitHub Pages でそのまま公開できます。
+駅の乗降客数 × 周辺ラブホテルで「おすすめ駅」が見つかる地図アプリ。
+全国8,000超の駅と1,200超のラブホテルを可視化。GitHub Pages で公開中。
 
 **公開URL:** https://jim-auto.github.io/station-ridership-map/
 
